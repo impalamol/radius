@@ -1,0 +1,699 @@
+@import "fz.scss";
+@import "reset.scss";
+@import "theme.scss";
+@import "flex.scss";
+@import "animations.scss";
+
+$commonUnit: 1.25rem;
+$commonHalfUnit: 0.625rem;
+$commonBorder: 0.0625rem solid $border;
+$cardRadius: 1.5rem;
+$cardShadow: rgba($dark, 0.1) 0rem 0.4375rem 1.8125rem 0rem;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-size: $xLarge;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 0.00975rem;
+    color: $gray;
+    background-color: $white;
+    position: relative;
+    overscroll-behavior-y: none;
+    overflow-y: auto !important;
+    overflow-x: hidden;
+}
+a {
+    font-size: inherit;
+    text-decoration: none !important;
+    color: $primary;
+    transition: color 1s ease;
+    cursor: pointer !important;
+
+    &:focus,
+    &:hover,
+    &:visited {
+        text-decoration: none;
+        outline: 0;
+    }
+
+    &:hover {
+        color: $dark;
+        text-decoration: none;
+    }
+    &.link {
+        color: $primary !important;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    // font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.01875rem;
+    color: $dark;
+    position: relative;
+    margin-bottom: $commonHalfUnit;
+}
+
+h1 {
+    font-size: $h1;
+}
+
+h2 {
+    font-size: $h2;
+}
+
+h3 {
+    font-size: $h3;
+}
+
+h4 {
+    font-size: $h4;
+}
+
+h5 {
+    font-size: $h5;
+}
+
+h6 {
+    font-size: $h6;
+}
+p {
+    margin-bottom: $commonUnit;
+}
+ol,
+ul {
+    padding-left: 2rem;
+    // li {
+    //      margin-bottom: $commonHalfUnit;
+    // }
+}
+img {
+    max-width: 100% !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+.form-control,
+.form-select {
+    background-color: $white;
+    border-color: $border !important;
+    min-height: 3.4375rem;
+}
+.btn {
+    font-size: $medium;
+    font-weight: 600;
+    letter-spacing: 0.0375rem;
+    text-transform: uppercase;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s ease;
+    padding: 1rem 2rem;
+    border-radius: $cardRadius / 5;
+    transition: all 0.6s ease-in-out;
+
+    &.modernBtn {
+        position: relative;
+        margin-left: 0.3125rem;
+        margin-bottom: 0.3125rem;
+        border-width: 0;
+        border-style: solid;
+        border-color: transparent;
+        &:before,
+        &:after {
+            position: absolute;
+            content: "";
+            transition: all 0.25s;
+            height: 1.5rem;
+            width: 1.5rem;
+            border: 0 solid $primary;
+        }
+
+        &:before {
+            border-left-width: 0.125rem;
+            border-top-width: 0.125rem;
+            left: -0.3125rem;
+            top: -0.3125rem;
+        }
+
+        &:after {
+            border-bottom-width: 0.125rem;
+            border-right-width: 0.125rem;
+            bottom: -0.3125rem;
+            right: -0.3125rem;
+        }
+
+        &:hover:before,
+        &:hover:after {
+            height: 100%;
+            width: 100%;
+        }
+
+        &:hover {
+            &:before,
+            &:after {
+                border-color: darken($primary, 15%);
+            }
+        }
+    }
+
+    // ----- SOLID BUTTONS -----
+    &.btn-primary {
+        color: $white !important;
+        background-color: $primary;
+        border-color: rgba($primary, 0.3);
+
+        &:hover {
+            background-color: darken($primary, 10%);
+            border-color: darken($primary, 15%);
+        }
+    }
+
+    &.btn-secondary {
+        color: $white !important;
+        background-color: $secondary;
+        border-color: rgba($secondary, 0.3);
+
+        &:hover {
+            background-color: darken($secondary, 10%);
+            border-color: darken($secondary, 15%);
+        }
+    }
+
+    &.btn-tertiary {
+        color: $white !important;
+        background-color: $tertiary;
+        border-color: rgba($tertiary, 0.3);
+
+        &:hover {
+            background-color: darken($tertiary, 10%);
+            border-color: darken($tertiary, 15%);
+        }
+    }
+
+    &.btn-success {
+        color: $white !important;
+        background-color: $success;
+        border-color: rgba($success, 0.3);
+
+        &:hover {
+            background-color: darken($success, 10%);
+            border-color: darken($success, 15%);
+        }
+    }
+
+    &.btn-info {
+        color: $dark !important;
+        background-color: $info;
+        border-color: rgba($info, 0.3);
+
+        &:hover {
+            background-color: darken($info, 10%);
+            border-color: darken($info, 15%);
+            color: $white !important;
+        }
+    }
+
+    &.btn-warning {
+        color: $dark !important;
+        background-color: $warning;
+        border-color: rgba($warning, 0.3);
+
+        &:hover {
+            background-color: darken($warning, 10%);
+            border-color: darken($warning, 15%);
+        }
+    }
+
+    &.btn-danger {
+        color: $white !important;
+        background-color: $danger;
+        border-color: rgba($danger, 0.3);
+
+        &:hover {
+            background-color: darken($danger, 10%);
+            border-color: darken($danger, 15%);
+        }
+    }
+
+    &.btn-dark {
+        color: $white !important;
+        background-color: $dark;
+        border-color: rgba($dark, 0.3);
+
+        &:hover {
+            background-color: lighten($dark, 10%);
+            border-color: lighten($dark, 15%);
+        }
+    }
+
+    &.btn-light {
+        color: $dark !important;
+        background-color: $light;
+        border-color: rgba($light, 0.3);
+
+        &:hover {
+            background-color: darken($light, 5%);
+            border-color: darken($light, 10%);
+        }
+    }
+
+    // ----- OUTLINE BUTTONS -----
+    &.btn-outline-primary {
+        color: $primary;
+        border-color: $primary;
+
+        &:hover {
+            background-color: $primary;
+            color: $white !important;
+        }
+    }
+
+    &.btn-outline-secondary {
+        color: $secondary;
+        border-color: $secondary;
+
+        &:hover {
+            background-color: $secondary;
+            color: $white !important;
+        }
+    }
+
+    &.btn-outline-tertiary {
+        color: $tertiary;
+        border-color: $tertiary;
+
+        &:hover {
+            background-color: $tertiary;
+            color: $white !important;
+        }
+    }
+
+    &.btn-outline-success {
+        color: $success;
+        border-color: $success;
+
+        &:hover {
+            background-color: $success;
+            color: $white !important;
+        }
+    }
+
+    &.btn-outline-info {
+        color: $info;
+        border-color: $info;
+
+        &:hover {
+            background-color: $info;
+            color: $white !important;
+        }
+    }
+
+    &.btn-outline-warning {
+        color: $warning;
+        border-color: $warning;
+
+        &:hover {
+            background-color: $warning;
+            color: $dark !important;
+        }
+    }
+
+    &.btn-outline-danger {
+        color: $danger;
+        border-color: $danger;
+
+        &:hover {
+            background-color: $danger;
+            color: $white !important;
+        }
+    }
+
+    &.btn-outline-dark {
+        color: $dark;
+        border-color: $dark;
+
+        &:hover {
+            background-color: $dark;
+            color: $white !important;
+        }
+    }
+
+    &.btn-outline-light {
+        color: $dark;
+        border-color: $light;
+
+        &:hover {
+            background-color: $light;
+            color: $dark !important;
+        }
+    }
+
+    // optional link style
+    &.btn-link {
+        color: $primary;
+        border: none;
+        background: none;
+        padding: 0 !important;
+
+        &:hover {
+            text-decoration: underline;
+            color: darken($primary, 10%);
+        }
+    }
+
+    i {
+        font-weight: normal !important;
+    }
+}
+.btnGroup {
+    @extend .flex-center-start;
+    gap: $commonUnit;
+}
+// Section
+section {
+    padding: 6.25rem 0;
+    position: relative;
+    &:nth-child(even) {
+        background-color: $light;
+    }
+    &.noPadding {
+        padding: 0 !important;
+    }
+}
+.pgHeader {
+    @extend .flex-end-between;
+    flex-wrap: wrap;
+    gap: $commonUnit;
+    margin-bottom: $commonUnit * 3;
+    position: relative;
+    z-index: 2;
+
+    .pgTitle {
+        @extend .flex-start;
+        flex-direction: column;
+        flex-grow: 1;
+        max-width: 45rem;
+
+        .pageSection {
+            font-size: $large;
+            font-weight: 600;
+            text-transform: capitalize;
+            line-height: normal;
+            color: $white;
+            @extend .flex-center-start;
+            gap: $commonUnit / 2;
+            background-color: $tertiary;
+            padding: $commonUnit / 2 $commonUnit;
+            margin-bottom: $commonHalfUnit;
+            border-radius: $cardRadius / 5;
+        }
+        h2 {
+            font-size: $h1;
+            margin: 0;
+
+            span {
+                color: $tertiary;
+            }
+        }
+    }
+    &.centered {
+        @extend .flex-center;
+        margin-left: auto;
+        margin-right: auto;
+        .pgTitle,
+        .pageSection {
+            @extend .flex-center;
+        }
+        h2,
+        p {
+            text-align: center;
+        }
+    }
+    &.verticallyCentered {
+        @extend .flex-start-center;
+        flex-direction: column;
+        height: 100%;
+        margin-bottom: 0 !important;
+    }
+    &.full .pgTitle {
+        max-width: 100%;
+    }
+    &.darkSection {
+        .pgTitle {
+            h2 {
+                color: $white;
+            }
+            p {
+                color: $white;
+                opacity: 0.6;
+            }
+        }
+    }
+    p {
+        margin: 0;
+    }
+}
+// Video Btn
+.videoBtn {
+    @extend .flex-center;
+    $wh: 4.375rem;
+    width: $wh;
+    height: $wh;
+    border: 0.125rem solid $white;
+    border-radius: 50%;
+    background-color: $primary;
+    background: linear-gradient(143.45deg, $primary 13.89%, $primary 84.75%);
+    box-shadow: 0rem 0.14649rem 0.14649rem rgba(0, 0, 0, 0.25);
+    animation: animateBtn 3s linear infinite;
+
+    i {
+        font-size: $h3;
+        color: $white;
+    }
+    @keyframes animateBtn {
+        0% {
+            box-shadow: 0 0 0 0 rgba($white, 0.3);
+        }
+
+        40% {
+            box-shadow:
+                0 0 0 0.75em rgba($white, 0.1),
+                0 0 0 1.5em rgba($white, 0.3);
+        }
+
+        80% {
+            box-shadow:
+                0 0 0 1.25em rgba($white, 0.05),
+                0 0 0 3em rgba($white, 0.15);
+        }
+
+        100% {
+            box-shadow:
+                0 0 0 2em rgba($white, 0),
+                0 0 0 5em rgba($white, 0);
+        }
+    }
+}
+// Modal
+.modal {
+    .modal-content {
+        border: none;
+        overflow: hidden;
+        .modal-header {
+            background-color: $dark;
+
+            h1 {
+                font-size: $h5;
+                font-weight: 600;
+                color: $white;
+            }
+            .btn-close {
+                background-color: $white !important;
+                opacity: 1;
+            }
+        }
+        .modal-body {
+            padding: 0 !important;
+        }
+    }
+}
+// Search Modal
+.searchModal {
+    .modal-body {
+        padding: 0;
+    }
+    .searchBar {
+        @extend .flex-center-between;
+        gap: $commonUnit;
+        padding: $commonUnit;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background-color: $white;
+        box-shadow: 0 0 1.25rem rgba($color: $dark, $alpha: 0.1);
+
+        .form-control {
+            background-color: rgba($color: $primary, $alpha: 0.06);
+            border: 0.0625rem solid $primary;
+        }
+    }
+    .searchResult {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        ul {
+            padding: 0;
+        }
+        .resultItem {
+            background-color: $white;
+            padding: $commonHalfUnit $commonUnit;
+            @extend .flex-center-between;
+            gap: $commonUnit;
+            cursor: pointer;
+            border-bottom: $commonBorder;
+            margin: 0;
+            &:nth-child(odd) {
+                background-color: $light;
+            }
+            a {
+                @extend .flex-center-start;
+                gap: $commonHalfUnit;
+
+                .productIcon img {
+                    $wh: 3.125rem;
+                    width: $wh !important;
+                    height: $wh !important;
+                    padding: 0.25rem;
+                    border: $commonBorder;
+                    border-radius: 0.25rem;
+                    @extend .flex-center;
+                    img {
+                        object-fit: cover;
+                        display: block;
+                        margin: auto;
+                    }
+                }
+            }
+            .deleteItem {
+                font-size: $large;
+                color: $danger;
+                cursor: pointer;
+            }
+            &:hover {
+                background-color: $primary;
+
+                span,
+                .deleteItem {
+                    color: $white !important;
+                }
+            }
+        }
+    }
+    .nrs {
+        @extend .flex-center;
+        flex-direction: column;
+        padding: $commonUnit;
+        i {
+            font-size: $h3;
+            text-align: center;
+            line-height: normal;
+        }
+        h6 {
+            font-size: $h6;
+            color: $primary;
+            text-align: center;
+            display: block;
+        }
+    }
+}
+// Enquiry Modal
+.enquiryModal {
+    .modal-header {
+        background-color: $dark !important;
+        padding: $commonUnit;
+        h5 {
+            font-size: $h5;
+            color: $white !important;
+        }
+    }
+    .modal-body {
+        background-color: $light;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        overflow: hidden;
+        height: 100%; // ensure modal-body fills the modal
+
+        form {
+            display: flex;
+            flex-direction: column;
+            flex: 1 1 auto;
+            overflow: hidden;
+            width: 100%;
+
+            .formElements {
+                flex: 1 1 auto;
+                overflow-y: auto;
+                padding: $commonUnit * 2 $commonUnit * 2 0;
+                width: 100%;
+                max-height: none;
+
+                .formGroup {
+                    margin-bottom: $commonHalfUnit !important;
+                }
+
+                .flag-icon {
+                    width: 1.25rem;
+                    height: 0.9375rem;
+                    margin-right: 0.5rem;
+                }
+
+                .flag-select {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                }
+
+                .input-group-text img {
+                    width: 1.5rem;
+                    height: 1.125rem;
+                }
+
+                label {
+                    font-size: $large;
+                    font-weight: 600;
+                    display: block;
+                    margin-bottom: 0.5rem;
+                }
+            }
+
+            .btnGroup {
+                flex-shrink: 0;
+                @extend .flex-start;
+                width: 100%;
+                gap: $commonHalfUnit;
+                padding: $commonUnit $commonUnit * 2 + 2;
+            }
+        }
+    }
+}
