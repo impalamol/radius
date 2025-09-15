@@ -2,6 +2,12 @@
     <div class="container">
         <div class="row">
             <div class="topbarContent">
+                <div class="quickLinks">
+                    <a href="mailto:inverters@rishabh.co.in"><i class="ph-duotone ph-envelope"></i> inverters@rishabh.co.in</a>
+                    <div class="vr"></div>
+                    <a href="tel:+91 7888028877"><i class="ph-duotone ph-phone-call"></i> +91 78 8802 8877</a>
+                </div>
+
                 <div class="social">
                     <a href="#" class="socialIcon"><i class="ph-duotone ph-linkedin-logo"></i></a>
                     <a href="#" class="socialIcon"><i class="ph-duotone ph-facebook-logo"></i></a>
@@ -9,77 +15,50 @@
                     <a href="#" class="socialIcon"><i class="ph-duotone ph-twitter-logo"></i></a>
                     <a href="#" class="socialIcon"><i class="ph-duotone ph-youtube-logo"></i></a>
                 </div>
-                <div class="quickLinks">
-                    <a href="">Quick Enquiry</a>
-                    <div class="vr"></div>
-                    <a href="">Careers</a>
-                </div>
+
             </div>
         </div>
     </div>
 </section>
-<header>
-    <div class="container d-none d-xl-block">
-        <div class="row">
-            <div class="headerContent">
-                <div class="logo">
-                    <img src="assets/media/shanti-instruments-logo.png" alt="Shanti Instruments">
-                </div>
-                <div class="headerContacts">
-                    <div class="contactChip">
-                        <span><i class="ph-duotone ph-mailbox"></i> Email</span>
-                        <a href="mailto:marketing@shanti-instruments.com">marketing@shanti-instruments.com</a>
-                    </div>
-                    <div class="vr"></div>
-                    <div class="contactChip">
-                        <span><i class="ph-duotone ph-phone"></i> Phone</span>
-                        <div class="phoneSet">
-                            <a href="tel:+919607936627">+91 9607 9366 27</a>
-                            <a href="tel:+919607936628">/ 28</a>
-                            <a href="tel:+919607936629">/ 29</a>
-                            <a href="tel:+919607936630">/ 30</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="assets/media/radius-logo.png" alt="Rishabh Radius">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto gap-3">
+                <li class="nav-item">
+                    <a class="nav-link <?php echo ($currentPage === 'home') ? 'active' : ''; ?>" aria-current="page" href="index">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <?php echo ($currentPage === 'about') ? 'active' : ''; ?>" href="about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <?php echo ($currentPage === 'products') ? 'active' : ''; ?>" href="products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <?php echo ($currentPage === 'blogs') ? 'active' : ''; ?>" href="blogs">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <?php echo ($currentPage === 'downloads') ? 'active' : ''; ?>" href="downloads">Downloads</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <?php echo ($currentPage === 'offices') ? 'active' : ''; ?>" href="offices-directions">Offices & Directions</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link btn-link" href="contact">Contact Us</a>
+                </li>
+            </ul>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand d-block d-xl-none" href="#"><img src="assets/media/shanti-instruments-logo.png"
-                    alt="Shanti Instruments"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
-                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav gap-3 me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link <?php echo ($currentPage === 'home') ? 'active' : ''; ?>"" href="index">Home
-                            <span class="visually-hidden">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?php echo ($currentPage === 'about') ? 'active' : ''; ?>" href="about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?php echo ($currentPage === 'products') ? 'active' : ''; ?>" href="products">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?php echo ($currentPage === 'blogs') ? 'active' : ''; ?>"" href="blogs">Blogs</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="btn btn-primary"  href="contact"><i class="ph-duotone ph-headset"></i> Contact
-                            Us</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
-
+</nav>
 <!-- Modal -->
 <div class="modal fade" id="aboutVideo" tabindex="-1" aria-labelledby="aboutVideoLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered">
