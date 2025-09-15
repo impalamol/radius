@@ -4,10 +4,9 @@
 @import "flex.scss";
 @import "animations.scss";
 
-$commonUnit: 1.25rem;
-$commonHalfUnit: 0.625rem;
+$commonUnit: 1.5rem;
 $commonBorder: 0.0625rem solid $border;
-$cardRadius: 1.5rem;
+$cardRadius: 1rem;
 $cardShadow: rgba($dark, 0.1) 0rem 0.4375rem 1.8125rem 0rem;
 
 html {
@@ -15,12 +14,12 @@ html {
 }
 
 body {
-    font-family: "Manrope", sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: $xLarge;
     font-weight: 500;
     font-style: normal;
     line-height: 2;
-    letter-spacing: 0.00975rem;
+    letter-spacing: 0.0097rem;
     color: $gray;
     background-color: $white;
     position: relative;
@@ -57,15 +56,14 @@ h3,
 h4,
 h5,
 h6 {
-    // font-family: "DM Sans", sans-serif;
     font-style: normal;
     font-optical-sizing: auto;
     font-weight: 700;
     line-height: 1.5;
-    letter-spacing: 0.01875rem;
+    letter-spacing: 0.0187rem;
     color: $dark;
     position: relative;
-    margin-bottom: $commonHalfUnit;
+    margin-bottom: $commonUnit / 2;
 }
 
 h1 {
@@ -98,7 +96,7 @@ ol,
 ul {
     padding-left: 2rem;
     // li {
-    //      margin-bottom: $commonHalfUnit;
+    //      margin-bottom: $commonUnit / 2;
     // }
 }
 img {
@@ -391,7 +389,9 @@ input[type="number"] {
 // Section
 section {
     padding: 6.25rem 0;
-    position: relative;
+    &:not(.hero) {
+        position: relative;
+    }
     &:nth-child(even) {
         background-color: $light;
     }
@@ -399,6 +399,7 @@ section {
         padding: 0 !important;
     }
 }
+
 .pgHeader {
     @extend .flex-end-between;
     flex-wrap: wrap;
@@ -411,23 +412,24 @@ section {
         @extend .flex-start;
         flex-direction: column;
         flex-grow: 1;
-        max-width: 45rem;
+        max-width: 53.125rem;
 
-        .pageSection {
-            font-size: $large;
-            font-weight: 600;
-            text-transform: capitalize;
+        .pgSection {
+            font-size: $medium;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.0625rem;
             line-height: normal;
-            color: $white;
+            color: $secondary;
             @extend .flex-center-start;
             gap: $commonUnit / 2;
-            background-color: $tertiary;
+            background-color: $primary;
             padding: $commonUnit / 2 $commonUnit;
-            margin-bottom: $commonHalfUnit;
-            border-radius: $cardRadius / 5;
+            margin-bottom: $commonUnit / 2;
+            border-radius: $cardRadius / 4;
         }
         h2 {
-            font-size: $h1;
+            font-size: $h2;
             margin: 0;
 
             span {
@@ -440,7 +442,7 @@ section {
         margin-left: auto;
         margin-right: auto;
         .pgTitle,
-        .pageSection {
+        .pgSection {
             @extend .flex-center;
         }
         h2,
@@ -471,6 +473,10 @@ section {
     p {
         margin: 0;
     }
+    .input-group {
+        flex-grow: 1;
+        width: auto !important;
+    }
 }
 // Video Btn
 .videoBtn {
@@ -482,7 +488,7 @@ section {
     border-radius: 50%;
     background-color: $primary;
     background: linear-gradient(143.45deg, $primary 13.89%, $primary 84.75%);
-    box-shadow: 0rem 0.14649rem 0.14649rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0rem 0.1465rem 0.1465rem rgba(0, 0, 0, 0.25);
     animation: animateBtn 3s linear infinite;
 
     i {
@@ -566,7 +572,7 @@ section {
         }
         .resultItem {
             background-color: $white;
-            padding: $commonHalfUnit $commonUnit;
+            padding: $commonUnit / 2 $commonUnit;
             @extend .flex-center-between;
             gap: $commonUnit;
             cursor: pointer;
@@ -577,7 +583,7 @@ section {
             }
             a {
                 @extend .flex-center-start;
-                gap: $commonHalfUnit;
+                gap: $commonUnit / 2;
 
                 .productIcon img {
                     $wh: 3.125rem;
@@ -659,7 +665,7 @@ section {
                 max-height: none;
 
                 .formGroup {
-                    margin-bottom: $commonHalfUnit !important;
+                    margin-bottom: $commonUnit / 2 !important;
                 }
 
                 .flag-icon {
@@ -691,9 +697,81 @@ section {
                 flex-shrink: 0;
                 @extend .flex-start;
                 width: 100%;
-                gap: $commonHalfUnit;
+                gap: $commonUnit / 2;
                 padding: $commonUnit $commonUnit * 2 + 2;
             }
+        }
+    }
+}
+
+// Glossy Card
+.glossyCard {
+    background: linear-gradient(139.46deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 100%);
+    box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.007);
+    backdrop-filter: blur(0.5rem);
+    border: 1px solid $white;
+    border-radius: $cardRadius;
+}
+
+// Breadcrumbs {
+.breadcrumbs {
+    @extend .flex-start-center;
+    flex-direction: column;
+    height: 100%;
+    min-height: 400px;
+    &::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(93.88deg, #011932 0%, rgba(1, 25, 50, 0.2) 100%);
+    }
+    .breadcrumbContent {
+        position: relative;
+        z-index: 2;
+
+        h2 {
+            font-size: $h4;
+            text-transform: uppercase;
+            color: $white;
+            margin-bottom: 0;
+        }
+
+        .breadcrumb {
+            .breadcrumb-item {
+                &.active {
+                    color: $white;
+                }
+                + .breadcrumb-item::before {
+                    color: $white;
+                }
+                a {
+                    color: $secondary;
+                }
+                &.active {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+// Nav Tabs
+.nav-tabs {
+    border: none;
+    .nav-link {
+        font-size: $xLarge;
+        text-transform: capitalize;
+        color: $gray;
+        background-color: $white;
+        padding: $commonUnit / 2 $commonUnit * 2;
+        border: $commonBorder;
+        border-radius: $cardRadius / 2;
+        &.active, &:hover {
+            color: $white;
+            background-color: $primary;
         }
     }
 }

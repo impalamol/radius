@@ -2,52 +2,56 @@
     <div class="footerContent">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-lg-6 col-xl-3 col-xxl-3 mb-4">
+                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 mb-4">
                     <div class="footerCard">
                         <div class="footerLogo">
-                            <img src="assets/media/barnes-logo.png" alt="Barnes Logo" class="img-fluid">
+                            <img src="assets/media/radius-logo.png" alt="Radius Logo">
                         </div>
-                    </div>
-                </div>
-                <!-- Contact Us -->
-                <div class="col-md-12 col-lg-5 col-xl-5 col-xxl-5 mb-4">
-                    <div class="footerCard">
-                        <h6>Contact Us</h6>
-                        <div class="contactChip">
-                            <h5>
-                                <i class="ph-duotone ph-map-pin"></i>
-                                Address
-                            </h5>
-                            <span>
-                                Deolali, Air force station road, Maharashtra, 422401, India
-                            </span>
-                        </div>
-                        <div class="contactChip">
-                            <h5>
-                                <i class="ph-duotone ph-phone"></i>
-                               For Admission
-                            </h5>
-                            <span class="phoneSet d-flex gap-2">
-                                <a href="tel:+917888092255">78880 92255</a>
-                            </span>
-                        </div>
-                        <div class="contactChip">
-                            <h5>
-                                <i class="ph-duotone ph-phone"></i>
-                               Office
-                            </h5>
-                            <span class="phoneSet d-flex gap-2">
-                                <a href="tel:02532497194">0253 2497194</a>
-                            </span>
-                        </div>
-                        <div class="contactChip">
-                            <h5>
-                                <i class="ph-duotone ph-envelope"></i>
-                                Email
-                            </h5>
-                            <a href="mailto:info@chillmed.com">
-                                <a href="mailto:administrator@barnesschool.in">administrator@barnesschool.in</a>
-                            </a>
+                        <div class="footerContacts">
+                            <div class="row">
+                                <div class="col-12 col-lg-12 col-xl-12 col-xxl-12">
+                                    <div class="contactChip">
+                                        <h6>
+                                            <i class="ph-duotone ph-map-pin"></i>
+                                            Rishabh Instruments Pvt. Ltd.
+                                        </h6>
+                                        <span>
+                                            C-6, Trishala, Near NICE Area, MIDC Satpur, Nashik - 422 007
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
+                                    <div class="contactChip">
+                                        <h6>
+                                            <i class="ph-duotone ph-phone"></i>
+                                            Contact
+                                        </h6>
+                                        <span class="phoneSet d-flex gap-2">
+                                            <a href="tel:+912532202019">+91 253 2202 019</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
+                                    <div class="contactChip">
+                                        <h6>
+                                            <i class="ph-duotone ph-phone"></i>
+                                            Whatsapp
+                                        </h6>
+                                        <span class="phoneSet d-flex gap-2">
+                                            <a href="tel:+917888028877">+91 78880 28877</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-12 col-xl-12 col-xxl-12">
+                                    <div class="contactChip">
+                                        <h6>
+                                            <i class="ph-duotone ph-envelope"></i>
+                                            Email
+                                        </h6>
+                                        <a href="mailto:inverters@rishabh.co.in">inverters@rishabh.co.in</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -55,15 +59,14 @@
                 <!-- Navigation -->
                 <div class="col-md-12 col-lg-6 col-xl-2 col-xxl-2 mb-4">
                     <div class="footerCard">
-                        <h6>Navigation</h6>
+                        <h4>Navigation</h4>
                         <ul class="list-unstyled">
                             <li><a href="index.php">Home</a></li>
+                            <li><a href="#">Inverter</a></li>
                             <li><a href="#">About Us</a></li>
-                            <li><a href="#">Academics</a></li>
-                            <li><a href="#">Magazines</a></li>
                             <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Press Notes</a></li>
+                            <li><a href="#">Downloads</a></li>
+                            <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -71,14 +74,31 @@
                 <!-- Support -->
                 <div class="col-md-12 col-lg-6 col-xl-2 col-xxl-2 mb-4">
                     <div class="footerCard">
-                        <h6>Support</h6>
+                        <h4>Support</h4>
                         <ul class="list-unstyled">
-                            <li><a href="contact-us.php">Contact Us</a></li>
-                            <li><a href="#">Administration</a></li>
-                            <li><a href="#">Section Heads</a></li>
-                            <li><a href="#">School Visit</a></li>
-                            <li><a href="#">Alumni</a></li>
+                            <li><a href="contact-us.php">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
                         </ul>
+                    </div>
+                </div>
+                <!-- Follow Us -->
+                <div class="col-md-12 col-lg-6 col-xl-2 col-xxl-2 mb-4">
+                    <div class="footerCard">
+                        <h4>Support</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="socialIcon"><i class="ph-duotone ph-linkedin-logo"></i> LinkedIn</a>
+                            </li>
+                            <li><a href="#" class="socialIcon"><i class="ph-duotone ph-facebook-logo"></i> Facebook</a>
+                            </li>
+                            <li><a href="#" class="socialIcon"><i class="ph-duotone ph-instagram-logo"></i>
+                                    Instagram</a></li>
+                            <li><a href="#" class="socialIcon"><i class="ph-duotone ph-twitter-logo"></i> Twitter</a>
+                            </li>
+                            <li><a href="#" class="socialIcon"><i class="ph-duotone ph-youtube-logo"></i> YouTube</a>
+                            </li>
+                        </ul>
+                        <div class="social">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -88,7 +108,7 @@
         <div class="container">
             <div class="row">
                 <div class="copyrightContent">
-                    <p>&copy; <span id="year"></span> Barnes. All Rights Reserved.</p>
+                    <p>&copy; <span id="year"></span> Rishabh Radius. All Rights Reserved.</p>
                     <div class="copyrightLinks">
                         <p>Designed & Developed By <a href="https://webcipher.in/" target="_blank">Webcipher
                                 Technologies</a></p>
