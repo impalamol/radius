@@ -18,7 +18,8 @@ $currentPage = 'downloads';
     <!-- <?php include 'includes/loader.php'; ?> -->
     <?php include 'includes/header.php'; ?>
     <main>
-        <section class="breadcrumbs" style="background: url(assets/media/breadcrumbs/downloads.jpg) no-repeat center/cover">
+        <section class="breadcrumbs"
+            style="background: url(assets/media/breadcrumbs/downloads.jpg) no-repeat center/cover">
             <div class="container">
                 <div class="row">
                     <div class="breadcrumbContent">
@@ -45,23 +46,25 @@ $currentPage = 'downloads';
                                 you need in one convenient location.</p>
                         </div>
                     </div>
-                    <ul class="nav nav-tabs justify-content-center mb-5 gap-3" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="datasheet" data-bs-toggle="tab"
-                                data-bs-target="#datasheetPane" type="button" role="tab" aria-controls="datasheetPane"
-                                aria-selected="true">Datasheet</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="certificates" data-bs-toggle="tab"
-                                data-bs-target="#certificatePane" type="button" role="tab"
-                                aria-controls="certificatePane" aria-selected="false">Certificate</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="application" data-bs-toggle="tab"
-                                data-bs-target="#applicationPane" type="button" role="tab"
-                                aria-controls="applicationPane" aria-selected="false">Application Notes</button>
-                        </li>
-                    </ul>
+                    <div class="scrollingTabs">
+                        <ul class="nav nav-tabs justify-content-center mb-5 gap-3" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="datasheet" data-bs-toggle="tab"
+                                    data-bs-target="#datasheetPane" type="button" role="tab"
+                                    aria-controls="datasheetPane" aria-selected="true">Datasheet</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="certificates" data-bs-toggle="tab"
+                                    data-bs-target="#certificatePane" type="button" role="tab"
+                                    aria-controls="certificatePane" aria-selected="false">Certificate</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="application" data-bs-toggle="tab"
+                                    data-bs-target="#applicationPane" type="button" role="tab"
+                                    aria-controls="applicationPane" aria-selected="false">Application Notes</button>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="datasheetPane" role="tabpanel"
                             aria-labelledby="datasheet" tabindex="0">

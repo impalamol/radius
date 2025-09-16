@@ -35,7 +35,7 @@
             disableOnInteraction: false,
         },
         loop: true,
-        slidesPerView: 1.5,
+        slidesPerView: 1.2,
         spaceBetween: 20,
         breakpoints: {
             640: {
@@ -43,15 +43,15 @@
                 spaceBetween: 20,
             },
             768: {
-                slidesPerView: 1.5,
+                slidesPerView: 1.2,
                 spaceBetween: 20,
             },
             1024: {
-                slidesPerView: 2.5,
+                slidesPerView: 2.2,
                 spaceBetween: 20,
             },
             1400: {
-                slidesPerView: 3.5,
+                slidesPerView: 3.2,
                 spaceBetween: 20,
             },
         },
@@ -91,6 +91,10 @@
         thumbs: {
             swiper: testimonialThumbs,
         },
+        pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+        },
     });
 
 </script>
@@ -102,8 +106,14 @@
         slidesPerView: 5,
         freeMode: true,
         watchSlidesProgress: true,
+                breakpoints: {
+            0: { slidesPerView: 3 },
+            576: { slidesPerView: 4 },
+            768: { slidesPerView: 5 },
+            992: { slidesPerView: 6 }
+        }
     });
-// Swiper Gallery
+    // Swiper Gallery
     new Swiper(".swiperGallery", {
         loop: true,
         spaceBetween: 20,
@@ -111,6 +121,7 @@
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
+
         thumbs: { swiper: thumbs },
     });
 </script>

@@ -398,6 +398,10 @@ section {
     &.noPadding {
         padding: 0 !important;
     }
+    .container {
+        position: relative;
+        z-index: 2;
+    }
 }
 
 .pgHeader {
