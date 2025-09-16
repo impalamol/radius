@@ -130,7 +130,7 @@ $currentPage = 'contact';
                                             <label for="message">Message</label>
                                         </div>
                                     </div>
-                                    <div class="col-6 col-lg-6 col-xl-6 col-xxl-6 mb-4">
+                                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 mb-4">
                                         <button type="submit" class="btn btn-primary">
                                             Send Message <i class="ph-duotone ph-paper-plane-tilt"></i>
                                         </button>

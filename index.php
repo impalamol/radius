@@ -138,7 +138,7 @@ $currentPage = 'home';
                 </div>
                 <div class="counter">
                     <div class="row">
-                        <div class="col-6 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                        <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-package"></i></div>
                                 <div class="counterContent">
@@ -147,7 +147,7 @@ $currentPage = 'home';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                        <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-users"></i></div>
                                 <div class="counterContent">
@@ -156,7 +156,7 @@ $currentPage = 'home';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                        <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-calendar-dots"></i></div>
                                 <div class="counterContent">
@@ -165,7 +165,7 @@ $currentPage = 'home';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                        <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-globe-stand"></i></div>
                                 <div class="counterContent">
@@ -408,21 +408,22 @@ $currentPage = 'home';
         </section>
         <section class="suryagharScheme">
             <div class="container">
-                <div class="row">
-                    <div class="col-9 col-lg-9 col-xl-9 col-xxl-9 mb-4">
+                <div class="row flex-lg-row-reverse">
+                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+                        <img src="assets/media/emblem.png" alt="Pm Surya Ghar">
+                    </div>
+                    <div class="col-12 col-lg-9 col-xl-9 col-xxl-9 mb-4">
                         <div class="schemeHeader">
                             <h5>Pm Surya Ghar :</h5>
                             <h2>Muft Bijli Yojana</h2>
                         </div>
                     </div>
-                    <div class="col-3 col-lg-3 col-xl-3 col-xxl-3 mb-4">
-                        <img src="assets/media/emblem.png" alt="Pm Surya Ghar">
-                    </div>
-
-                    <div class="col-12 col-lg-7 col-xl-7 col-xxl-7 mb-4">
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-7 col-xl-7 col-xxl-7">
                         <div class="schemeContent">
                             <div class="row">
-                                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 mb-5">
+                                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 mb-3">
                                     <div class="schemeCard cardBorder">
                                         <div class="schemeCardHeader">
                                             <h6>Subsidy For</h6>
@@ -453,7 +454,7 @@ $currentPage = 'home';
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 mb-5">
+                                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 mb-3">
                                     <div class="schemeCard">
                                         <div class="schemeCardHeader">
                                             <h6>Subsidy For</h6>
@@ -500,7 +501,7 @@ $currentPage = 'home';
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-5 col-xl-5 col-xxl-5 mb-4">
+                    <div class="col-12 col-lg-5 col-xl-5 col-xxl-5">
                         <div class="primeMinister">
                             <img src="assets/media/modiji.png" alt="Pm Narendra Modi">
                         </div>
@@ -931,7 +932,7 @@ $currentPage = 'home';
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 mb-4">
+                    <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 mb-4 d-none d-md-block">
                         <div class="swiper testimonialThumbs">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -965,6 +966,7 @@ $currentPage = 'home';
                                     </div>
                                 </div>
                             </div>
+                            <div class="swiper-pagination"></div>
                         </div>
                     </div>
                 </div>
@@ -981,7 +983,7 @@ $currentPage = 'home';
                                 exclusive offers delivered straight to your inbox every week.</p>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
                         <div class="newsletterListItem">
                             <div class="icon"><i class="ph-duotone ph-trend-up"></i></div>
                             <div class="newsletterContent">
@@ -991,7 +993,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
                         <div class="newsletterListItem">
                             <div class="icon"><i class="ph-duotone ph-bell"></i></div>
                             <div class="newsletterContent">
@@ -1001,7 +1003,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
                         <div class="newsletterListItem">
                             <div class="icon"><i class="ph-duotone ph-gift"></i></div>
                             <div class="newsletterContent">
@@ -1011,7 +1013,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-6 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3">
                         <div class="newsletterListItem">
                             <div class="icon"><i class="ph-duotone ph-users-three"></i></div>
                             <div class="newsletterContent">
@@ -1021,20 +1023,21 @@ $currentPage = 'home';
                         </div>
                     </div>
                 </div>
+
                 <div class="row">
                     <div class="newsLetterCard">
                         <div class="row">
-                            <div class="col-12  col-lg-5 col-xl-5 col-xxl-5">
+                            <div class="col-12 col-lg-5 col-xl-5 col-xxl-5 mb-3">
                                 <figure>
                                     <img src="assets/media/newsletter.png" alt="Subscribe Newsletter"
                                         title="Subscribe Newsletter">
                                 </figure>
                             </div>
-                            <div class="col-12 col-lg-6 col-xl-6 col-xxl-6  offset-lg-1 offset-xl-1 offset-xxl-1 mb-3">
+                            <div class="col-12 col-lg-6 col-xl-6 col-xxl-6  offset-lg-1 offset-xl-1 offset-xxl-1">
                                 <div class="newsLetterCardBody">
                                     <form action="">
                                         <label for="newsletter" class="form-label fw-bold fs-5">Email Address</label>
-                                        <div class="input-group shadow-sm">
+                                        <div class="input-group shadow-sm mb-3">
                                             <input type="email" id="newsletter" class="form-control border-0"
                                                 placeholder="Enter your Email Address">
                                             <button class="btn btn-warning" type="button">

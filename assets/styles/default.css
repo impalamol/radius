@@ -557,6 +557,10 @@ section:nth-child(even) {
 section.noPadding {
   padding: 0 !important;
 }
+section .container {
+  position: relative;
+  z-index: 2;
+}
 
 .pgHeader {
   flex-wrap: wrap;
