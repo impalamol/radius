@@ -18,7 +18,8 @@ $currentPage = 'offices';
     <!-- <?php include 'includes/loader.php'; ?> -->
     <?php include 'includes/header.php'; ?>
     <main>
-        <section class="breadcrumbs" style="background: url(assets/media/breadcrumbs/offices.jpg) no-repeat center/cover">
+        <section class="breadcrumbs"
+            style="background: url(assets/media/breadcrumbs/offices.jpg) no-repeat center/cover">
             <div class="container">
                 <div class="row">
                     <div class="breadcrumbContent">
@@ -49,8 +50,7 @@ $currentPage = 'offices';
                     <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 mb-4">
                         <div class="addressCard">
                             <figure>
-                                <img src="assets/media/address/address1.jpg"
-                                    alt="Head / Corporate Office"
+                                <img src="assets/media/address/address1.jpg" alt="Head / Corporate Office"
                                     title="Head / Corporate Office">
                             </figure>
                             <div class="addressContent">
@@ -83,6 +83,7 @@ $currentPage = 'offices';
                                             </span>
                                         </div>
                                     </div>
+                                    <hr />
                                     <div class="col-12 col-lg-12 col-xl-12 col-xxl-12">
                                         <div class="addressChip">
                                             <h6>
@@ -99,8 +100,7 @@ $currentPage = 'offices';
                     <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 mb-4">
                         <div class="addressCard">
                             <figure>
-                                <img src="assets/media/address/address2.jpg"
-                                    alt="Registered Office"
+                                <img src="assets/media/address/address2.jpg" alt="Registered Office"
                                     title="Registered Office">
                             </figure>
                             <div class="addressContent">
@@ -133,6 +133,7 @@ $currentPage = 'offices';
                                             </span>
                                         </div>
                                     </div>
+                                    <hr />
                                     <div class="col-12 col-lg-12 col-xl-12 col-xxl-12">
                                         <div class="addressChip">
                                             <h6>
@@ -149,8 +150,7 @@ $currentPage = 'offices';
                     <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 mb-4">
                         <div class="addressCard">
                             <figure>
-                                <img src="assets/media/address/address3.jpg"
-                                    alt="Regional Office - New Delhi"
+                                <img src="assets/media/address/address3.jpg" alt="Regional Office - New Delhi"
                                     title="Regional Office - New Delhi">
                             </figure>
                             <div class="addressContent">
@@ -183,6 +183,7 @@ $currentPage = 'offices';
                                             </span>
                                         </div>
                                     </div>
+                                    <hr />
                                     <div class="col-12 col-lg-12 col-xl-12 col-xxl-12">
                                         <div class="addressChip">
                                             <h6>

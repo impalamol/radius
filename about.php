@@ -70,7 +70,7 @@ $currentPage = 'about';
         <section class="director">
             <div class="container-fluid g-0">
                 <div class="row g-0">
-                    <div class="col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
                         <div class="pgHeader">
                             <div class="pgTitle">
                                 <div class="pgSection">Some inspiring words</div>
@@ -90,7 +90,7 @@ $currentPage = 'about';
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
                         <figure class="directorImg">
                             <div class="directorInfo">
                                 <h3>Narendra Golia</h3>
@@ -99,6 +99,50 @@ $currentPage = 'about';
                             <img src="assets/media/narendra-goliya.png" alt="Narendra Johrimal Goliya" />
                         </figure>
                     </div>
+                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <figure class="directorImg">
+                            <div class="directorInfo">
+                                <h3>Dinesh Musalekar</h3>
+                                <small>Group CEO & Whole Time Director</small>
+                            </div>
+                            <img src="assets/media/dinesh-musalekar.png" alt="Dinesh Musalekar" />
+                        </figure>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <div class="pgHeader">
+                            <div class="pgTitle">
+                                <div class="pgSection">Some inspiring words</div>
+                                <h2>Message from the <span>Group CEO & Director</span></h2>
+                                <p>Dinesh Musalekar is Group CEO & Executive Director of Rishabh Group, a global
+                                    enterprise
+                                    in energy efficiency and industrial automation with its operations spread over 100
+                                    countries across 5 continents. With over 30 years of experience, he is known for
+                                    visionary leadership, strategic growth, and cross-cultural management. He has led
+                                    operations across Pan India, Europe, Asia and Americas specializing in business
+                                    transformation, M&A, and innovation.
+                                </p>
+                                <p>Since 2013, he has overseen the successful turnaround of Lumel, a key Rishabh company
+                                    in
+                                    Poland. At group level, he passionately strives to develop next generation of
+                                    leaders,
+                                    synergy amongst the group companies in the areas of product development, sales and
+                                    marketing, operations to generate greater value for all the stakeholders of our
+                                    groups
+                                    core business of providing world class integrated solutions in automation, metering,
+                                    and
+                                    high-precision manufacturing. His leadership combines strategy with hands-on
+                                    execution,
+                                    fostering change and long-term value.
+                                </p>
+                                <p>Dinesh has received top honours, including the Gold Medal from the Mayor of Zielona
+                                    Góra,
+                                    the Indian Achievers Award for Business Leadership from the Ambassador of India to
+                                    Poland, the Personality of the Year title from Polska Press Group, and the Exemplary
+                                    Leadership Award from the Indo-Polish Chamber of Commerce and ndustry.</p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -171,7 +215,7 @@ $currentPage = 'about';
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-package"></i></div>
                                 <div class="counterContent">
-                                    <h3>7k+</h3>
+                                    <h3 class="counterValue" data-count="7000" data-speed="7000">0</h3>
                                     <p>Units Installed</p>
                                 </div>
                             </div>
@@ -180,7 +224,7 @@ $currentPage = 'about';
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-users"></i></div>
                                 <div class="counterContent">
-                                    <h3>3k+</h3>
+                                    <h3 class="counterValue" data-count="3000" data-speed="3000">0</h3>
                                     <p>Happy Customers</p>
                                 </div>
                             </div>
@@ -189,7 +233,7 @@ $currentPage = 'about';
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-calendar-dots"></i></div>
                                 <div class="counterContent">
-                                    <h3>15+</h3>
+                                    <h3 class="counterValue" data-count="15" data-speed="15">0</h3>
                                     <p>Years Experience</p>
                                 </div>
                             </div>
@@ -198,7 +242,7 @@ $currentPage = 'about';
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-globe-stand"></i></div>
                                 <div class="counterContent">
-                                    <h3>20+</h3>
+                                    <h3 class="counterValue" data-count="20" data-speed="20">0</h3>
                                     <p>States Served</p>
                                 </div>
                             </div>
@@ -290,116 +334,6 @@ $currentPage = 'about';
                 </div>
             </div>
         </section>
-        <section class="applications">
-            <div class="container">
-                <div class="row">
-                    <div class="pgHeader centered darkSection">
-                        <div class="pgTitle">
-                            <div class="pgSection">Industries</div>
-                            <h2>Industries & Applications</h2>
-                            <p>Stay updated with the latest solar energy trends, government policies, installation
-                                guides, and industry insights from our team of experts.</p>
-                        </div>
-                    </div>
-                    <div class="swiper applicationIndustry">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <a href="application-details" class="applicationCard">
-                                    <figure>
-                                        <img src="assets/media/application/food-industry.jpg" alt="Food Industry" />
-                                    </figure>
-                                    <div class="applicationContent">
-                                        <h3>Food Industry</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="application-details" class="applicationCard">
-                                    <figure>
-                                        <img src="assets/media/application/steel-industry.jpg" alt="Steel Industry" />
-                                    </figure>
-                                    <div class="applicationContent">
-                                        <h3>Steel Industry</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="application-details" class="applicationCard">
-                                    <figure>
-                                        <img src="assets/media/application/agriculture.jpg" alt="Agriculture" />
-                                    </figure>
-                                    <div class="applicationContent">
-                                        <h3>Agriculture</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="application-details" class="applicationCard">
-                                    <figure>
-                                        <img src="assets/media/application/automobile.jpg" alt="Automobile" />
-                                    </figure>
-                                    <div class="applicationContent">
-                                        <h3>Automobile</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="application-details" class="applicationCard">
-                                    <figure>
-                                        <img src="assets/media/application/pharmaceuticals.jpg" alt="Pharmaceuticals" />
-                                    </figure>
-                                    <div class="applicationContent">
-                                        <h3>Pharmaceuticals</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="application-details" class="applicationCard">
-                                    <figure>
-                                        <img src="assets/media/application/nuclear.jpg" alt="Nuclear" />
-                                    </figure>
-                                    <div class="applicationContent">
-                                        <h3>Nuclear</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="application-details" class="applicationCard">
-                                    <figure>
-                                        <img src="assets/media/application/public-works.jpg" alt="Public Works" />
-                                    </figure>
-                                    <div class="applicationContent">
-                                        <h3>Public Works</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="application-details" class="applicationCard">
-                                    <figure>
-                                        <img src="assets/media/application/commercial-buildings.jpg"
-                                            alt="Commercial Buildings" />
-                                    </figure>
-                                    <div class="applicationContent">
-                                        <h3>Commercial Buildings</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="application-details" class="applicationCard">
-                                    <figure>
-                                        <img src="assets/media/application/process-industry.jpg"
-                                            alt="Process Industry" />
-                                    </figure>
-                                    <div class="applicationContent">
-                                        <h3>Process Industry</h3>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section class="testimonials">
             <div class="container">
                 <div class="row">
@@ -434,9 +368,17 @@ $currentPage = 'about';
                                             the
                                             system went live.</p>
                                         <hr>
-                                        <div class="user">
-                                            <h6>Kavita Sharma</h6>
-                                            <small>Phoenix Technologies</small>
+                                        <div class="testimonialFooter">
+                                            <div class="user">
+                                                <img src="https://i.pravatar.cc/60?img=1" class="rounded-circle"
+                                                    width="60" height="60" alt="Kavita Sharma">
+                                                <div class="userInfo">
+                                                    <h6>Kavita Sharma</h6>
+                                                    <small>Phoenix Technologies</small>
+                                                </div>
+                                            </div>
+                                            <a href="" class="certificate" target="_blank">View Certificate
+                                                <i class="ph-duotone ph-arrow-bend-right-up"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -455,9 +397,17 @@ $currentPage = 'about';
                                             every step of the way. We are thrilled with our new solar system and the
                                             significant savings we're already seeing.</p>
                                         <hr>
-                                        <div class="user">
-                                            <h6>Shadab Shaikh</h6>
-                                            <small>Green Innovations</small>
+                                        <div class="testimonialFooter">
+                                            <div class="user">
+                                                <img src="https://i.pravatar.cc/60?img=2" class="rounded-circle"
+                                                    width="60" height="60" alt="Shadab Shaikh">
+                                                <div class="userInfo">
+                                                    <h6>Shadab Shaikh</h6>
+                                                    <small>Green Innovations</small>
+                                                </div>
+                                            </div>
+                                            <a href="" class="certificate" target="_blank">View Certificate
+                                                <i class="ph-duotone ph-arrow-bend-right-up"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -477,9 +427,17 @@ $currentPage = 'about';
                                             exceptional. We were also very impressed with their team's professionalism
                                             and positive attitude, making the whole process a pleasure to complete.</p>
                                         <hr>
-                                        <div class="user">
-                                            <h6>Suraj Mokal</h6>
-                                            <small>Solar Dynamics</small>
+                                        <div class="testimonialFooter">
+                                            <div class="user">
+                                                <img src="https://i.pravatar.cc/60?img=3" class="rounded-circle"
+                                                    width="60" height="60" alt="Suraj Mokal">
+                                                <div class="userInfo">
+                                                    <h6>Suraj Mokal</h6>
+                                                    <small>Solar Dynamics</small>
+                                                </div>
+                                            </div>
+                                            <a href="" class="certificate" target="_blank">View Certificate
+                                                <i class="ph-duotone ph-arrow-bend-right-up"></i></a>
                                         </div>
                                     </div>
                                 </div>

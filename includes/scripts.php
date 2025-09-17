@@ -85,15 +85,17 @@
     var testimonialContent = new Swiper(".testimonialSwiper", {
         effect: "fade",
         fadeEffect: {
-            crossFade: true   // ensures previous slide fades OUT completely
+            crossFade: true 
         },
         autoHeight: true,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+            waitForTransition: true
+        },
         thumbs: {
             swiper: testimonialThumbs,
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            dynamicBullets: true,
         },
     });
 
@@ -106,7 +108,7 @@
         slidesPerView: 5,
         freeMode: true,
         watchSlidesProgress: true,
-                breakpoints: {
+        breakpoints: {
             0: { slidesPerView: 3 },
             576: { slidesPerView: 4 },
             768: { slidesPerView: 5 },
@@ -162,6 +164,33 @@
                 observer.observe(section);
                 console.log(`Observing section ${section.getAttribute('data-index')}`);
             });
+        }
+    });
+</script>
+<script>
+    var a = 0;
+    $(window).scroll(function () {
+        var oTop = $('.counter').offset().top - window.innerHeight;
+        if (a == 0 && $(window).scrollTop() > oTop) {
+            $('.counterValue').each(function () {
+                var $this = $(this),
+                    countTo = $this.attr('data-count');
+                $({
+                    countNum: $this.text()
+                }).animate({
+                    countNum: countTo
+                }, {
+                    duration: 5000,
+                    easing: 'swing',
+                    step: function () {
+                        $this.text(Math.floor(this.countNum));
+                    },
+                    complete: function () {
+                        $this.text(this.countNum);
+                    }
+                });
+            });
+            a = 1;
         }
     });
 </script>

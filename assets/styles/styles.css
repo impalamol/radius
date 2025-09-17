@@ -73,7 +73,7 @@ textarea:not([rows]) {
   display: flex;
 }
 
-.flex-center, .contactUs .contactCard .contactChip .icon, .downloads .downloadCard .downloadCardFooter, .blogDetails .blogSidebar .sidebarContent .recentPost, .products .productCard .productCardFooter, .about figure .radiusEmblem, .about figure, .newsletter .newsletterListItem .icon, .glossyCard .icon, .collaborations .collaborationCard .icon, .greenEnergy .highlightsCard .icon, .revealContainer .revealImgContainer, .makeInIndia .lion, .applicationIndustries .counter .counterCard .icon, .hero .paginationContainer .navigation .swiper-button-next,
+.flex-center, .contactUs .contactCard .contactChip .icon, .downloads .downloadCard .downloadCardFooter, .blogDetails .blogSidebar .sidebarContent .recentPost, .products .productCard .productCardFooter, .director .pgHeader, .about figure .radiusEmblem, .about figure, .newsletter .newsletterListItem .icon, .glossyCard .icon, .collaborations .collaborationCard .icon, .greenEnergy .highlightsCard .icon, .revealContainer .revealImgContainer, .makeInIndia .lion, .applicationIndustries .counter .counterCard .icon, .hero .paginationContainer .navigation .swiper-button-next,
 .hero .paginationContainer .navigation .swiper-button-prev, .hero .paginationContainer .navigation, .hero .heroSlide, .progressLoader .loaderContent .imgContainer, .progressLoader, .searchModal .nrs, .searchModal .searchResult .resultItem a .productIcon img, .videoBtn, .pgHeader.centered .pgTitle,
 .pgHeader.centered .pgSection, .pgHeader.centered {
   display: flex;
@@ -81,7 +81,7 @@ textarea:not([rows]) {
   justify-content: center;
 }
 
-.flex-center-between, .documentation .docCard .docBody .doc, footer .copyright .copyrightContent, .hero .paginationContainer, .topbar .topbarContent, .searchModal .searchResult .resultItem, .searchModal .searchBar {
+.flex-center-between, .documentation .docCard .docBody .doc, footer .copyright .copyrightContent, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter, .hero .paginationContainer, .topbar .topbarContent, .searchModal .searchResult .resultItem, .searchModal .searchBar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -125,7 +125,7 @@ textarea:not([rows]) {
 }
 
 .flex-start, .blogDetails .blogSidebar .sidebarContent ul,
-.blogDetails .blogSidebar .sidebarContent ol, .documentation .docCard .docBody .doc .docInfo, .videoSection .videoContent, .director figure .directorInfo, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .user, .testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo, .support .supportCard, .suryagharScheme .schemeContent .schemeCard .schemeCardList, .glossyCard ul li, .collaborations .collaborationCard ul li, .revealContainer .revealContentContainer .revealContent .revealList, .revealContainer .revealContentContainer .revealContent, .applicationIndustries .applicationContent .applicationList, .menu .menuContact .contactDetail, .menu .mainMenu ul, .enquiryModal .modal-body form .btnGroup, .pgHeader .pgTitle {
+.blogDetails .blogSidebar .sidebarContent ol, .documentation .docCard .docBody .doc .docInfo, .videoSection .videoContent, .director figure .directorInfo, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter .user .userInfo, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter .user, .testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo, .support .supportCard, .suryagharScheme .schemeContent .schemeCard .schemeCardList, .glossyCard ul li, .collaborations .collaborationCard ul li, .revealContainer .revealContentContainer .revealContent .revealList, .revealContainer .revealContentContainer .revealContent, .applicationIndustries .applicationContent .applicationList, .menu .menuContact .contactDetail, .menu .mainMenu ul, .enquiryModal .modal-body form .btnGroup, .pgHeader .pgTitle {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -143,7 +143,7 @@ textarea:not([rows]) {
   justify-content: space-around;
 }
 
-.flex-start-center, .director .pgHeader, .newsletter .newsLetterCard .newsLetterCardBody, .suryagharScheme .schemeContent .schemeCard .schemeCardList li, .applicationIndustries .applicationContent, .breadcrumbs, .pgHeader.verticallyCentered {
+.flex-start-center, .newsletter .newsLetterCard .newsLetterCardBody, .suryagharScheme .schemeContent .schemeCard .schemeCardList li, .applicationIndustries .applicationContent, .breadcrumbs, .pgHeader.verticallyCentered {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -569,7 +569,7 @@ section .container {
 .pgHeader {
   flex-wrap: wrap;
   gap: 1.5rem;
-  margin-bottom: 4.5rem;
+  margin-bottom: 3rem;
   position: relative;
   z-index: 2;
 }
@@ -827,9 +827,14 @@ section .container {
 }
 
 .breadcrumbs {
+  background-position: top !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
   flex-direction: column;
   height: 100%;
-  min-height: 400px;
+  min-height: 450px;
 }
 .breadcrumbs::after {
   position: absolute;
@@ -1007,8 +1012,8 @@ section .container {
   max-width: 160px !important;
 }
 .navbar .nav-item .nav-link {
-  font-size: 0.875rem;
-  font-weight: 600;
+  font-size: 0.8125rem;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .navbar .nav-item .nav-link.active, .navbar .nav-item .nav-link:hover {
@@ -1669,7 +1674,7 @@ section .container {
 }
 
 .whyChooseUs {
-  background: url(../media/abstract-bg2.jpg) no-repeat bottom/cover fixed;
+  background: url(../media/abstract-bg.jpg) no-repeat top/cover fixed;
 }
 
 .support .supportCard {
@@ -1771,6 +1776,7 @@ section .container {
   height: auto !important;
 }
 .testimonials .testimonialThumbs .swiper-slide .testimonialUser {
+  background-color: #f5faff;
   gap: 0.75rem;
   padding: 1.5rem;
   border: 0.0625rem solid #e4e4e4;
@@ -1781,8 +1787,11 @@ section .container {
 .testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo {
   flex-direction: column;
 }
+.testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo h6, .testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo small {
+  line-height: normal;
+}
 .testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo h6 {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   color: #011932;
   margin-bottom: 0;
 }
@@ -1800,55 +1809,76 @@ section .container {
   color: #fdc600;
 }
 .testimonials .testimonialSwiper {
-  height: 100%;
+  height: 100% !important;
 }
 .testimonials .testimonialSwiper .swiper-wrapper {
-  height: 100%;
+  height: 100% !important;
 }
 .testimonials .testimonialSwiper .swiper-slide {
   opacity: 0;
-  height: 100%;
+  height: 100% !important;
   transition: opacity 0.5s ease-in-out;
 }
 .testimonials .testimonialSwiper .swiper-slide .testimonialCard {
-  background: #ffffff;
+  background: #011932;
   padding: 3rem;
   border: 0.0625rem solid #e4e4e4;
   border-radius: 1rem;
   height: 100%;
-  width: 95%;
+  width: 100%;
   margin-left: auto;
 }
 .testimonials .testimonialSwiper .swiper-slide .testimonialCard .rating {
   font-size: 1.125rem;
-  color: #0f6db4;
+  color: #fdc600;
+  margin-bottom: 1.5rem;
 }
 .testimonials .testimonialSwiper .swiper-slide .testimonialCard h4 {
   font-size: 1.5rem;
   font-weight: 800;
+  color: #ffffff;
   margin-bottom: 0.75rem;
 }
 .testimonials .testimonialSwiper .swiper-slide .testimonialCard p {
   font-size: 1rem;
-  color: #5c6972;
+  color: #ffffff;
 }
 .testimonials .testimonialSwiper .swiper-slide .testimonialCard hr {
   border-top-color: rgba(255, 255, 255, 0.2);
   opacity: 1;
   margin: 1.5rem 0;
 }
-.testimonials .testimonialSwiper .swiper-slide .testimonialCard .user {
+.testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter {
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+}
+.testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter .user {
+  gap: 0.75rem;
+}
+.testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter .user .userInfo {
   flex-direction: column;
 }
-.testimonials .testimonialSwiper .swiper-slide .testimonialCard .user h6 {
+.testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter .user .userInfo h6 {
   font-size: 1.25rem;
   font-weight: 700;
+  color: #ffffff;
   margin-bottom: 0;
 }
-.testimonials .testimonialSwiper .swiper-slide .testimonialCard .user small {
+.testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter .user .userInfo small {
   font-size: 0.875rem;
   font-weight: 600;
-  color: #0f6db4;
+  color: #ffffff;
+}
+.testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter a {
+  font-size: 0.875rem;
+  color: #011932;
+  background-color: #fdc600;
+  padding: 0.75rem;
+  border-radius: 0.3333333333rem;
+}
+.testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter a:hover {
+  background-color: #f99c1d;
+  color: #ffffff;
 }
 .testimonials .testimonialSwiper .swiper-slide.swiper-slide.swiper-slide-active {
   opacity: 1 !important;
@@ -2274,6 +2304,10 @@ footer .copyright .copyrightContent .copyrightLinks {
   transform: scale(1.1) rotate(0.5deg);
 }
 
+#enquiryModal .modal-body {
+  padding: 3rem !important;
+}
+
 .productDetails .productShowcase {
   border: 0.0625rem solid #e4e4e4;
   padding: 1.5rem;
@@ -2499,6 +2533,7 @@ footer .copyright .copyrightContent .copyrightLinks {
   background-color: #ffffff;
   padding: 1.5rem;
   margin-top: 3rem;
+  border-radius: 1rem;
 }
 .blogDetails .pagination .next,
 .blogDetails .pagination .previous {
@@ -2623,6 +2658,7 @@ footer .copyright .copyrightContent .copyrightLinks {
 }
 .addresses .addressCard figure {
   overflow: hidden;
+  display: none;
 }
 .addresses .addressCard figure img {
   display: block;
@@ -2653,17 +2689,17 @@ footer .copyright .copyrightContent .copyrightLinks {
   font-weight: 600;
   color: #011932;
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 .addresses .addressCard .addressContent .addressChip span,
 .addresses .addressCard .addressContent .addressChip a {
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: #5c6972;
   margin-bottom: 0;
 }
 .addresses .addressCard .addressContent .addressChip p,
 .addresses .addressCard .addressContent .addressChip a {
-  margin: 0;
+  margin: 0 0 0 0.75rem;
 }
 .addresses .addressCard .addressContent .addressChip a:hover {
   color: #0f6db4;

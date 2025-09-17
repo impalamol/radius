@@ -107,7 +107,7 @@ $currentPage = 'contact';
                                         <div class="form-floating">
                                             <input type="email" class="form-control" id="email"
                                                 placeholder="Email contactInfo">
-                                            <label for="email">Email contactInfo</label>
+                                            <label for="email">Email</label>
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 mb-4">

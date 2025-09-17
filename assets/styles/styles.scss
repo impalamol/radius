@@ -149,8 +149,8 @@
         max-width: 160px !important;
     }
     .nav-item .nav-link {
-        font-size: $medium;
-        font-weight: 600;
+        font-size: $medium - 0.0625rem;
+        font-weight: 700;
         text-transform: uppercase;
 
         &.active,
@@ -920,7 +920,7 @@
 }
 // Why Choose Us
 .whyChooseUs {
-    background: url(../media/abstract-bg2.jpg) no-repeat bottom/cover fixed;
+    background: url(../media/abstract-bg.jpg) no-repeat top/cover fixed;
 }
 
 // Support
@@ -929,7 +929,7 @@
         @extend .flex-start;
         flex-wrap: wrap;
         gap: $commonUnit;
-        background: radial-gradient(100% 100% at 100% 0%, #3f8ac3 0%, #0f6db4 100%);
+        background: radial-gradient(100% 100% at 100% 0%, #3f8ac3 0%, $primary 100%);
         padding: $commonUnit * 2;
         border-radius: $cardRadius;
         height: 100%;
@@ -1045,6 +1045,7 @@
             height: auto !important;
 
             .testimonialUser {
+                background-color: $light;
                 @extend .flex-center-start;
                 gap: $commonUnit / 2;
                 padding: $commonUnit;
@@ -1056,9 +1057,11 @@
                 .userInfo {
                     @extend .flex-start;
                     flex-direction: column;
-
+                    h6, small {
+                        line-height: normal;
+                    }
                     h6 {
-                        font-size: $h5;
+                        font-size: $xLarge;
                         color: $dark;
                         margin-bottom: 0;
                     }
@@ -1086,36 +1089,38 @@
         }
     }
     .testimonialSwiper {
-        height: 100%;
+        height: 100% !important;
         .swiper-wrapper {
-            height: 100%;
+            height: 100% !important;
         }
         .swiper-slide {
             opacity: 0;
-            height: 100%;
+            height: 100% !important;
             transition: opacity 0.5s ease-in-out;
 
             .testimonialCard {
-                background: $white;
+                background: $dark;
                 padding: $commonUnit * 2;
                 border: $commonBorder;
                 border-radius: $cardRadius;
                 height: 100%;
-                width: 95%;
+                width: 100%;
                 margin-left: auto;
 
                 .rating {
                     font-size: $xLarge;
-                    color: $primary;
+                    color: $secondary;
+                    margin-bottom: $commonUnit;
                 }
                 h4 {
                     font-size: $h5;
                     font-weight: 800;
+                    color: $white;
                     margin-bottom: $commonUnit / 2;
                 }
                 p {
                     font-size: $large;
-                    color: $gray;
+                    color: $white;
                 }
 
                 hr {
@@ -1123,20 +1128,42 @@
                     opacity: 1;
                     margin: $commonUnit 0;
                 }
+                .testimonialFooter {
+                    @extend .flex-center-between;
+                    flex-wrap: nowrap;
+                    gap: $commonUnit;
+                
                 .user {
                     @extend .flex-start;
-                    flex-direction: column;
-                    h6 {
-                        font-size: $h6;
-                        font-weight: 700;
-                        margin-bottom: 0;
-                    }
-                    small {
-                        font-size: $medium;
-                        font-weight: 600;
-                        color: $primary;
+                    gap: $commonUnit / 2;
+                    .userInfo {
+                        @extend .flex-start;
+                        flex-direction: column;
+                        h6 {
+                            font-size: $h6;
+                            font-weight: 700;
+                            color: $white;
+                            margin-bottom: 0;
+                        }
+                        small {
+                            font-size: $medium;
+                            font-weight: 600;
+                            color: $white;
+                        }
                     }
                 }
+                a {
+                    font-size: $medium;
+                    color: $dark;
+                    background-color: $secondary;
+                    padding: $commonUnit / 2;
+                    border-radius: $cardRadius / 3;
+                    &:hover {
+                        background-color: $tertiary;
+                        color: $white;
+                    }
+                }
+            }
             }
             &.swiper-slide.swiper-slide-active {
                 opacity: 1 !important;
@@ -1426,7 +1453,7 @@ footer {
     background-color: $dark;
     padding: 0 !important;
     .pgHeader {
-        @extend .flex-start-center;
+        @extend .flex-center;
         padding: $commonUnit * 3;
         margin-bottom: 0;
         height: 100%;
@@ -1614,7 +1641,15 @@ footer {
         }
     }
 }
+// Enquiry Modal
+#enquiryModal {
+    .modal-body {
+        padding: $commonUnit * 2 !important;
 
+
+    }
+
+}
 // Product Details Page
 .productDetails {
     .productShowcase {
@@ -1875,6 +1910,7 @@ footer {
         background-color: $white;
         padding: $commonUnit;
         margin-top: $commonUnit * 2;
+        border-radius: $cardRadius;
         .next,
         .previous {
             flex-grow: 1;
@@ -2011,6 +2047,7 @@ footer {
 
         figure {
             overflow: hidden;
+            display: none;
 
             img {
                 display: block;
@@ -2040,17 +2077,17 @@ footer {
                     font-weight: 600;
                     color: $dark;
                     display: block;
-                    margin-bottom: $commonUnit / 3;
+                    margin-bottom: 0;
                 }
                 span,
                 a {
-                    font-size: $large;
+                    font-size: $medium;
                     color: $gray;
                     margin-bottom: 0;
                 }
                 p,
                 a {
-                    margin: 0;
+                    margin: 0 0 0 $commonUnit / 2;
                 }
                 a:hover {
                     color: $primary;
