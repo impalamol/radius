@@ -142,7 +142,7 @@ $currentPage = 'home';
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-package"></i></div>
                                 <div class="counterContent">
-                                    <h3>7k+</h3>
+                                    <h3 class="counterValue" data-count="7000" data-speed="7000">0</h3>
                                     <p>Units Installed</p>
                                 </div>
                             </div>
@@ -151,7 +151,7 @@ $currentPage = 'home';
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-users"></i></div>
                                 <div class="counterContent">
-                                    <h3>3k+</h3>
+                                    <h3 class="counterValue" data-count="3000" data-speed="3000">0</h3>
                                     <p>Happy Customers</p>
                                 </div>
                             </div>
@@ -160,7 +160,7 @@ $currentPage = 'home';
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-calendar-dots"></i></div>
                                 <div class="counterContent">
-                                    <h3>15+</h3>
+                                    <h3 class="counterValue" data-count="15" data-speed="15">0</h3>
                                     <p>Years Experience</p>
                                 </div>
                             </div>
@@ -169,7 +169,7 @@ $currentPage = 'home';
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-globe-stand"></i></div>
                                 <div class="counterContent">
-                                    <h3>20+</h3>
+                                    <h3 class="counterValue" data-count="20" data-speed="20">0</h3>
                                     <p>States Served</p>
                                 </div>
                             </div>
@@ -880,9 +880,17 @@ $currentPage = 'home';
                                             the
                                             system went live.</p>
                                         <hr>
-                                        <div class="user">
-                                            <h6>Kavita Sharma</h6>
-                                            <small>Phoenix Technologies</small>
+                                        <div class="testimonialFooter">
+                                            <div class="user">
+                                                <img src="https://i.pravatar.cc/60?img=1" class="rounded-circle"
+                                                    width="60" height="60" alt="Kavita Sharma">
+                                                <div class="userInfo">
+                                                    <h6>Kavita Sharma</h6>
+                                                    <small>Phoenix Technologies</small>
+                                                </div>
+                                            </div>
+                                            <a href="" class="certificate" target="_blank">View Certificate
+                                                <i class="ph-duotone ph-arrow-bend-right-up"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -901,9 +909,17 @@ $currentPage = 'home';
                                             every step of the way. We are thrilled with our new solar system and the
                                             significant savings we're already seeing.</p>
                                         <hr>
-                                        <div class="user">
-                                            <h6>Shadab Shaikh</h6>
-                                            <small>Green Innovations</small>
+                                        <div class="testimonialFooter">
+                                            <div class="user">
+                                                <img src="https://i.pravatar.cc/60?img=2" class="rounded-circle"
+                                                    width="60" height="60" alt="Shadab Shaikh">
+                                                <div class="userInfo">
+                                                    <h6>Shadab Shaikh</h6>
+                                                    <small>Green Innovations</small>
+                                                </div>
+                                            </div>
+                                            <a href="" class="certificate" target="_blank">View Certificate
+                                                <i class="ph-duotone ph-arrow-bend-right-up"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -923,9 +939,17 @@ $currentPage = 'home';
                                             exceptional. We were also very impressed with their team's professionalism
                                             and positive attitude, making the whole process a pleasure to complete.</p>
                                         <hr>
-                                        <div class="user">
-                                            <h6>Suraj Mokal</h6>
-                                            <small>Solar Dynamics</small>
+                                        <div class="testimonialFooter">
+                                            <div class="user">
+                                                <img src="https://i.pravatar.cc/60?img=3" class="rounded-circle"
+                                                    width="60" height="60" alt="Suraj Mokal">
+                                                <div class="userInfo">
+                                                    <h6>Suraj Mokal</h6>
+                                                    <small>Solar Dynamics</small>
+                                                </div>
+                                            </div>
+                                            <a href="" class="certificate" target="_blank">View Certificate
+                                                <i class="ph-duotone ph-arrow-bend-right-up"></i></a>
                                         </div>
                                     </div>
                                 </div>

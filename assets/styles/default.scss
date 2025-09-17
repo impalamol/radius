@@ -408,7 +408,7 @@ section {
     @extend .flex-end-between;
     flex-wrap: wrap;
     gap: $commonUnit;
-    margin-bottom: $commonUnit * 3;
+    margin-bottom: $commonUnit * 2;
     position: relative;
     z-index: 2;
 
@@ -719,10 +719,15 @@ section {
 
 // Breadcrumbs {
 .breadcrumbs {
+    background-position: top !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
     @extend .flex-start-center;
     flex-direction: column;
     height: 100%;
-    min-height: 400px;
+    min-height: 450px;
     &::after {
         position: absolute;
         top: 0;
@@ -773,7 +778,8 @@ section {
         padding: $commonUnit / 2 $commonUnit * 2;
         border: $commonBorder;
         border-radius: $cardRadius / 2;
-        &.active, &:hover {
+        &.active,
+        &:hover {
             color: $white;
             background-color: $primary;
         }
