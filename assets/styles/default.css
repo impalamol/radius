@@ -545,19 +545,17 @@ input[type=number] {
   gap: 1.5rem;
 }
 
-section {
-  padding: 6.25rem 0;
-}
 section:not(.hero) {
+  padding: 6.25rem 0;
   position: relative;
 }
-section:nth-child(even) {
+section:not(.hero):nth-child(even) {
   background-color: #f5faff;
 }
-section.noPadding {
+section:not(.hero).noPadding {
   padding: 0 !important;
 }
-section .container {
+section:not(.hero) .container {
   position: relative;
   z-index: 2;
 }

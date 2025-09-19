@@ -387,11 +387,10 @@ input[type="number"] {
     gap: $commonUnit;
 }
 // Section
-section {
+section:not(.hero) {
     padding: 6.25rem 0;
-    &:not(.hero) {
-        position: relative;
-    }
+    position: relative;
+
     &:nth-child(even) {
         background-color: $light;
     }
