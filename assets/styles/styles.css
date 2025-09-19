@@ -73,7 +73,7 @@ textarea:not([rows]) {
   display: flex;
 }
 
-.flex-center, .contactUs .contactCard .contactChip .icon, .downloads .downloadCard .downloadCardFooter, .blogDetails .blogSidebar .sidebarContent .recentPost, .products .productCard .productCardFooter, .director .pgHeader, .about figure .radiusEmblem, .about figure, .newsletter .newsletterListItem .icon, .glossyCard .icon, .collaborations .collaborationCard .icon, .greenEnergy .highlightsCard .icon, .revealContainer .revealImgContainer, .makeInIndia .lion, .applicationIndustries .counter .counterCard .icon, .hero .paginationContainer .navigation .swiper-button-next,
+.flex-center, .contactUs .contactCard .contactChip .icon, .blogDetails .blogSidebar .sidebarContent .recentPost, .products .productCard .productCardFooter, .director .pgHeader, .about .aboutImgContainer figure .radiusEmblem, .about .aboutImgContainer figure, .newsletter .newsletterListItem .icon, .glossyCard .icon, .collaborations .collaborationCard .icon, .greenEnergy .highlightsCard .icon, .revealContainer .revealImgContainer, .makeInIndia .lion, .applicationIndustries .counter .counterCard .icon, .hero .paginationContainer .navigation .swiper-button-next,
 .hero .paginationContainer .navigation .swiper-button-prev, .hero .paginationContainer .navigation, .hero .heroSlide, .progressLoader .loaderContent .imgContainer, .progressLoader, .searchModal .nrs, .searchModal .searchResult .resultItem a .productIcon img, .videoBtn, .pgHeader.centered .pgTitle,
 .pgHeader.centered .pgSection, .pgHeader.centered {
   display: flex;
@@ -81,7 +81,7 @@ textarea:not([rows]) {
   justify-content: center;
 }
 
-.flex-center-between, .documentation .docCard .docBody .doc, footer .copyright .copyrightContent, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter, .hero .paginationContainer, .topbar .topbarContent, .searchModal .searchResult .resultItem, .searchModal .searchBar {
+.flex-center-between, .downloads .downloadCard .downloadCardFooter .dropdown .dropdown-menu li a, .downloads .downloadCard .downloadCardFooter .dropdown .btn, .documentation .docCard .docBody .doc, footer .copyright .copyrightContent, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter, .hero .paginationContainer, .topbar .topbarContent, .searchModal .searchResult .resultItem, .searchModal .searchBar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -155,7 +155,7 @@ textarea:not([rows]) {
   justify-content: flex-end;
 }
 
-.flex-end-start {
+.flex-end-start, .about .aboutImgContainer {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
@@ -829,12 +829,12 @@ section .container {
 .breadcrumbs {
   background-position: top !important;
   background-attachment: fixed !important;
-  background-size: cover !important;
+  background-size: 100% 80% !important;
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
   flex-direction: column;
   height: 100%;
-  min-height: 450px;
+  min-height: 400px;
 }
 .breadcrumbs::after {
   position: absolute;
@@ -872,13 +872,16 @@ section .container {
   border: none;
 }
 .nav-tabs .nav-link {
-  font-size: 1.125rem;
-  text-transform: capitalize;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.0375rem;
+  text-transform: uppercase;
+  padding: 0.75rem 1.5rem;
   color: #5c6972;
   background-color: #ffffff;
-  padding: 0.75rem 3rem;
   border: 0.0625rem solid #e4e4e4;
   border-radius: 0.5rem;
+  transition: all 0.6s ease-in-out;
 }
 .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
   color: #ffffff;
@@ -1293,18 +1296,23 @@ section .container {
   margin: 0;
 }
 
-.makeInIndia .flagAnimation {
-  -webkit-mask-image: url("../media/1925.svg");
-  mask-image: url("../media/1925.svg");
-  -webkit-mask-repeat: no-repeat;
-          mask-repeat: no-repeat;
-  -webkit-mask-size: contain;
-          mask-size: contain;
-  max-width: 35.625rem;
-  max-height: 15.625rem;
+.makeInIndia::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: url(../media/india.png) no-repeat center/cover fixed;
 }
-.makeInIndia .flagAnimation img {
-  animation: flagAnimation 10s ease-out 0s alternate infinite none running;
+.makeInIndia h6 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.makeInIndia video {
+  max-width: 500px;
+  pointer-events: none;
 }
 .makeInIndia .lion {
   position: relative;
@@ -1324,11 +1332,14 @@ section .container {
   min-height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
   padding: 0;
 }
+.revealContainer img {
+  border-radius: 1rem;
+}
 .revealContainer .revealImgContainer {
   flex: 0 0 50%;
   position: sticky;
-  top: 0;
-  height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  top: 15vh;
+  height: calc(80vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
   overflow: hidden;
 }
 .revealContainer .revealImgContainer .revealImg {
@@ -1351,14 +1362,12 @@ section .container {
 .revealContainer .revealImgContainer .revealImg.active {
   opacity: 1;
 }
-.revealContainer .revealContentContainer {
-  flex: 0 0 50%;
-}
 .revealContainer .revealContentContainer .revealContent {
-  min-height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  min-height: calc(80vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
   flex-direction: column;
-  padding: 4.5rem;
+  padding-left: 4.5rem;
   box-sizing: border-box;
+  overflow: hidden;
 }
 .revealContainer .revealContentContainer .revealContent h2 {
   margin-bottom: 1rem;
@@ -1428,8 +1437,8 @@ section .container {
   z-index: 2;
 }
 .greenEnergy img {
-  width: 100% !important;
-  height: auto;
+  display: block;
+  margin: auto;
 }
 .greenEnergy .greenEnergyContent h5 {
   font-size: 2.25rem;
@@ -1737,11 +1746,12 @@ section .container {
 }
 
 .blogs .blogCard {
-  background-color: #f5faff;
+  background-color: #ffffff;
   border-radius: 1rem;
   border: 0.0625rem solid #e4e4e4;
   height: 100%;
   overflow: hidden;
+  box-shadow: rgba(1, 25, 50, 0.1) 0rem 0.4375rem 1.8125rem 0rem;
 }
 .blogs .blogCard figure {
   overflow: hidden;
@@ -1787,7 +1797,8 @@ section .container {
 .testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo {
   flex-direction: column;
 }
-.testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo h6, .testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo small {
+.testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo h6,
+.testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo small {
   line-height: normal;
 }
 .testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo h6 {
@@ -2094,21 +2105,26 @@ footer .copyright .copyrightContent .copyrightLinks {
   gap: commonUnit/2;
 }
 
-.about figure {
+.about .aboutImgContainer {
+  gap: 2.25rem;
+}
+.about .aboutImgContainer figure {
   position: relative;
   flex-direction: column;
+  flex-grow: 1;
   height: 100%;
 }
-.about figure .radiusEmblem {
+.about .aboutImgContainer figure .radiusEmblem {
   position: absolute;
-  top: 3.5rem;
-  right: 2.5625rem;
+  top: -3.5rem;
+  left: 50%;
+  transform: translateX(-50%);
   width: 11.25rem;
 }
-.about figure .radiusEmblem .emblem {
+.about .aboutImgContainer figure .radiusEmblem .emblem {
   position: absolute;
 }
-.about figure .radiusEmblem .circle-text {
+.about .aboutImgContainer figure .radiusEmblem .circle-text {
   width: 82%;
   height: 82%;
   animation: circle 20s linear infinite;
@@ -2120,6 +2136,9 @@ footer .copyright .copyrightContent .copyrightLinks {
   100% {
     transform: rotate(360deg);
   }
+}
+.about .aboutImgContainer figure .aboutImg {
+  width: 100% !important;
 }
 .about .pgHeader {
   margin: 0;
@@ -2738,14 +2757,22 @@ footer .copyright .copyrightContent .copyrightLinks {
 .downloads .downloadCard .downloadCardBody h3 {
   font-size: 1.25rem;
 }
-.downloads .downloadCard .downloadCardFooter {
-  flex-wrap: wrap;
-  gap: 0.75rem;
-}
-.downloads .downloadCard .downloadCardFooter .btn {
+.downloads .downloadCard .downloadCardFooter .dropdown .btn {
   font-size: 0.75rem;
-  flex-grow: 1;
-  padding: 0.5rem;
+  width: 100%;
+}
+.downloads .downloadCard .downloadCardFooter .dropdown .dropdown-menu {
+  width: 100%;
+}
+.downloads .downloadCard .downloadCardFooter .dropdown .dropdown-menu li a i {
+  color: #0f6db4;
+}
+.downloads .downloadCard .downloadCardFooter .dropdown .dropdown-menu li a:hover {
+  background-color: #011932;
+  color: #ffffff;
+}
+.downloads .downloadCard .downloadCardFooter .dropdown .dropdown-menu li a:hover i {
+  color: #fdc600;
 }
 .downloads .downloadCard:hover figure img {
   transform: scale(1.1) rotate(0.5deg);
@@ -2828,7 +2855,9 @@ footer .copyright .copyrightContent .copyrightLinks {
   margin-bottom: 1.5rem;
 }
 .contactUs .contactCard.form {
-  background-color: #f5faff;
+  background-color: #ffffff;
+  border: 0.0625rem solid #e4e4e4;
+  box-shadow: rgba(1, 25, 50, 0.1) 0rem 0.4375rem 1.8125rem 0rem;
 }
 .contactUs .contactCard h3 {
   margin-bottom: 3rem;
@@ -2865,6 +2894,46 @@ footer .copyright .copyrightContent .copyrightLinks {
   margin-bottom: 0;
 }
 
+.map {
+  padding: 0 !important;
+}
+
+@media (max-width: 991.98px) {
+  .navbar .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    z-index: 1000;
+    padding: 1.5rem 15%;
+    box-shadow: rgba(1, 25, 50, 0.1) 0rem 0.4375rem 1.8125rem 0rem;
+  }
+  .applicationIndustries .applicationImg img {
+    margin-left: 0;
+    width: 100% !important;
+  }
+  .greenEnergy .greenBulb img {
+    width: 50% !important;
+    margin: auto;
+    display: block;
+  }
+  .breadcrumbs {
+    background-attachment: unset !important;
+    min-height: 12.5rem;
+    background-size: cover !important;
+  }
+  .revealContainer .revealContent {
+    padding-left: 0 !important;
+  }
+  .about figure .radiusEmblem {
+    right: 5rem;
+  }
+  .videoSection {
+    min-height: 50vh !important;
+    max-height: 100vh !important;
+  }
+}
 @media (max-width: 575.98px) {
   section {
     padding: 3.125rem 1.25rem !important;
@@ -2894,6 +2963,9 @@ footer .copyright .copyrightContent .copyrightLinks {
   }
   .applicationIndustries .counterCard {
     flex-wrap: wrap;
+  }
+  .makeInIndia video {
+    width: 100%;
   }
   .revealContainer h2 {
     font-size: 2.625rem !important;

@@ -93,7 +93,7 @@ $currentPage = 'home';
         <section class="applicationIndustries">
             <div class="container">
                 <div class="row mb-5">
-                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 mb-4 mb-lg-0">
+                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 mb-4">
                         <div class="applicationContent">
                             <div class="pgHeader">
                                 <div class="pgTitle">
@@ -138,7 +138,7 @@ $currentPage = 'home';
                 </div>
                 <div class="counter">
                     <div class="row">
-                        <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-4">
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-package"></i></div>
                                 <div class="counterContent">
@@ -147,7 +147,7 @@ $currentPage = 'home';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-4">
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-users"></i></div>
                                 <div class="counterContent">
@@ -156,7 +156,7 @@ $currentPage = 'home';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-4">
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-calendar-dots"></i></div>
                                 <div class="counterContent">
@@ -165,7 +165,7 @@ $currentPage = 'home';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-4">
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-globe-stand"></i></div>
                                 <div class="counterContent">
@@ -184,7 +184,7 @@ $currentPage = 'home';
                     <div class="pgHeader centered">
                         <div class="pgTitle">
                             <h6>Make In</h6>
-                            <h2>India</h2>
+                            <video id="india" src="assets/media/india.mp4" autoplay loop muted></video>
                             <p>Proudly made in India, our solar products create local jobs and build a self-reliant
                                 industry, contributing to the nation’s energy independence.</p>
                         </div>
@@ -295,12 +295,12 @@ $currentPage = 'home';
         <section class="greenEnergy">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-5 col-xl-5 col-xxl-5 mb-4 col-lg-0">
+                    <div class="col-12 col-lg-12 col-xl-4 col-xxl-4 mb-4 col-lg-0">
                         <div class="greenBulb">
-                            <img src="assets/media/green-energy.gif" alt="">
+                            <img src="assets/media/green-energy.png" alt="Green Energy">
                         </div>
                     </div>
-                    <div class="col-12 col-lg-7 col-xl-7 col-xxl-7">
+                    <div class="col-12 col-lg-12 col-xl-7 col-xxl-7 offset-xl-1 offset-xxl-1">
                         <div class="greenEnergyContent">
                             <h5>We Support</h5>
                             <h2><span>Green</span> Energy</h2>
@@ -409,10 +409,10 @@ $currentPage = 'home';
         <section class="suryagharScheme">
             <div class="container">
                 <div class="row flex-lg-row-reverse">
-                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 mb-4">
                         <img src="assets/media/emblem.png" alt="Pm Surya Ghar">
                     </div>
-                    <div class="col-12 col-lg-9 col-xl-9 col-xxl-9 mb-4">
+                    <div class="col-12 col-md-12 col-lg-9 col-xl-9 col-xxl-9 mb-4">
                         <div class="schemeHeader">
                             <h5>Pm Surya Ghar :</h5>
                             <h2>Muft Bijli Yojana</h2>
@@ -420,7 +420,7 @@ $currentPage = 'home';
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-lg-7 col-xl-7 col-xxl-7">
+                    <div class="col-12 col-lg-9 col-xl-7 col-xxl-7">
                         <div class="schemeContent">
                             <div class="row">
                                 <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 mb-3">
@@ -501,7 +501,7 @@ $currentPage = 'home';
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-5 col-xl-5 col-xxl-5">
+                    <div class="col-12 col-lg-3 col-xl-5 col-xxl-5">
                         <div class="primeMinister">
                             <img src="assets/media/modiji.png" alt="Pm Narendra Modi">
                         </div>
@@ -522,7 +522,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-shield-check"></i></div>
                             <h3>25–Year Warranty</h3>
@@ -530,7 +530,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-certificate"></i></div>
                             <h3>Certified Excellence</h3>
@@ -539,7 +539,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-users-three"></i></div>
                             <h3>Expert Team</h3>
@@ -547,7 +547,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-timer"></i></div>
                             <h3>Quick Installation</h3>
@@ -556,7 +556,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-currency-inr"></i></div>
                             <h3>Best Pricing</h3>
@@ -565,7 +565,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-headset"></i></div>
                             <h3>24/7 Support</h3>
@@ -573,7 +573,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-leaf"></i></div>
                             <h3>Eco-Friendly</h3>
@@ -581,7 +581,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-gear"></i></div>
                             <h3>Smart Technology</h3>
@@ -956,7 +956,7 @@ $currentPage = 'home';
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 mb-4 d-none d-md-block">
+                    <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 mb-4 d-none d-lg-block">
                         <div class="swiper testimonialThumbs">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -1007,7 +1007,7 @@ $currentPage = 'home';
                                 exclusive offers delivered straight to your inbox every week.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-4">
                         <div class="newsletterListItem">
                             <div class="icon"><i class="ph-duotone ph-trend-up"></i></div>
                             <div class="newsletterContent">
@@ -1017,7 +1017,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-4">
                         <div class="newsletterListItem">
                             <div class="icon"><i class="ph-duotone ph-bell"></i></div>
                             <div class="newsletterContent">
@@ -1027,7 +1027,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-4">
                         <div class="newsletterListItem">
                             <div class="icon"><i class="ph-duotone ph-gift"></i></div>
                             <div class="newsletterContent">
@@ -1037,7 +1037,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-4">
                         <div class="newsletterListItem">
                             <div class="icon"><i class="ph-duotone ph-users-three"></i></div>
                             <div class="newsletterContent">

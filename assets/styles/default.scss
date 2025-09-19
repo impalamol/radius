@@ -721,13 +721,13 @@ section {
 .breadcrumbs {
     background-position: top !important;
     background-attachment: fixed !important;
-    background-size: cover !important;
+    background-size: 100% 80% !important;
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
     @extend .flex-start-center;
     flex-direction: column;
     height: 100%;
-    min-height: 450px;
+    min-height: 400px;
     &::after {
         position: absolute;
         top: 0;
@@ -771,13 +771,16 @@ section {
 .nav-tabs {
     border: none;
     .nav-link {
-        font-size: $xLarge;
-        text-transform: capitalize;
+        font-size: $medium;
+        font-weight: 600;
+        letter-spacing: 0.0375rem;
+        text-transform: uppercase;
+        padding: 0.75rem 1.5rem;
         color: $gray;
         background-color: $white;
-        padding: $commonUnit / 2 $commonUnit * 2;
         border: $commonBorder;
         border-radius: $cardRadius / 2;
+        transition: all 0.6s ease-in-out;
         &.active,
         &:hover {
             color: $white;

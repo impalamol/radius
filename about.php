@@ -37,16 +37,21 @@ $currentPage = 'about';
         <section class="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-5 col-xl-5 col-xxl-5 mb-4 mb-lg-0">
-                        <figure>
-                            <img src="assets/media/about.png" alt="About">
-                            <div class="radiusEmblem">
-                                <img src="assets/media/radius-emblem.png" alt="Radius Emblem" class="emblem">
-                                <img src="assets/media/circle-text.png" alt="Radius Text" class="circle-text">
-                            </div>
-                        </figure>
+                    <div class="col-12 col-lg-12 col-xl-5 col-xxl-5 mb-4 mb-xl-0">
+                        <div class="aboutImgContainer">
+                            <figure>
+                                <img src="assets/media/about1.png" alt="About" class="aboutImg">
+                            </figure>
+                            <figure>
+                                <img src="assets/media/about2.png" alt="About" class="aboutImg">
+                                <div class="radiusEmblem">
+                                    <img src="assets/media/radius-emblem.png" alt="Radius Emblem" class="emblem">
+                                    <img src="assets/media/circle-text.png" alt="Radius Text" class="circle-text">
+                                </div>
+                            </figure>
+                        </div>
                     </div>
-                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 offset-lg-1 offset-xl-1 offset-xxl-1">
+                    <div class="col-12 col-lg-12 col-xl-6 col-xxl-6 offset-xl-1 offset-xxl-1">
                         <div class="pgHeader">
                             <div class="pgTitle">
                                 <div class="pgSection">About Company</div>
@@ -69,8 +74,17 @@ $currentPage = 'about';
         </section>
         <section class="director">
             <div class="container-fluid g-0">
-                <div class="row g-0">
-                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
+                <div class="row g-0 flex-lg-row-reverse">
+                    <div class="col-12 col-lg-12 col-xl-6 col-xxl-6">
+                        <figure class="directorImg">
+                            <div class="directorInfo">
+                                <h3>Narendra Golia</h3>
+                                <small>Visionary Leader, Driving Innovation in Precision Engineering!</small>
+                            </div>
+                            <img src="assets/media/narendra-goliya.png" alt="Narendra Johrimal Goliya" />
+                        </figure>
+                    </div>
+                    <div class="col-12 col-lg-12 col-xl-6 col-xxl-6">
                         <div class="pgHeader">
                             <div class="pgTitle">
                                 <div class="pgSection">Some inspiring words</div>
@@ -90,16 +104,9 @@ $currentPage = 'about';
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
-                        <figure class="directorImg">
-                            <div class="directorInfo">
-                                <h3>Narendra Golia</h3>
-                                <small>Visionary Leader, Driving Innovation in Precision Engineering!</small>
-                            </div>
-                            <img src="assets/media/narendra-goliya.png" alt="Narendra Johrimal Goliya" />
-                        </figure>
-                    </div>
-                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
+                </div>
+                <div class="row g-0">
+                    <div class="col-12 col-lg-12 col-xl-6 col-xxl-6">
                         <figure class="directorImg">
                             <div class="directorInfo">
                                 <h3>Dinesh Musalekar</h3>
@@ -108,7 +115,7 @@ $currentPage = 'about';
                             <img src="assets/media/dinesh-musalekar.png" alt="Dinesh Musalekar" />
                         </figure>
                     </div>
-                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <div class="col-12 col-lg-12 col-xl-6 col-xxl-6">
                         <div class="pgHeader">
                             <div class="pgTitle">
                                 <div class="pgSection">Some inspiring words</div>
@@ -166,7 +173,7 @@ $currentPage = 'about';
         <section class="applicationIndustries">
             <div class="container">
                 <div class="row mb-5">
-                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 mb-4 mb-lg-0">
+                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 mb-4">
                         <div class="applicationContent">
                             <div class="pgHeader">
                                 <div class="pgTitle">
@@ -211,7 +218,7 @@ $currentPage = 'about';
                 </div>
                 <div class="counter">
                     <div class="row">
-                        <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-4">
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-package"></i></div>
                                 <div class="counterContent">
@@ -220,7 +227,7 @@ $currentPage = 'about';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-4">
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-users"></i></div>
                                 <div class="counterContent">
@@ -229,7 +236,7 @@ $currentPage = 'about';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-4">
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-calendar-dots"></i></div>
                                 <div class="counterContent">
@@ -238,7 +245,7 @@ $currentPage = 'about';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-lg-0">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mb-4">
                             <div class="counterCard">
                                 <div class="icon"><i class="ph-duotone ph-globe-stand"></i></div>
                                 <div class="counterContent">
@@ -444,7 +451,7 @@ $currentPage = 'about';
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 mb-4 d-none d-md-block">
+                    <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 mb-4 d-none d-lg-block">
                         <div class="swiper testimonialThumbs">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">

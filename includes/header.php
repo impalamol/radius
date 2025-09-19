@@ -21,7 +21,7 @@
     </div>
 </section>
 
-<nav class="navbar navbar-expand-lg sticky-top">
+<nav class="navbar navbar-expand-xl sticky-top">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="assets/media/radius-logo.png" alt="Rishabh Radius">

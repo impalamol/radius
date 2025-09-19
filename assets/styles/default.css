@@ -825,12 +825,12 @@ section .container {
 .breadcrumbs {
   background-position: top !important;
   background-attachment: fixed !important;
-  background-size: cover !important;
+  background-size: 100% 80% !important;
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
   flex-direction: column;
   height: 100%;
-  min-height: 450px;
+  min-height: 400px;
 }
 .breadcrumbs::after {
   position: absolute;
@@ -868,13 +868,16 @@ section .container {
   border: none;
 }
 .nav-tabs .nav-link {
-  font-size: 1.125rem;
-  text-transform: capitalize;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.0375rem;
+  text-transform: uppercase;
+  padding: 0.75rem 1.5rem;
   color: #5c6972;
   background-color: #ffffff;
-  padding: 0.75rem 3rem;
   border: 0.0625rem solid #e4e4e4;
   border-radius: 0.5rem;
+  transition: all 0.6s ease-in-out;
 }
 .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
   color: #ffffff;

@@ -58,6 +58,25 @@
     });
 </script>
 <script>
+    const video = document.getElementById('india');
+
+    // Hide controls
+    video.removeAttribute('controls');
+
+    // Autoplay and loop the video
+    video.autoplay = true;
+    video.loop = true;
+
+    // Mute the video to comply with browser policies
+    video.muted = true;
+
+    // Start playback
+    video.play().catch(error => {
+        // Handle the case where autoplay is blocked
+        console.error('Autoplay was prevented. User must interact to play the video.', error);
+    });
+</script>
+<script>
     var swiper = new Swiper(".collaborationSwiper", {
         autoplay: {
             delay: 3000,
@@ -85,7 +104,7 @@
     var testimonialContent = new Swiper(".testimonialSwiper", {
         effect: "fade",
         fadeEffect: {
-            crossFade: true 
+            crossFade: true
         },
         autoHeight: true,
         autoplay: {
