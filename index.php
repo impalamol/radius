@@ -89,7 +89,7 @@ $currentPage = 'home';
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <section class="applicationIndustries">
             <div class="container">
                 <div class="row mb-5">
