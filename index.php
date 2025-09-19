@@ -18,7 +18,7 @@ $currentPage = 'home';
     <!-- <?php include 'includes/loader.php'; ?> -->
     <?php include 'includes/header.php'; ?>
     <main>
-        <div class="hero">
+        <section class="hero">
             <div class="swiper heroSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
