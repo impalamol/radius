@@ -148,6 +148,7 @@
     .navbar-brand img {
         max-width: 160px !important;
     }
+
     .nav-item .nav-link {
         font-size: $medium - 0.0625rem;
         font-weight: 700;
@@ -495,19 +496,24 @@
 }
 // Make In India
 .makeInIndia {
-    .flagAnimation {
-        -webkit-mask-image: url("../media/1925.svg");
-        mask-image: url("../media/1925.svg");
-        mask-repeat: no-repeat;
-        mask-size: contain;
-        max-width: 35.625rem;
-        max-height: 15.625rem;
-
-        img {
-            animation: flagAnimation 10s ease-out 0s alternate infinite none running;
-        }
+    &::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "";
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background: url(../media/india.png) no-repeat center/cover fixed;
     }
-
+    h6 {
+        font-size: $h5;
+        text-transform: uppercase;
+    }
+    video {
+        max-width: 500px;
+        pointer-events: none;
+    }
     .lion {
         position: relative;
         @extend .flex-center;
@@ -529,11 +535,14 @@
     min-height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
     padding: 0;
 
+    img {
+        border-radius: $cardRadius;
+    }
     .revealImgContainer {
         flex: 0 0 50%;
         position: sticky;
-        top: 0;
-        height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+        top: 15vh;
+        height: calc(80vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
         @extend .flex-center;
         overflow: hidden;
 
@@ -562,14 +571,13 @@
     }
 
     .revealContentContainer {
-        flex: 0 0 50%;
-
         .revealContent {
-            min-height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+            min-height: calc(80vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
             @extend .flex-start;
             flex-direction: column;
-            padding: $commonUnit * 3;
+            padding-left: $commonUnit * 3;
             box-sizing: border-box;
+            overflow: hidden;
 
             h2 {
                 margin-bottom: 1rem;
@@ -653,8 +661,8 @@
         z-index: 2;
     }
     img {
-        width: 100% !important;
-        height: auto;
+        display: block;
+        margin: auto;
     }
     .greenEnergyContent {
         h5 {
@@ -998,11 +1006,12 @@
 // Blogs
 .blogs {
     .blogCard {
-        background-color: $light;
+        background-color: $white;
         border-radius: $cardRadius;
         border: $commonBorder;
         height: 100%;
         overflow: hidden;
+        box-shadow: $cardShadow;
 
         figure {
             overflow: hidden;
@@ -1057,7 +1066,8 @@
                 .userInfo {
                     @extend .flex-start;
                     flex-direction: column;
-                    h6, small {
+                    h6,
+                    small {
                         line-height: normal;
                     }
                     h6 {
@@ -1132,38 +1142,38 @@
                     @extend .flex-center-between;
                     flex-wrap: nowrap;
                     gap: $commonUnit;
-                
-                .user {
-                    @extend .flex-start;
-                    gap: $commonUnit / 2;
-                    .userInfo {
+
+                    .user {
                         @extend .flex-start;
-                        flex-direction: column;
-                        h6 {
-                            font-size: $h6;
-                            font-weight: 700;
-                            color: $white;
-                            margin-bottom: 0;
+                        gap: $commonUnit / 2;
+                        .userInfo {
+                            @extend .flex-start;
+                            flex-direction: column;
+                            h6 {
+                                font-size: $h6;
+                                font-weight: 700;
+                                color: $white;
+                                margin-bottom: 0;
+                            }
+                            small {
+                                font-size: $medium;
+                                font-weight: 600;
+                                color: $white;
+                            }
                         }
-                        small {
-                            font-size: $medium;
-                            font-weight: 600;
+                    }
+                    a {
+                        font-size: $medium;
+                        color: $dark;
+                        background-color: $secondary;
+                        padding: $commonUnit / 2;
+                        border-radius: $cardRadius / 3;
+                        &:hover {
+                            background-color: $tertiary;
                             color: $white;
                         }
                     }
                 }
-                a {
-                    font-size: $medium;
-                    color: $dark;
-                    background-color: $secondary;
-                    padding: $commonUnit / 2;
-                    border-radius: $cardRadius / 3;
-                    &:hover {
-                        background-color: $tertiary;
-                        color: $white;
-                    }
-                }
-            }
             }
             &.swiper-slide.swiper-slide-active {
                 opacity: 1 !important;
@@ -1408,33 +1418,42 @@ footer {
 
 // About
 .about {
-    figure {
-        position: relative;
-        @extend .flex-center;
-        flex-direction: column;
-        height: 100%;
-        .radiusEmblem {
-            position: absolute;
-            top: 3.5rem;
-            right: 2.5625rem;
-            width: 11.25rem;
+    .aboutImgContainer {
+        @extend .flex-end-start;
+        gap: $commonUnit + $commonUnit / 2;
+        figure {
+            position: relative;
             @extend .flex-center;
-
-            .emblem {
+            flex-direction: column;
+            flex-grow: 1;
+            height: 100%;
+            .radiusEmblem {
                 position: absolute;
-            }
-            .circle-text {
-                width: 82%;
-                height: 82%;
-                animation: circle 20s linear infinite;
-                @keyframes circle {
-                    0% {
-                        transform: rotate(0deg);
-                    }
-                    100% {
-                        transform: rotate(360deg);
+                top: -3.5rem;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 11.25rem;
+                @extend .flex-center;
+
+                .emblem {
+                    position: absolute;
+                }
+                .circle-text {
+                    width: 82%;
+                    height: 82%;
+                    animation: circle 20s linear infinite;
+                    @keyframes circle {
+                        0% {
+                            transform: rotate(0deg);
+                        }
+                        100% {
+                            transform: rotate(360deg);
+                        }
                     }
                 }
+            }
+            .aboutImg {
+                width: 100% !important;
             }
         }
     }
@@ -1645,10 +1664,7 @@ footer {
 #enquiryModal {
     .modal-body {
         padding: $commonUnit * 2 !important;
-
-
     }
-
 }
 // Product Details Page
 .productDetails {
@@ -2134,14 +2150,29 @@ footer {
             }
         }
         .downloadCardFooter {
-            @extend .flex-center;
-            flex-wrap: wrap;
-            gap: $commonUnit / 2;
+            .dropdown {
+                .btn {
+                    font-size: $small;
+                    @extend .flex-center-between;
+                    width: 100%;
+                }
+                .dropdown-menu {
+                    width: 100%;
+                    li a {
+                        @extend .flex-center-between;
+                        i {
+                            color: $primary;
+                        }
+                        &:hover {
+                            background-color: $dark;
+                            color: $white;
 
-            .btn {
-                font-size: $small;
-                flex-grow: 1;
-                padding: $commonUnit / 3;
+                            i {
+                                color: $secondary;
+                            }
+                        }
+                    }
+                }
             }
         }
         &:hover figure {
@@ -2235,7 +2266,9 @@ footer {
             margin-bottom: $commonUnit;
         }
         &.form {
-            background-color: $light;
+            background-color: $white;
+            border: $commonBorder;
+            box-shadow: $cardShadow;
         }
         h3 {
             margin-bottom: $commonUnit * 2;
@@ -2280,8 +2313,62 @@ footer {
         }
     }
 }
-
+// Map {
+.map {
+    padding: 0 !important;
+}
 // Media Queries
+// Tablet
+@media (max-width: 991.98px) {
+    .navbar {
+        .navbar-collapse {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: $white;
+            z-index: 1000;
+            padding: $commonUnit 15%;
+            box-shadow: $cardShadow;
+        }
+    }
+    // Application Industries
+    .applicationIndustries {
+        .applicationImg img {
+            margin-left: 0;
+            width: 100% !important;
+        }
+    }
+    // Green Energy
+    .greenEnergy {
+        .greenBulb img {
+            width: 50% !important;
+            margin: auto;
+            display: block;
+        }
+    }
+    // Breadcrumbs
+    .breadcrumbs {
+        background-attachment: unset !important;
+        min-height: 12.5rem;
+        background-size: cover !important;
+    }
+    .revealContainer {
+        .revealContent {
+            padding-left: 0 !important;
+        }
+    }
+    // About Us
+    .about figure .radiusEmblem {
+        right: 5rem;
+    }
+    // Video Section
+    .videoSection {
+        min-height: 50vh !important;
+        max-height: 100vh !important;
+    }
+}
+// Mobile
 @media (max-width: 575.98px) {
     section {
         padding: 3.125rem 1.25rem !important ;
@@ -2316,6 +2403,12 @@ footer {
     .applicationIndustries {
         .counterCard {
             flex-wrap: wrap;
+        }
+    }
+    // Make In India
+    .makeInIndia {
+        video {
+            width: 100%;
         }
     }
     .revealContainer {

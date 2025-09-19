@@ -80,10 +80,18 @@ $currentPage = 'downloads';
                                         </div>
                                         <hr>
                                         <div class="downloadCardFooter">
-                                            <a href="" class="btn btn-primary">Datasheet <i
-                                                    class="ph-duotone ph-download"></i></a>
-                                            <a href="" class="btn btn-dark">Manual <i
-                                                    class="ph-duotone ph-download"></i></a>
+                                            <div class="dropdown">
+                                                <a class="btn btn-primary dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Download
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Datasheet <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                    <li><a class="dropdown-item" href="#">Manual <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -98,10 +106,18 @@ $currentPage = 'downloads';
                                         </div>
                                         <hr>
                                         <div class="downloadCardFooter">
-                                            <a href="" class="btn btn-primary">Datasheet <i
-                                                    class="ph-duotone ph-download"></i></a>
-                                            <a href="" class="btn btn-dark">Manual <i
-                                                    class="ph-duotone ph-download"></i></a>
+                                            <div class="dropdown">
+                                                <a class="btn btn-primary dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Download
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Datasheet <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                    <li><a class="dropdown-item" href="#">Manual <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -116,10 +132,18 @@ $currentPage = 'downloads';
                                         </div>
                                         <hr>
                                         <div class="downloadCardFooter">
-                                            <a href="" class="btn btn-primary">Datasheet <i
-                                                    class="ph-duotone ph-download"></i></a>
-                                            <a href="" class="btn btn-dark">Manual <i
-                                                    class="ph-duotone ph-download"></i></a>
+                                            <div class="dropdown">
+                                                <a class="btn btn-primary dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Download
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Datasheet <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                    <li><a class="dropdown-item" href="#">Manual <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -134,10 +158,18 @@ $currentPage = 'downloads';
                                         </div>
                                         <hr>
                                         <div class="downloadCardFooter">
-                                            <a href="" class="btn btn-primary">Datasheet <i
-                                                    class="ph-duotone ph-download"></i></a>
-                                            <a href="" class="btn btn-dark">Manual <i
-                                                    class="ph-duotone ph-download"></i></a>
+                                            <div class="dropdown">
+                                                <a class="btn btn-primary dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Download
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Datasheet <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                    <li><a class="dropdown-item" href="#">Manual <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -157,10 +189,18 @@ $currentPage = 'downloads';
                                         </div>
                                         <hr>
                                         <div class="downloadCardFooter">
-                                            <a href="" class="btn btn-primary">Datasheet <i
-                                                    class="ph-duotone ph-download"></i></a>
-                                            <a href="" class="btn btn-dark">Manual <i
-                                                    class="ph-duotone ph-download"></i></a>
+                                            <div class="dropdown">
+                                                <a class="btn btn-primary dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Accessories Software
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Datasheet <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                    <li><a class="dropdown-item" href="#">Manual <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -175,10 +215,18 @@ $currentPage = 'downloads';
                                         </div>
                                         <hr>
                                         <div class="downloadCardFooter">
-                                            <a href="" class="btn btn-primary">Datasheet <i
-                                                    class="ph-duotone ph-download"></i></a>
-                                            <a href="" class="btn btn-dark">Manual <i
-                                                    class="ph-duotone ph-download"></i></a>
+                                            <div class="dropdown">
+                                                <a class="btn btn-primary dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Download
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Datasheet <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                    <li><a class="dropdown-item" href="#">Manual <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -193,10 +241,18 @@ $currentPage = 'downloads';
                                         </div>
                                         <hr>
                                         <div class="downloadCardFooter">
-                                            <a href="" class="btn btn-primary">Datasheet <i
-                                                    class="ph-duotone ph-download"></i></a>
-                                            <a href="" class="btn btn-dark">Manual <i
-                                                    class="ph-duotone ph-download"></i></a>
+                                            <div class="dropdown">
+                                                <a class="btn btn-primary dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Download
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Datasheet <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                    <li><a class="dropdown-item" href="#">Manual <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -211,10 +267,18 @@ $currentPage = 'downloads';
                                         </div>
                                         <hr>
                                         <div class="downloadCardFooter">
-                                            <a href="" class="btn btn-primary">Datasheet <i
-                                                    class="ph-duotone ph-download"></i></a>
-                                            <a href="" class="btn btn-dark">Manual <i
-                                                    class="ph-duotone ph-download"></i></a>
+                                            <div class="dropdown">
+                                                <a class="btn btn-primary dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Download
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Datasheet <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                    <li><a class="dropdown-item" href="#">Manual <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -234,10 +298,18 @@ $currentPage = 'downloads';
                                         </div>
                                         <hr>
                                         <div class="downloadCardFooter">
-                                            <a href="" class="btn btn-primary">Datasheet <i
-                                                    class="ph-duotone ph-download"></i></a>
-                                            <a href="" class="btn btn-dark">Manual <i
-                                                    class="ph-duotone ph-download"></i></a>
+                                            <div class="dropdown">
+                                                <a class="btn btn-primary dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Download
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Datasheet <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                    <li><a class="dropdown-item" href="#">Manual <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -252,10 +324,18 @@ $currentPage = 'downloads';
                                         </div>
                                         <hr>
                                         <div class="downloadCardFooter">
-                                            <a href="" class="btn btn-primary">Datasheet <i
-                                                    class="ph-duotone ph-download"></i></a>
-                                            <a href="" class="btn btn-dark">Manual <i
-                                                    class="ph-duotone ph-download"></i></a>
+                                            <div class="dropdown">
+                                                <a class="btn btn-primary dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Download
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Datasheet <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                    <li><a class="dropdown-item" href="#">Manual <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -270,10 +350,18 @@ $currentPage = 'downloads';
                                         </div>
                                         <hr>
                                         <div class="downloadCardFooter">
-                                            <a href="" class="btn btn-primary">Datasheet <i
-                                                    class="ph-duotone ph-download"></i></a>
-                                            <a href="" class="btn btn-dark">Manual <i
-                                                    class="ph-duotone ph-download"></i></a>
+                                            <div class="dropdown">
+                                                <a class="btn btn-primary dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Download
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Datasheet <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                    <li><a class="dropdown-item" href="#">Manual <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -288,10 +376,18 @@ $currentPage = 'downloads';
                                         </div>
                                         <hr>
                                         <div class="downloadCardFooter">
-                                            <a href="" class="btn btn-primary">Datasheet <i
-                                                    class="ph-duotone ph-download"></i></a>
-                                            <a href="" class="btn btn-dark">Manual <i
-                                                    class="ph-duotone ph-download"></i></a>
+                                            <div class="dropdown">
+                                                <a class="btn btn-primary dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Download
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Datasheet <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                    <li><a class="dropdown-item" href="#">Manual <i
+                                                                class="ph-duotone ph-download"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
