@@ -2156,6 +2156,7 @@ footer {
                     @extend .flex-center-between;
                     width: 100%;
                 }
+
                 .dropdown-menu {
                     width: 100%;
 
@@ -2178,12 +2179,18 @@ footer {
 
                     .dropend {
                         position: relative;
-                    }
 
-                    .dropend .dropdown-menu {
-                        top: 0;
-                        left: 100%;
-                        margin-top: -1px;
+                        .dropdown-menu {
+                            top: 0;
+                            left: 100%;
+                            margin-top: -1px;
+
+                            // Responsive fix for small screens
+                            @media (max-width: 1919.98px) {
+                                top: 100%;
+                                left: 0%; 
+                            }
+                        }
                     }
                 }
             }

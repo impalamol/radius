@@ -215,20 +215,26 @@
 </script>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
+        // Event listener for main dropdown links
         document.querySelectorAll('.dropdown .dropend > .dropdown-toggle').forEach(function (el) {
             el.addEventListener('click', function (e) {
                 let submenu = this.nextElementSibling;
                 e.preventDefault();
-                e.stopPropagation();
+                e.stopPropagation(); // Prevents the click from closing the parent menu
+
+                // Close any other open submenus
                 document.querySelectorAll('.dropdown .dropend .dropdown-menu.show').forEach(function (openSubmenu) {
                     if (openSubmenu !== submenu) {
                         openSubmenu.classList.remove('show');
                     }
                 });
+
+                // Toggle the clicked submenu
                 submenu.classList.toggle('show');
             });
         });
 
+        // Close all dropdowns when clicking outside
         document.addEventListener('click', function (e) {
             if (!e.target.closest('.dropdown')) {
                 document.querySelectorAll('.dropdown .dropdown-menu.show').forEach(function (menu) {

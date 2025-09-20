@@ -3,7 +3,8 @@
         <div class="row">
             <div class="topbarContent">
                 <div class="quickLinks">
-                    <a href="mailto:inverters@rishabh.co.in"><i class="ph-duotone ph-envelope"></i> inverters@rishabh.co.in</a>
+                    <a href="mailto:inverters@rishabh.co.in"><i class="ph-duotone ph-envelope"></i>
+                        inverters@rishabh.co.in</a>
                     <div class="vr"></div>
                     <a href="tel:+91 7888028877"><i class="ph-duotone ph-phone-call"></i> +91 78 8802 8877</a>
                 </div>
@@ -33,22 +34,27 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto gap-3">
                 <li class="nav-item">
-                    <a class="nav-link <?php echo ($currentPage === 'home') ? 'active' : ''; ?>" aria-current="page" href="index">Home</a>
+                    <a class="nav-link <?php echo ($currentPage === 'home') ? 'active' : ''; ?>" aria-current="page"
+                        href="index">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php echo ($currentPage === 'about') ? 'active' : ''; ?>" href="about">About Us</a>
+                    <a class="nav-link <?php echo ($currentPage === 'about') ? 'active' : ''; ?>" href="about">About
+                        Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php echo ($currentPage === 'products') ? 'active' : ''; ?>" href="products">Products</a>
+                    <a class="nav-link <?php echo ($currentPage === 'products') ? 'active' : ''; ?>"
+                        href="products">Products</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link <?php echo ($currentPage === 'blogs') ? 'active' : ''; ?>" href="blogs">Blogs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php echo ($currentPage === 'downloads') ? 'active' : ''; ?>" href="downloads">Downloads</a>
+                    <a class="nav-link <?php echo ($currentPage === 'downloads') ? 'active' : ''; ?>"
+                        href="downloads">Downloads</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php echo ($currentPage === 'offices') ? 'active' : ''; ?>" href="offices-directions">Offices & Directions</a>
+                    <a class="nav-link <?php echo ($currentPage === 'offices') ? 'active' : ''; ?>"
+                        href="offices-directions">Offices & Directions</a>
                 </li>
             </ul>
             <ul class="navbar-nav">

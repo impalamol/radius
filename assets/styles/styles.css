@@ -2779,6 +2779,12 @@ footer .copyright .copyrightContent .copyrightLinks {
   left: 100%;
   margin-top: -1px;
 }
+@media (max-width: 1919.98px) {
+  .downloads .downloadCard .downloadCardFooter .dropdown .dropdown-menu .dropend .dropdown-menu {
+    top: 100%;
+    left: 0%;
+  }
+}
 .downloads .downloadCard:hover figure img {
   transform: scale(1.1) rotate(0.5deg);
 }
