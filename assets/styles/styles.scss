@@ -142,11 +142,11 @@
 // Navbar
 .navbar {
     background-color: $white;
-    border-top: 1px solid $border;
-    border-bottom: 1px solid $border;
+    border-top: 0.0625rem solid $border;
+    border-bottom: 0.0625rem solid $border;
 
     .navbar-brand img {
-        max-width: 160px !important;
+        max-width: 10rem !important;
     }
 
     .nav-item .nav-link {
@@ -172,16 +172,16 @@
     background-color: $dark;
     @extend .flex-center-start;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 3.125rem;
     position: relative;
-    padding: 100px;
+    padding: 6.25rem;
     height: 100vh;
     overflow: hidden;
 
     .close-btn {
         position: absolute;
-        top: 50px;
-        right: 50px;
+        top: 3.125rem;
+        right: 3.125rem;
         z-index: 2;
         content: "";
         cursor: pointer;
@@ -199,13 +199,13 @@
 
     .mainMenu {
         flex-grow: 1;
-        border-right: 1px solid $border;
+        border-right: 0.0625rem solid $border;
 
         ul {
             list-style-type: none;
             @extend .flex-start;
             flex-direction: column;
-            gap: 20px;
+            gap: 1.25rem;
             counter-reset: menuCounter;
 
             li {
@@ -229,7 +229,7 @@
                     }
 
                     &:hover {
-                        letter-spacing: 0.6px;
+                        letter-spacing: 0.0375rem;
                         color: $primary;
                     }
                 }
@@ -238,13 +238,13 @@
     }
 
     .menuContact {
-        padding: 50px;
+        padding: 3.125rem;
 
         .contactDetail {
             @extend .flex-start;
             flex-direction: column;
-            margin-bottom: 20px;
-            max-width: 450px;
+            margin-bottom: 1.25rem;
+            max-width: 28.125rem;
 
             &:last-child {
                 margin-bottom: 0;
@@ -253,17 +253,17 @@
             span {
                 font-size: $large;
                 font-weight: 500;
-                letter-spacing: 0.5008px;
+                letter-spacing: 0.0313rem;
                 text-transform: uppercase;
                 color: $white;
-                margin-bottom: 10px;
+                margin-bottom: 0.625rem;
             }
 
             address,
             a {
                 font-size: $medium;
                 font-weight: 500;
-                letter-spacing: 0.5008px;
+                letter-spacing: 0.0313rem;
                 color: $gray;
             }
 
@@ -278,7 +278,7 @@
 
             .contactNumbers {
                 @extend .flex-center-start;
-                gap: 10px;
+                gap: 0.625rem;
 
                 span {
                     color: $gray;
@@ -288,15 +288,15 @@
 
             .social {
                 @extend .flex-center-start;
-                gap: 20px;
+                gap: 1.25rem;
 
                 a {
                     font-size: $h5;
                     line-height: normal;
                     color: $gray;
-                    padding: 4px 8px;
-                    border: 1px solid $border;
-                    border-radius: 4px;
+                    padding: 0.25rem 0.5rem;
+                    border: 0.0625rem solid $border;
+                    border-radius: 0.25rem;
                     display: block;
                     transition: ease-in-out 1s;
 
@@ -313,7 +313,7 @@
         font-size: $h1 * 7;
         font-weight: 600;
         text-transform: uppercase;
-        letter-spacing: -10px;
+        letter-spacing: -0.625rem;
         color: $gray;
         opacity: 0.1;
         position: absolute;
@@ -511,7 +511,7 @@
         text-transform: uppercase;
     }
     video {
-        max-width: 500px;
+        max-width: 31.25rem;
         pointer-events: none;
     }
     .lion {
@@ -1260,7 +1260,7 @@
                     overflow: hidden;
                     input,
                     .btn {
-                        min-height: 45px;
+                        min-height: 2.8125rem;
                     }
                     input {
                         background-color: rgba($color: $white, $alpha: 0.02);
@@ -1306,7 +1306,7 @@ footer {
             .footerLogo {
                 margin-bottom: $commonUnit * 2;
                 img {
-                    max-width: 150px !important;
+                    max-width: 9.375rem !important;
                 }
             }
 
@@ -1322,7 +1322,7 @@ footer {
                     bottom: -$commonUnit;
                     left: 0;
                     width: 100%;
-                    height: 2px;
+                    height: 0.125rem;
                     content: "";
                     z-index: 2;
                     background: url(../media/stroke.svg) no-repeat;
@@ -1369,7 +1369,7 @@ footer {
                             padding: $commonUnit / 2;
                             display: inline-block;
                             margin-right: 0.5rem;
-                            border: 1px solid rgba($color: $white, $alpha: 0.1);
+                            border: 0.0625rem solid rgba($color: $white, $alpha: 0.1);
                             border-radius: $cardRadius / 4;
                         }
                     }
@@ -1389,7 +1389,7 @@ footer {
         );
         backdrop-filter: blur(commonUnit / 2);
         padding: $commonUnit;
-        border-top: 1px solid rgba($color: $white, $alpha: 0.1);
+        border-top: 0.0625rem solid rgba($color: $white, $alpha: 0.1);
 
         .copyrightContent {
             @extend .flex-center-between;
@@ -1512,7 +1512,7 @@ footer {
             background: $glossy;
             backdrop-filter: blur(0.625rem);
             padding: $commonUnit * 2;
-            border: 1px solid rgba($color: $white, $alpha: 0.1);
+            border: 0.0625rem solid rgba($color: $white, $alpha: 0.1);
             border-radius: $cardRadius;
 
             h3,
@@ -1591,7 +1591,7 @@ footer {
         backdrop-filter: blur(0.3125rem);
         padding: $commonUnit * 2;
         height: 100%;
-        border: 1px solid rgba($color: $white, $alpha: 0.1);
+        border: 0.0625rem solid rgba($color: $white, $alpha: 0.1);
         border-radius: $cardRadius;
 
         .mvHeader {
@@ -1893,7 +1893,7 @@ footer {
         img {
             width: 100%;
             object-fit: cover;
-            max-height: 500px;
+            max-height: 31.25rem;
             object-position: center;
             border-radius: $cardRadius * 2;
         }
@@ -1945,7 +1945,7 @@ footer {
         }
 
         .paginationLink {
-            font-size: 18px;
+            font-size: $xLarge;
             font-weight: 600;
             color: $primary;
         }
@@ -1986,8 +1986,8 @@ footer {
                 margin-bottom: $commonUnit / 2;
 
                 .postThumb img {
-                    width: 80px;
-                    height: 50px;
+                    width: 5rem;
+                    height: 3.125rem;
                     object-fit: cover;
                     border-radius: $cardRadius / 2;
                 }
@@ -2041,7 +2041,7 @@ footer {
 
                     a {
                         background-color: $light;
-                        padding: 4px $commonUnit / 2;
+                        padding: 0.25rem $commonUnit / 2;
                         border: $commonBorder;
                         border-radius: $cardRadius;
                     }
@@ -2158,11 +2158,14 @@ footer {
                 }
                 .dropdown-menu {
                     width: 100%;
+
                     li a {
                         @extend .flex-center-between;
+
                         i {
                             color: $primary;
                         }
+
                         &:hover {
                             background-color: $dark;
                             color: $white;
@@ -2171,6 +2174,16 @@ footer {
                                 color: $secondary;
                             }
                         }
+                    }
+
+                    .dropend {
+                        position: relative;
+                    }
+
+                    .dropend .dropdown-menu {
+                        top: 0;
+                        left: 100%;
+                        margin-top: -1px;
                     }
                 }
             }
@@ -2192,7 +2205,7 @@ footer {
 
         figure {
             overflow: hidden;
-            max-height: 300px;
+            max-height: 18.75rem;
             img {
                 width: 100%;
                 height: 100%;
@@ -2282,7 +2295,7 @@ footer {
             border-radius: $cardRadius;
 
             .icon {
-                $wh: 70px;
+                $wh: 4.375rem;
                 min-width: $wh;
                 min-height: $wh;
                 @extend .flex-center;
