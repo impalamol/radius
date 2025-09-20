@@ -89,7 +89,18 @@ $currentPage = 'downloads';
                                                     <li><a class="dropdown-item" href="#">Datasheet <i
                                                                 class="ph-duotone ph-download"></i></a></li>
                                                     <li><a class="dropdown-item" href="#">Manual <i
-                                                                class="ph-duotone ph-download"></i></a></li>
+                                                                class="ph-duotone ph-download"></i></li></a></li>
+                                                    <li class="dropend">
+                                                        <a class="dropdown-item dropdown-toggle" href="#">
+                                                            More Downloads
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a class="dropdown-item" href="#">Software <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                            <li><a class="dropdown-item" href="#">Drivers <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                        </ul>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -115,7 +126,18 @@ $currentPage = 'downloads';
                                                     <li><a class="dropdown-item" href="#">Datasheet <i
                                                                 class="ph-duotone ph-download"></i></a></li>
                                                     <li><a class="dropdown-item" href="#">Manual <i
-                                                                class="ph-duotone ph-download"></i></a></li>
+                                                                class="ph-duotone ph-download"></i></li></a></li>
+                                                    <li class="dropend">
+                                                        <a class="dropdown-item dropdown-toggle" href="#">
+                                                            More Downloads
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a class="dropdown-item" href="#">Software <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                            <li><a class="dropdown-item" href="#">Drivers <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                        </ul>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -141,7 +163,18 @@ $currentPage = 'downloads';
                                                     <li><a class="dropdown-item" href="#">Datasheet <i
                                                                 class="ph-duotone ph-download"></i></a></li>
                                                     <li><a class="dropdown-item" href="#">Manual <i
-                                                                class="ph-duotone ph-download"></i></a></li>
+                                                                class="ph-duotone ph-download"></i></li></a></li>
+                                                    <li class="dropend">
+                                                        <a class="dropdown-item dropdown-toggle" href="#">
+                                                            More Downloads
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a class="dropdown-item" href="#">Software <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                            <li><a class="dropdown-item" href="#">Drivers <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                        </ul>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -167,7 +200,18 @@ $currentPage = 'downloads';
                                                     <li><a class="dropdown-item" href="#">Datasheet <i
                                                                 class="ph-duotone ph-download"></i></a></li>
                                                     <li><a class="dropdown-item" href="#">Manual <i
-                                                                class="ph-duotone ph-download"></i></a></li>
+                                                                class="ph-duotone ph-download"></i></li></a></li>
+                                                    <li class="dropend">
+                                                        <a class="dropdown-item dropdown-toggle" href="#">
+                                                            More Downloads
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a class="dropdown-item" href="#">Software <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                            <li><a class="dropdown-item" href="#">Drivers <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                        </ul>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -224,7 +268,18 @@ $currentPage = 'downloads';
                                                     <li><a class="dropdown-item" href="#">Datasheet <i
                                                                 class="ph-duotone ph-download"></i></a></li>
                                                     <li><a class="dropdown-item" href="#">Manual <i
-                                                                class="ph-duotone ph-download"></i></a></li>
+                                                                class="ph-duotone ph-download"></i></li></a></li>
+                                                    <li class="dropend">
+                                                        <a class="dropdown-item dropdown-toggle" href="#">
+                                                            More Downloads
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a class="dropdown-item" href="#">Software <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                            <li><a class="dropdown-item" href="#">Drivers <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                        </ul>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -250,7 +305,18 @@ $currentPage = 'downloads';
                                                     <li><a class="dropdown-item" href="#">Datasheet <i
                                                                 class="ph-duotone ph-download"></i></a></li>
                                                     <li><a class="dropdown-item" href="#">Manual <i
-                                                                class="ph-duotone ph-download"></i></a></li>
+                                                                class="ph-duotone ph-download"></i></li></a></li>
+                                                    <li class="dropend">
+                                                        <a class="dropdown-item dropdown-toggle" href="#">
+                                                            More Downloads
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a class="dropdown-item" href="#">Software <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                            <li><a class="dropdown-item" href="#">Drivers <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                        </ul>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -276,7 +342,18 @@ $currentPage = 'downloads';
                                                     <li><a class="dropdown-item" href="#">Datasheet <i
                                                                 class="ph-duotone ph-download"></i></a></li>
                                                     <li><a class="dropdown-item" href="#">Manual <i
-                                                                class="ph-duotone ph-download"></i></a></li>
+                                                                class="ph-duotone ph-download"></i></li></a></li>
+                                                    <li class="dropend">
+                                                        <a class="dropdown-item dropdown-toggle" href="#">
+                                                            More Downloads
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a class="dropdown-item" href="#">Software <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                            <li><a class="dropdown-item" href="#">Drivers <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                        </ul>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -307,7 +384,18 @@ $currentPage = 'downloads';
                                                     <li><a class="dropdown-item" href="#">Datasheet <i
                                                                 class="ph-duotone ph-download"></i></a></li>
                                                     <li><a class="dropdown-item" href="#">Manual <i
-                                                                class="ph-duotone ph-download"></i></a></li>
+                                                                class="ph-duotone ph-download"></i></li></a></li>
+                                                    <li class="dropend">
+                                                        <a class="dropdown-item dropdown-toggle" href="#">
+                                                            More Downloads
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a class="dropdown-item" href="#">Software <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                            <li><a class="dropdown-item" href="#">Drivers <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                        </ul>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -333,7 +421,18 @@ $currentPage = 'downloads';
                                                     <li><a class="dropdown-item" href="#">Datasheet <i
                                                                 class="ph-duotone ph-download"></i></a></li>
                                                     <li><a class="dropdown-item" href="#">Manual <i
-                                                                class="ph-duotone ph-download"></i></a></li>
+                                                                class="ph-duotone ph-download"></i></li></a></li>
+                                                    <li class="dropend">
+                                                        <a class="dropdown-item dropdown-toggle" href="#">
+                                                            More Downloads
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a class="dropdown-item" href="#">Software <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                            <li><a class="dropdown-item" href="#">Drivers <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                        </ul>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -359,7 +458,18 @@ $currentPage = 'downloads';
                                                     <li><a class="dropdown-item" href="#">Datasheet <i
                                                                 class="ph-duotone ph-download"></i></a></li>
                                                     <li><a class="dropdown-item" href="#">Manual <i
-                                                                class="ph-duotone ph-download"></i></a></li>
+                                                                class="ph-duotone ph-download"></i></li></a></li>
+                                                    <li class="dropend">
+                                                        <a class="dropdown-item dropdown-toggle" href="#">
+                                                            More Downloads
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a class="dropdown-item" href="#">Software <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                            <li><a class="dropdown-item" href="#">Drivers <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                        </ul>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -385,7 +495,18 @@ $currentPage = 'downloads';
                                                     <li><a class="dropdown-item" href="#">Datasheet <i
                                                                 class="ph-duotone ph-download"></i></a></li>
                                                     <li><a class="dropdown-item" href="#">Manual <i
-                                                                class="ph-duotone ph-download"></i></a></li>
+                                                                class="ph-duotone ph-download"></i></li></a></li>
+                                                    <li class="dropend">
+                                                        <a class="dropdown-item dropdown-toggle" href="#">
+                                                            More Downloads
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a class="dropdown-item" href="#">Software <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                            <li><a class="dropdown-item" href="#">Drivers <i
+                                                                        class="ph-duotone ph-download"></i></a></li>
+                                                        </ul>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>

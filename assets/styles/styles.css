@@ -338,7 +338,6 @@ input[type=number] {
   text-transform: uppercase;
   padding: 0.75rem 1.5rem;
   transition: all 0.3s ease;
-  padding: 1rem 2rem;
   border-radius: 0.2rem;
   transition: all 0.6s ease-in-out;
 }
@@ -1006,11 +1005,11 @@ section:not(.hero) .container {
 
 .navbar {
   background-color: #ffffff;
-  border-top: 1px solid #e4e4e4;
-  border-bottom: 1px solid #e4e4e4;
+  border-top: 0.0625rem solid #e4e4e4;
+  border-bottom: 0.0625rem solid #e4e4e4;
 }
 .navbar .navbar-brand img {
-  max-width: 160px !important;
+  max-width: 10rem !important;
 }
 .navbar .nav-item .nav-link {
   font-size: 0.8125rem;
@@ -1030,16 +1029,16 @@ section:not(.hero) .container {
 .menu {
   background-color: #011932;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 3.125rem;
   position: relative;
-  padding: 100px;
+  padding: 6.25rem;
   height: 100vh;
   overflow: hidden;
 }
 .menu .close-btn {
   position: absolute;
-  top: 50px;
-  right: 50px;
+  top: 3.125rem;
+  right: 3.125rem;
   z-index: 2;
   content: "";
   cursor: pointer;
@@ -1055,12 +1054,12 @@ section:not(.hero) .container {
 }
 .menu .mainMenu {
   flex-grow: 1;
-  border-right: 1px solid #e4e4e4;
+  border-right: 0.0625rem solid #e4e4e4;
 }
 .menu .mainMenu ul {
   list-style-type: none;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
   counter-reset: menuCounter;
 }
 .menu .mainMenu ul li {
@@ -1083,16 +1082,16 @@ section:not(.hero) .container {
   content: counters(menuCounter, ".", decimal-leading-zero) ". ";
 }
 .menu .mainMenu ul li a:hover {
-  letter-spacing: 0.6px;
+  letter-spacing: 0.0375rem;
   color: #0f6db4;
 }
 .menu .menuContact {
-  padding: 50px;
+  padding: 3.125rem;
 }
 .menu .menuContact .contactDetail {
   flex-direction: column;
-  margin-bottom: 20px;
-  max-width: 450px;
+  margin-bottom: 1.25rem;
+  max-width: 28.125rem;
 }
 .menu .menuContact .contactDetail:last-child {
   margin-bottom: 0;
@@ -1100,16 +1099,16 @@ section:not(.hero) .container {
 .menu .menuContact .contactDetail span {
   font-size: 1rem;
   font-weight: 500;
-  letter-spacing: 0.5008px;
+  letter-spacing: 0.0313rem;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 .menu .menuContact .contactDetail address,
 .menu .menuContact .contactDetail a {
   font-size: 0.875rem;
   font-weight: 500;
-  letter-spacing: 0.5008px;
+  letter-spacing: 0.0313rem;
   color: #5c6972;
 }
 .menu .menuContact .contactDetail a {
@@ -1120,22 +1119,22 @@ section:not(.hero) .container {
   color: #0f6db4;
 }
 .menu .menuContact .contactDetail .contactNumbers {
-  gap: 10px;
+  gap: 0.625rem;
 }
 .menu .menuContact .contactDetail .contactNumbers span {
   color: #5c6972;
   margin: 0;
 }
 .menu .menuContact .contactDetail .social {
-  gap: 20px;
+  gap: 1.25rem;
 }
 .menu .menuContact .contactDetail .social a {
   font-size: 1.5rem;
   line-height: normal;
   color: #5c6972;
-  padding: 4px 8px;
-  border: 1px solid #e4e4e4;
-  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  border: 0.0625rem solid #e4e4e4;
+  border-radius: 0.25rem;
   display: block;
   transition: ease-in-out 1s;
 }
@@ -1147,7 +1146,7 @@ section:not(.hero) .container {
   font-size: 23.625rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: -10px;
+  letter-spacing: -0.625rem;
   color: #5c6972;
   opacity: 0.1;
   position: absolute;
@@ -1309,7 +1308,7 @@ section:not(.hero) .container {
   text-transform: uppercase;
 }
 .makeInIndia video {
-  max-width: 500px;
+  max-width: 31.25rem;
   pointer-events: none;
 }
 .makeInIndia .lion {
@@ -1967,7 +1966,7 @@ section:not(.hero) .container {
 }
 .newsletter .newsLetterCard .newsLetterCardBody form .input-group input,
 .newsletter .newsLetterCard .newsLetterCardBody form .input-group .btn {
-  min-height: 45px;
+  min-height: 2.8125rem;
 }
 .newsletter .newsLetterCard .newsLetterCardBody form .input-group input {
   background-color: rgba(255, 255, 255, 0.02);
@@ -2013,7 +2012,7 @@ footer .footerContent .footerCard .footerLogo {
   margin-bottom: 3rem;
 }
 footer .footerContent .footerCard .footerLogo img {
-  max-width: 150px !important;
+  max-width: 9.375rem !important;
 }
 footer .footerContent .footerCard h4 {
   font-size: 1.5rem;
@@ -2027,7 +2026,7 @@ footer .footerContent .footerCard h4::after {
   bottom: -1.5rem;
   left: 0;
   width: 100%;
-  height: 2px;
+  height: 0.125rem;
   content: "";
   z-index: 2;
   background: url(../media/stroke.svg) no-repeat;
@@ -2070,7 +2069,7 @@ footer .footerContent .footerCard ul li .socialIcon i {
   padding: 0.75rem;
   display: inline-block;
   margin-right: 0.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 0.0625rem solid rgba(255, 255, 255, 0.1);
   border-radius: 0.25rem;
 }
 footer .copyright {
@@ -2082,7 +2081,7 @@ footer .copyright {
   -webkit-backdrop-filter: blur(commonUnit/2);
           backdrop-filter: blur(commonUnit/2);
   padding: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 0.0625rem solid rgba(255, 255, 255, 0.1);
 }
 footer .copyright .copyrightContent {
   flex-wrap: wrap;
@@ -2192,7 +2191,7 @@ footer .copyright .copyrightContent .copyrightLinks {
   -webkit-backdrop-filter: blur(0.625rem);
           backdrop-filter: blur(0.625rem);
   padding: 3rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 0.0625rem solid rgba(255, 255, 255, 0.1);
   border-radius: 1rem;
 }
 .director figure .directorInfo h3,
@@ -2266,7 +2265,7 @@ footer .copyright .copyrightContent .copyrightLinks {
           backdrop-filter: blur(0.3125rem);
   padding: 3rem;
   height: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 0.0625rem solid rgba(255, 255, 255, 0.1);
   border-radius: 1rem;
 }
 .missionVision .mvCard .mvHeader {
@@ -2523,7 +2522,7 @@ footer .copyright .copyrightContent .copyrightLinks {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  max-height: 500px;
+  max-height: 31.25rem;
   -o-object-position: center;
      object-position: center;
   border-radius: 2rem;
@@ -2566,7 +2565,7 @@ footer .copyright .copyrightContent .copyrightLinks {
   display: block;
 }
 .blogDetails .pagination .paginationLink {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   color: #0f6db4;
 }
@@ -2604,8 +2603,8 @@ footer .copyright .copyrightContent .copyrightLinks {
   margin-bottom: 0.75rem;
 }
 .blogDetails .blogSidebar .sidebarContent .recentPost .postThumb img {
-  width: 80px;
-  height: 50px;
+  width: 5rem;
+  height: 3.125rem;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 0.5rem;
@@ -2660,7 +2659,7 @@ footer .copyright .copyrightContent .copyrightLinks {
 .blogDetails .blogSidebar .sidebarContent ul.blogTags a,
 .blogDetails .blogSidebar .sidebarContent ol.blogTags a {
   background-color: #f5faff;
-  padding: 4px 0.75rem;
+  padding: 0.25rem 0.75rem;
   border: 0.0625rem solid #e4e4e4;
   border-radius: 1rem;
 }
@@ -2772,6 +2771,14 @@ footer .copyright .copyrightContent .copyrightLinks {
 .downloads .downloadCard .downloadCardFooter .dropdown .dropdown-menu li a:hover i {
   color: #fdc600;
 }
+.downloads .downloadCard .downloadCardFooter .dropdown .dropdown-menu .dropend {
+  position: relative;
+}
+.downloads .downloadCard .downloadCardFooter .dropdown .dropdown-menu .dropend .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
 .downloads .downloadCard:hover figure img {
   transform: scale(1.1) rotate(0.5deg);
 }
@@ -2783,7 +2790,7 @@ footer .copyright .copyrightContent .copyrightLinks {
 }
 .contactUs .contactInfo figure {
   overflow: hidden;
-  max-height: 300px;
+  max-height: 18.75rem;
 }
 .contactUs .contactInfo figure img {
   width: 100%;
@@ -2868,8 +2875,8 @@ footer .copyright .copyrightContent .copyrightLinks {
   border-radius: 1rem;
 }
 .contactUs .contactCard .contactChip .icon {
-  min-width: 70px;
-  min-height: 70px;
+  min-width: 4.375rem;
+  min-height: 4.375rem;
   background-color: #0f6db4;
   border-radius: 1rem;
 }

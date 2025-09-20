@@ -214,6 +214,31 @@
     });
 </script>
 <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.dropdown .dropend > .dropdown-toggle').forEach(function (el) {
+            el.addEventListener('click', function (e) {
+                let submenu = this.nextElementSibling;
+                e.preventDefault();
+                e.stopPropagation();
+                document.querySelectorAll('.dropdown .dropend .dropdown-menu.show').forEach(function (openSubmenu) {
+                    if (openSubmenu !== submenu) {
+                        openSubmenu.classList.remove('show');
+                    }
+                });
+                submenu.classList.toggle('show');
+            });
+        });
+
+        document.addEventListener('click', function (e) {
+            if (!e.target.closest('.dropdown')) {
+                document.querySelectorAll('.dropdown .dropdown-menu.show').forEach(function (menu) {
+                    menu.classList.remove('show');
+                });
+            }
+        });
+    });
+</script>
+<script>
     var currentYear = new Date().getFullYear();
     document.getElementById("year").textContent = currentYear;
 </script>
