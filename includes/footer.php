@@ -57,7 +57,7 @@
                 </div>
 
                 <!-- Navigation -->
-                <div class="col-12 col-md-6 col-lg-6 col-xl-2 col-xxl-2 mb-4">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-2 mb-4">
                     <div class="footerCard">
                         <h4>Navigation</h4>
                         <ul class="list-unstyled">
@@ -72,7 +72,7 @@
                 </div>
 
                 <!-- Support -->
-                <div class="col-12 col-md-6 col-lg-6 col-xl-2 col-xxl-2 mb-4">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-2 mb-4">
                     <div class="footerCard">
                         <h4>Support</h4>
                         <ul class="list-unstyled">
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <!-- Follow Us -->
-                <div class="col-12 col-md-6 col-lg-6 col-xl-2 col-xxl-2 mb-4">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-2 mb-4">
                     <div class="footerCard">
                         <h4>Support</h4>
                         <ul class="list-unstyled">
