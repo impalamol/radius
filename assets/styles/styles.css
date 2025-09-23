@@ -2406,10 +2406,9 @@ footer .copyright .copyrightContent .copyrightLinks {
 }
 .swiper.swiperGallery .swiper-slide img {
   width: 100% !important;
-  height: 31.25rem;
   margin: auto !important;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .swiper.thumbs {
   margin-bottom: 0;
