@@ -124,14 +124,14 @@
     const thumbs = new Swiper(".thumbs", {
         loop: true,
         spaceBetween: 20,
-        slidesPerView: 5,
+        slidesPerView: 2,
         freeMode: true,
         watchSlidesProgress: true,
         breakpoints: {
-            0: { slidesPerView: 3 },
-            576: { slidesPerView: 4 },
-            768: { slidesPerView: 5 },
-            992: { slidesPerView: 6 }
+            0: { slidesPerView: 2 },
+            576: { slidesPerView: 3 },
+            768: { slidesPerView: 4 },
+            992: { slidesPerView: 5 }
         }
     });
     // Swiper Gallery
