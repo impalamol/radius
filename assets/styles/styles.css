@@ -2401,8 +2401,10 @@ footer .copyright .copyrightContent .copyrightLinks {
   height: fit-content !important;
 }
 .swiper.swiperGallery {
-  border-radius: 1.5rem;
+  padding: 0;
   margin-bottom: 1.5rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
 }
 .swiper.swiperGallery .swiper-slide img {
   width: 100% !important;

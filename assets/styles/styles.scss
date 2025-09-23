@@ -1761,13 +1761,14 @@ footer {
 .swiper {
     height: fit-content !important;
     &.swiperGallery {
-        border-radius: $commonUnit;
+        padding: 0;
         margin-bottom: $commonUnit;
+        border-radius: $commonUnit;
+        overflow: hidden;
 
         .swiper-slide img {
             width: 100% !important;
-            // min-height: 31.25rem;
-            // max-height: 31.25rem;
+            // height: 25rem;
             margin: auto !important;
             object-fit: contain;
         }
