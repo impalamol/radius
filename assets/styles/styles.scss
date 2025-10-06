@@ -467,6 +467,7 @@
     .counter {
         .counterCard {
             background-color: $white;
+            height: 100%;
             @extend .flex-center-start;
             gap: $commonUnit;
             padding: $commonUnit;
@@ -867,6 +868,7 @@
     .schemeContent {
         background: $glossy;
         padding: $commonUnit * 2;
+        -webkit-backdrop-filter: blur(0.25rem);
         backdrop-filter: blur(0.25rem);
         border: 0.0625rem solid rgba($color: $white, $alpha: 0.2);
         border-radius: $cardRadius;
@@ -1626,6 +1628,7 @@ footer {
 .products {
     .productCard {
         background-color: $white;
+        height: 100%;
         padding: $commonUnit;
         border: $commonBorder;
         border-radius: $cardRadius;
@@ -1834,6 +1837,7 @@ footer {
         // border: $commonBorder;
         // border-radius: $cardRadius / 2;
         overflow: hidden;
+        height: 100%;
 
         .docHeader {
             @extend .flex-center-start;
@@ -2132,6 +2136,7 @@ footer {
     }
     .downloadCard {
         background-color: $white;
+        height: 100%;
         padding: $commonUnit;
         border: $commonBorder;
         border-radius: $cardRadius;
