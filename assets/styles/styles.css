@@ -341,41 +341,6 @@ input[type=number] {
   border-radius: 0.2rem;
   transition: all 0.6s ease-in-out;
 }
-.btn.modernBtn {
-  position: relative;
-  margin-left: 0.3125rem;
-  margin-bottom: 0.3125rem;
-  border-width: 0;
-  border-style: solid;
-  border-color: transparent;
-}
-.btn.modernBtn:before, .btn.modernBtn:after {
-  position: absolute;
-  content: "";
-  transition: all 0.25s;
-  height: 1.5rem;
-  width: 1.5rem;
-  border: 0 solid #0f6db4;
-}
-.btn.modernBtn:before {
-  border-left-width: 0.125rem;
-  border-top-width: 0.125rem;
-  left: -0.3125rem;
-  top: -0.3125rem;
-}
-.btn.modernBtn:after {
-  border-bottom-width: 0.125rem;
-  border-right-width: 0.125rem;
-  bottom: -0.3125rem;
-  right: -0.3125rem;
-}
-.btn.modernBtn:hover:before, .btn.modernBtn:hover:after {
-  height: 100%;
-  width: 100%;
-}
-.btn.modernBtn:hover:before, .btn.modernBtn:hover:after {
-  border-color: rgb(9.1153846154, 66.2384615385, 109.3846153846);
-}
 .btn.btn-primary {
   color: #ffffff !important;
   background-color: #0f6db4;
@@ -1273,6 +1238,7 @@ section:not(.hero) .container {
 }
 .applicationIndustries .counter .counterCard {
   background-color: #ffffff;
+  height: 100%;
   gap: 1.5rem;
   padding: 1.5rem;
   border: 0.0625rem solid #e4e4e4;
@@ -1617,7 +1583,7 @@ section:not(.hero) .container {
   background: linear-gradient(139.46deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 100%);
   padding: 3rem;
   -webkit-backdrop-filter: blur(0.25rem);
-          backdrop-filter: blur(0.25rem);
+  backdrop-filter: blur(0.25rem);
   border: 0.0625rem solid rgba(255, 255, 255, 0.2);
   border-radius: 1rem;
   min-height: 80%;
@@ -2282,6 +2248,7 @@ footer .copyright .copyrightContent .copyrightLinks {
 
 .products .productCard {
   background-color: #ffffff;
+  height: 100%;
   padding: 1.5rem;
   border: 0.0625rem solid #e4e4e4;
   border-radius: 1rem;
@@ -2463,6 +2430,7 @@ footer .copyright .copyrightContent .copyrightLinks {
 .documentation .docCard {
   background-color: #ffffff;
   overflow: hidden;
+  height: 100%;
 }
 .documentation .docCard .docHeader {
   gap: 0.75rem;
@@ -2727,6 +2695,7 @@ footer .copyright .copyrightContent .copyrightLinks {
 }
 .downloads .downloadCard {
   background-color: #ffffff;
+  height: 100%;
   padding: 1.5rem;
   border: 0.0625rem solid #e4e4e4;
   border-radius: 1rem;

@@ -127,51 +127,6 @@ input[type="number"] {
     border-radius: $cardRadius / 5;
     transition: all 0.6s ease-in-out;
 
-    &.modernBtn {
-        position: relative;
-        margin-left: 0.3125rem;
-        margin-bottom: 0.3125rem;
-        border-width: 0;
-        border-style: solid;
-        border-color: transparent;
-        &:before,
-        &:after {
-            position: absolute;
-            content: "";
-            transition: all 0.25s;
-            height: 1.5rem;
-            width: 1.5rem;
-            border: 0 solid $primary;
-        }
-
-        &:before {
-            border-left-width: 0.125rem;
-            border-top-width: 0.125rem;
-            left: -0.3125rem;
-            top: -0.3125rem;
-        }
-
-        &:after {
-            border-bottom-width: 0.125rem;
-            border-right-width: 0.125rem;
-            bottom: -0.3125rem;
-            right: -0.3125rem;
-        }
-
-        &:hover:before,
-        &:hover:after {
-            height: 100%;
-            width: 100%;
-        }
-
-        &:hover {
-            &:before,
-            &:after {
-                border-color: darken($primary, 15%);
-            }
-        }
-    }
-
     // ----- SOLID BUTTONS -----
     &.btn-primary {
         color: $white !important;
