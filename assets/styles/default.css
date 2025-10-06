@@ -551,7 +551,6 @@ section:not(.hero) .container {
 }
 .pgHeader .pgTitle h2 {
   font-size: 3rem;
-  margin: 0;
 }
 .pgHeader .pgTitle h2 span {
   color: #f99c1d;
