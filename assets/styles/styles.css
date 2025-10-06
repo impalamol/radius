@@ -73,7 +73,7 @@ textarea:not([rows]) {
   display: flex;
 }
 
-.flex-center, .contactUs .contactCard .contactChip .icon, .blogDetails .blogSidebar .sidebarContent .recentPost, .products .productCard .productCardFooter, .director .pgHeader, .about .aboutImgContainer figure .radiusEmblem, .about .aboutImgContainer figure, .newsletter .newsletterListItem .icon, .glossyCard .icon, .collaborations .collaborationCard .icon, .greenEnergy .highlightsCard .icon, .revealContainer .revealImgContainer, .makeInIndia .lion, .applicationIndustries .counter .counterCard .icon, .hero .paginationContainer .navigation .swiper-button-next,
+.flex-center, .contactUs .contactCard .contactChip .icon, .blogDetails .blogSidebar .sidebarContent .recentPost, .products .productCard .productCardFooter, .products .productCard figure, .director .pgHeader, .about .aboutImgContainer figure .radiusEmblem, .about .aboutImgContainer figure, .newsletter .newsletterListItem .icon, .glossyCard .icon, .collaborations .collaborationCard .icon, .greenEnergy .highlightsCard .icon, .revealContainer .revealImgContainer, .makeInIndia .lion, .applicationIndustries .counter .counterCard .icon, .hero .paginationContainer .navigation .swiper-button-next,
 .hero .paginationContainer .navigation .swiper-button-prev, .hero .paginationContainer .navigation, .hero .heroSlide, .progressLoader .loaderContent .imgContainer, .progressLoader, .searchModal .nrs, .searchModal .searchResult .resultItem a .productIcon img, .videoBtn, .pgHeader.centered .pgTitle,
 .pgHeader.centered .pgSection, .pgHeader.centered {
   display: flex;
@@ -555,7 +555,6 @@ section:not(.hero) .container {
 }
 .pgHeader .pgTitle h2 {
   font-size: 3rem;
-  margin: 0;
 }
 .pgHeader .pgTitle h2 span {
   color: #f99c1d;
@@ -1259,16 +1258,6 @@ section:not(.hero) .container {
   margin: 0;
 }
 
-.makeInIndia::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  background: url(../media/india.png) no-repeat center/cover fixed;
-}
 .makeInIndia h6 {
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -1337,7 +1326,7 @@ section:not(.hero) .container {
   flex-direction: column;
   gap: 1.5rem;
   padding-left: 0;
-  margin: 0;
+  margin: 0 0 3rem;
 }
 .revealContainer .revealContentContainer .revealContent .revealList li {
   gap: 0.5rem;
@@ -1396,7 +1385,11 @@ section:not(.hero) .container {
   position: relative;
   z-index: 2;
 }
-.greenEnergy img {
+.greenEnergy .greenBulb {
+  position: sticky;
+  top: 6.25rem;
+}
+.greenEnergy .greenBulb img {
   display: block;
   margin: auto;
 }
@@ -1645,6 +1638,9 @@ section:not(.hero) .container {
 .whyChooseUs {
   background: url(../media/abstract-bg.jpg) no-repeat top/cover fixed;
 }
+.whyChooseUs .pgHeader .pgTitle {
+  max-width: 100% !important;
+}
 
 .support .supportCard {
   flex-wrap: wrap;
@@ -1703,6 +1699,33 @@ section:not(.hero) .container {
 }
 .applications .applicationCard:hover img {
   transform: scale(1.1) rotate(0.5deg);
+}
+
+.certificates .certificateCard {
+  background-color: #ffffff;
+  height: 100%;
+  display: block;
+  padding: 1.5rem;
+  border: 0.0625rem solid #e4e4e4;
+  border-radius: 1rem;
+}
+.certificates .certificateCard figure {
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+.certificates .certificateCard figure img {
+  transition: all 0.9s linear;
+}
+.certificates .certificateCard h6 {
+  text-align: center;
+  margin: 0;
+}
+.certificates .certificateCard:hover {
+  box-shadow: rgba(1, 25, 50, 0.1) 0rem 0.4375rem 1.8125rem 0rem;
+}
+.certificates .certificateCard:hover figure img {
+  transform: scale(1.1) rotate(1deg);
 }
 
 .blogs .blogCard {
@@ -2255,9 +2278,12 @@ footer .copyright .copyrightContent .copyrightLinks {
 }
 .products .productCard figure {
   margin-bottom: 3rem;
+  height: 18.75rem;
 }
 .products .productCard figure img {
-  max-width: 60% !important;
+  max-height: 90% !important;
+  -o-object-fit: contain;
+  object-fit: contain;
   display: block;
   margin: 0 auto;
   transition: transform 0.5s ease;

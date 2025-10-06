@@ -234,6 +234,8 @@ $currentPage = 'home';
                                         <h5>Weather-Resistant Design</h5>
                                     </li>
                                 </ul>
+                                <a href="product-details" class="btn btn-primary">Read More
+                                    <i class="ph-duotone ph-arrow-bend-right-up"></i></a>
                             </div>
                             <div class="revealContent" data-index="2">
                                 <img src="https://images.unsplash.com/photo-1757452608866-0b9c2f3e2d6b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -260,6 +262,8 @@ $currentPage = 'home';
                                         <h5>Weather-Resistant Design</h5>
                                     </li>
                                 </ul>
+                                <a href="product-details" class="btn btn-primary">Read More
+                                    <i class="ph-duotone ph-arrow-bend-right-up"></i></a>
                             </div>
                             <div class="revealContent" data-index="3">
                                 <img src="https://images.unsplash.com/photo-1754835143820-bcf20e2e1a35?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -286,6 +290,8 @@ $currentPage = 'home';
                                         <h5>Weather-Resistant Design</h5>
                                     </li>
                                 </ul>
+                                <a href="product-details" class="btn btn-primary">Read More
+                                    <i class="ph-duotone ph-arrow-bend-right-up"></i></a>
                             </div>
                         </div>
                     </div>
@@ -522,7 +528,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-shield-check"></i></div>
                             <h3>25–Year Warranty</h3>
@@ -530,7 +536,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-certificate"></i></div>
                             <h3>Certified Excellence</h3>
@@ -539,7 +545,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-users-three"></i></div>
                             <h3>Expert Team</h3>
@@ -547,7 +553,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-timer"></i></div>
                             <h3>Quick Installation</h3>
@@ -556,7 +562,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-currency-inr"></i></div>
                             <h3>Best Pricing</h3>
@@ -565,7 +571,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-headset"></i></div>
                             <h3>24/7 Support</h3>
@@ -573,7 +579,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-leaf"></i></div>
                             <h3>Eco-Friendly</h3>
@@ -581,7 +587,7 @@ $currentPage = 'home';
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-4">
                         <div class="glossyCard">
                             <div class="icon"><i class="ph-duotone ph-gear"></i></div>
                             <h3>Smart Technology</h3>
@@ -754,6 +760,51 @@ $currentPage = 'home';
                                 </a>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="certificates">
+            <div class="container">
+                <div class="row">
+                    <div class="pgHeader centered">
+                        <div class="pgTitle">
+                            <div class="pgSection">Reward of Hard Work</div>
+                            <h2>Certifications & Achievements</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3">
+                        <a href="#" target="_blank" class="certificateCard">
+                            <figure>
+                                <img src="assets/media/certificates/certificate1.jpg" alt="Certificates">
+                            </figure>
+                            <h6>Certificate 1</h6>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3">
+                        <a href="#" target="_blank" class="certificateCard">
+                            <figure>
+                                <img src="assets/media/certificates/certificate2.jpg" alt="Certificates">
+                            </figure>
+                            <h6>Certificate 2</h6>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3">
+                        <a href="#" target="_blank" class="certificateCard">
+                            <figure>
+                                <img src="assets/media/certificates/certificate3.jpg" alt="Certificates">
+                            </figure>
+                            <h6>Certificate 3</h6>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3">
+                        <a href="#" target="_blank" class="certificateCard">
+                            <figure>
+                                <img src="assets/media/certificates/certificate4.jpg" alt="Certificates">
+                            </figure>
+                            <h6>Certificate 4</h6>
+                        </a>
                     </div>
                 </div>
             </div>

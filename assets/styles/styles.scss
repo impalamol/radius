@@ -497,16 +497,16 @@
 }
 // Make In India
 .makeInIndia {
-    &::after {
-        position: absolute;
-        top: 0;
-        left: 0;
-        content: "";
-        z-index: 1;
-        width: 100%;
-        height: 100%;
-        background: url(../media/india.png) no-repeat center/cover fixed;
-    }
+    // &::after {
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     content: "";
+    //     z-index: 1;
+    //     width: 100%;
+    //     height: 100%;
+    //     background: url(../media/india.png) no-repeat center/cover fixed;
+    // }
     h6 {
         font-size: $h5;
         text-transform: uppercase;
@@ -598,7 +598,7 @@
                 flex-direction: column;
                 gap: $commonUnit;
                 padding-left: 0;
-                margin: 0;
+                margin: 0 0 $commonUnit * 2;
 
                 li {
                     @extend .flex-center-start;
@@ -669,9 +669,13 @@
         position: relative;
         z-index: 2;
     }
-    img {
-        display: block;
-        margin: auto;
+    .greenBulb {
+        position: sticky;
+        top: 6.25rem;
+        img {
+            display: block;
+            margin: auto;
+        }
     }
     .greenEnergyContent {
         h5 {
@@ -939,6 +943,10 @@
 // Why Choose Us
 .whyChooseUs {
     background: url(../media/abstract-bg.jpg) no-repeat top/cover fixed;
+
+    .pgHeader .pgTitle {
+        max-width: 100% !important;
+    }
 }
 
 // Support
@@ -1012,7 +1020,38 @@
         }
     }
 }
+// Certificates
+.certificates {
+    .certificateCard {
+        background-color: $white;
+        height: 100%;
+        display: block;
+        padding: $commonUnit;
+        border: $commonBorder;
+        border-radius: $cardRadius;
 
+        figure {
+            margin-bottom: $commonUnit;
+            overflow: hidden;
+            border-radius: $cardRadius / 2;
+
+            img {
+                transition: all 0.9s linear;
+            }
+        }
+
+        h6 {
+            text-align: center;
+            margin: 0;
+        }
+        &:hover {
+            box-shadow: $cardShadow;
+            figure img {
+                transform: scale(1.1) rotate(1deg);
+            }
+        }
+    }
+}
 // Blogs
 .blogs {
     .blogCard {
@@ -1634,9 +1673,13 @@ footer {
         border-radius: $cardRadius;
 
         figure {
+            @extend .flex-center;
             margin-bottom: $commonUnit * 2;
+            height: 18.75rem;
             img {
-                max-width: 60% !important;
+                max-height: 90% !important;
+                -o-object-fit: contain;
+                object-fit: contain;
                 display: block;
                 margin: 0 auto;
                 transition: transform 0.5s ease;
