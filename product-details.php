@@ -100,6 +100,15 @@ $currentPage = 'products';
                             <h1>Smart PV Inverter</h1>
                             <p class="lead">Advanced engineering meets intelligent design in our flagship inverter
                                 series, setting new standards for efficiency, reliability, and performance.</p>
+                            <ul>
+                                <li>Maximum efficiency up to 98.5%</li>
+                                <li>Maximum power point tracking, up to 2 MPPT trackers</li>
+                                <li>Wide MPPT voltage range 175 to 900V</li>
+                                <li>Maximum voltage up to 1100 Volt</li>
+                                <li>Remote Monitoring System-GSM, Ethernet, Wi-Fi, Bluetooth</li>
+                                <li>Integrated datalogger for operation and fault data logging</li>
+                                <li>Type II Surge Protection Devices</li>
+                            </ul>
                             <div class="table-responsive">
                                 <table class="table">
                                     <tbody>

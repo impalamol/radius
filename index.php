@@ -916,11 +916,11 @@ $currentPage = 'home';
                                 <div class="swiper-slide ">
                                     <div class="testimonialCard">
                                         <div class="rating">
-                                            <i class="ph-duotone ph-star"></i>
-                                            <i class="ph-duotone ph-star"></i>
-                                            <i class="ph-duotone ph-star"></i>
-                                            <i class="ph-duotone ph-star"></i>
-                                            <i class="ph-duotone ph-star"></i>
+                                            <i class="ph-fill ph-star"></i>
+                                            <i class="ph-fill ph-star"></i>
+                                            <i class="ph-fill ph-star"></i>
+                                            <i class="ph-fill ph-star"></i>
+                                            <i class="ph-fill ph-star"></i>
                                         </div>
                                         <h4>Unmatched Precision & Durability</h4>
                                         <p>Switching to solar with Radius was an incredibly smooth and effortless
@@ -948,11 +948,11 @@ $currentPage = 'home';
                                 <div class="swiper-slide ">
                                     <div class="testimonialCard">
                                         <div class="rating">
-                                            <i class="ph-duotone ph-star"></i>
-                                            <i class="ph-duotone ph-star"></i>
-                                            <i class="ph-duotone ph-star"></i>
-                                            <i class="ph-duotone ph-star"></i>
-                                            <i class="ph-duotone ph-star"></i>
+                                            <i class="ph-fill ph-star"></i>
+                                            <i class="ph-fill ph-star"></i>
+                                            <i class="ph-fill ph-star"></i>
+                                            <i class="ph-fill ph-star"></i>
+                                            <i class="ph-fill ph-star"></i>
                                         </div>
                                         <h4>Seamless Experience from Start to Finish</h4>
                                         <p>The entire experience, from our first consultation to the final installation,
@@ -978,11 +978,11 @@ $currentPage = 'home';
                                 <div class="swiper-slide ">
                                     <div class="testimonialCard">
                                         <div class="rating">
-                                            <i class="ph-duotone ph-star"></i>
-                                            <i class="ph-duotone ph-star"></i>
-                                            <i class="ph-duotone ph-star"></i>
-                                            <i class="ph-duotone ph-star"></i>
-                                            <i class="ph-duotone ph-star"></i>
+                                            <i class="ph-fill ph-star"></i>
+                                            <i class="ph-fill ph-star"></i>
+                                            <i class="ph-fill ph-star"></i>
+                                            <i class="ph-fill ph-star"></i>
+                                            <i class="ph-fill ph-star"></i>
                                         </div>
                                         <h4>Exceptional Quality & Performance</h4>
                                         <p>The solar setup installed by Radius is performing beyond all our
