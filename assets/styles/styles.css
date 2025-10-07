@@ -555,6 +555,7 @@ section:not(.hero) .container {
 }
 .pgHeader .pgTitle h2 {
   font-size: 3rem;
+  margin: 0;
 }
 .pgHeader .pgTitle h2 span {
   color: #f99c1d;
@@ -2320,6 +2321,27 @@ footer .copyright .copyrightContent .copyrightLinks {
   border-radius: 1.5rem;
   position: relative;
 }
+.productDetails .productShowcase .swiper.swiperGallery .swiper-slide img {
+  height: auto !important;
+  -o-object-fit: none !important;
+  object-fit: none !important;
+}
+.productDetails .productShowcase .swiper.swiperGallery .swiper-button-next,
+.productDetails .productShowcase .swiper.swiperGallery .swiper-button-prev {
+  background-color: rgba(1, 25, 50, 0.5);
+}
+.productDetails .productShowcase .swiper.swiperGallery .swiper-button-next::after,
+.productDetails .productShowcase .swiper.swiperGallery .swiper-button-prev::after {
+  color: #ffffff;
+}
+.productDetails .productShowcase .swiper.swiperGallery .swiper-button-next:hover,
+.productDetails .productShowcase .swiper.swiperGallery .swiper-button-prev:hover {
+  background-color: #011932;
+}
+.productDetails .productShowcase .swiper.swiperGallery .swiper-button-next:hover::after,
+.productDetails .productShowcase .swiper.swiperGallery .swiper-button-prev:hover::after {
+  color: #ffffff;
+}
 .productDetails .productInfo {
   padding-left: 3rem;
 }
@@ -2351,17 +2373,28 @@ footer .copyright .copyrightContent .copyrightLinks {
   margin-left: 1.5em;
   position: relative;
 }
-.productDetails .productInfo ul li::before {
-  font-family: remixicon !important;
+.productDetails .productInfo ul li:before, .productDetails .productInfo ul li::after {
+  font-family: "Phosphor-Duotone" !important;
+  speak: never;
   font-style: normal;
-  font-size: 1.5rem;
-  -webkit-font-smoothing: antialiased;
-  line-height: normal;
-  content: "\eb7a";
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
   color: #0f6db4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   position: absolute;
-  top: 0.1em;
+  top: 0.6rem;
+  left: 0;
   margin-left: -1.5em;
+}
+.productDetails .productInfo ul li::before {
+  content: "\e606";
+  opacity: 0.2;
+}
+.productDetails .productInfo ul li::after {
+  content: "\e607";
 }
 .productDetails .productInfo .table > :not(caption) > * > * {
   font-size: 0.875rem;
