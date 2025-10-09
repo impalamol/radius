@@ -22,16 +22,65 @@ $currentPage = 'home';
             <div class="swiper heroSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="assets/media/slider/slide1.jpg" class="d-block w-100" loading="lazy" alt="">
+                        <!-- <div class="heroSlide"
+                            style="background: url('assets/media/slider/slide1.jpg') no-repeat center center / cover;"> -->
+                        <div class="heroSlide"
+                            style="background: url('assets/media/slider/slide4.jpg') no-repeat center center / cover;">
+                            <div class="container">
+                                <div class="heroContent">
+                                    <h6>Premium Solar Solutions</h6>
+                                    <h1>Power Your Future with Solar Energy</h1>
+                                    <p>Transform your home or business with our high-efficiency solar panels and
+                                        professional installation services.</p>
+                                    <div class="btnGroup">
+                                        <a href="#" class="btn btn-primary">Get Free Quote <i
+                                                class="ph-duotone ph-arrow-bend-right-up"></i></a>
+                                        <a href="#" class="btn btn-light">Watch Demo <i
+                                                class="ph-duotone ph-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="assets/media/slider/slide2.jpg" class="d-block w-100" loading="lazy" alt="">
+                        <div class="heroSlide"
+                            style="background: url('assets/media/slider/slide2.jpg') no-repeat center center / cover;">
+                            <div class="container">
+                                <div class="heroContent">
+                                    <h6>Advanced Technology</h6>
+                                    <h1>Smart Energy Solutions</h1>
+                                    <p>Experience the latest in solar technology with our smart energy management
+                                        systems
+                                        and monitoring solutions.</p>
+                                    <div class="btnGroup">
+                                        <a href="#" class="btn btn-primary">Explore Products <i
+                                                class="ph-duotone ph-arrow-bend-right-up"></i></a>
+                                        <a href="#" class="btn btn-light">Watch Demo <i
+                                                class="ph-duotone ph-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="assets/media/slider/slide3.jpg" class="d-block w-100" loading="lazy" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="assets/media/slider/slide4.jpg" class="d-block w-100" loading="lazy" alt="">
+                        <div class="heroSlide"
+                            style="background: url('assets/media/slider/slide3.jpg') no-repeat center center / cover;">
+                            <div class="container">
+                                <div class="heroContent">
+                                    <h6>Government Subsidy Available</h6>
+                                    <h1>Join PM Suryaghar Yojana</h1>
+                                    <p>Take advantage of government incentives and subsidies for solar installation
+                                        under PM
+                                        Suryaghar Yojana.</p>
+                                    <div class="btnGroup">
+                                        <a href="#" class="btn btn-primary">Learn More <i
+                                                class="ph-duotone ph-arrow-bend-right-up"></i></a>
+                                        <a href="#" class="btn btn-light">Watch Demo <i
+                                                class="ph-duotone ph-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="paginationContainer">

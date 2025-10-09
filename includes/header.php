@@ -48,6 +48,15 @@
                 <li class="nav-item">
                     <a class="nav-link <?php echo ($currentPage === 'blogs') ? 'active' : ''; ?>" href="blogs">Blogs</a>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Support
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Download</a></li>
+                    </ul>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link <?php echo ($currentPage === 'downloads') ? 'active' : ''; ?>"
                         href="downloads">Downloads</a>

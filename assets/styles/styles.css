@@ -73,7 +73,7 @@ textarea:not([rows]) {
   display: flex;
 }
 
-.flex-center, .contactUs .contactCard .contactChip .icon, .blogDetails .blogSidebar .sidebarContent .recentPost, .products .productCard .productCardFooter, .products .productCard figure, .director .pgHeader, .about .aboutImgContainer figure .radiusEmblem, .about .aboutImgContainer figure, .newsletter .newsletterListItem .icon, .glossyCard .icon, .collaborations .collaborationCard .icon, .greenEnergy .highlightsCard .icon, .revealContainer .revealImgContainer, .makeInIndia .lion, .applicationIndustries .counter .counterCard .icon, .hero .paginationContainer .navigation .swiper-button-next,
+.flex-center, .contactUs .contactCard .contactChip .icon, .downloads .downloadCard figure, .blogDetails .blogSidebar .sidebarContent .recentPost, .products .productCard .productCardFooter, .products .productCard figure, .director .pgHeader, .about .aboutImgContainer figure .radiusEmblem, .about .aboutImgContainer figure, .newsletter .newsletterListItem .icon, .collaborations .collaborationCard, .glossyCard .icon, .greenEnergy .highlightsCard .icon, .revealContainer .revealImgContainer, .makeInIndia .lion, .applicationIndustries .counter .counterCard .icon, .hero .paginationContainer .navigation .swiper-button-next,
 .hero .paginationContainer .navigation .swiper-button-prev, .hero .paginationContainer .navigation, .hero .heroSlide, .progressLoader .loaderContent .imgContainer, .progressLoader, .searchModal .nrs, .searchModal .searchResult .resultItem a .productIcon img, .videoBtn, .pgHeader.centered .pgTitle,
 .pgHeader.centered .pgSection, .pgHeader.centered {
   display: flex;
@@ -125,7 +125,7 @@ textarea:not([rows]) {
 }
 
 .flex-start, .blogDetails .blogSidebar .sidebarContent ul,
-.blogDetails .blogSidebar .sidebarContent ol, .documentation .docCard .docBody .doc .docInfo, .videoSection .videoContent, .director figure .directorInfo, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter .user .userInfo, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter .user, .testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo, .support .supportCard, .suryagharScheme .schemeContent .schemeCard .schemeCardList, .glossyCard ul li, .collaborations .collaborationCard ul li, .revealContainer .revealContentContainer .revealContent .revealList, .revealContainer .revealContentContainer .revealContent, .applicationIndustries .applicationContent .applicationList, .menu .menuContact .contactDetail, .menu .mainMenu ul, .enquiryModal .modal-body form .btnGroup, .pgHeader .pgTitle {
+.blogDetails .blogSidebar .sidebarContent ol, .documentation .docCard .docBody .doc .docInfo, .videoSection .videoContent, .director figure .directorInfo, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter .user .userInfo, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter .user, .testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo, .support .supportCard, .suryagharScheme .schemeContent .schemeCard .schemeCardList, .glossyCard ul li, .revealContainer .revealContentContainer .revealContent .revealList, .revealContainer .revealContentContainer .revealContent, .applicationIndustries .applicationContent .applicationList, .menu .menuContact .contactDetail, .menu .mainMenu ul, .enquiryModal .modal-body form .btnGroup, .pgHeader .pgTitle {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -779,7 +779,7 @@ section:not(.hero) .container {
   padding: 1.5rem 5rem;
 }
 
-.glossyCard, .collaborations .collaborationCard {
+.glossyCard {
   background: linear-gradient(139.46deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 100%);
   box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.007);
   -webkit-backdrop-filter: blur(0.5rem);
@@ -1120,9 +1120,12 @@ section:not(.hero) .container {
   z-index: 1;
 }
 
+.hero .swiper-slide {
+  width: 100% !important;
+}
 .hero .heroSlide {
   position: relative;
-  min-height: 85vh;
+  min-height: 90vh;
   flex-direction: column;
 }
 .hero .heroSlide::after {
@@ -1407,6 +1410,11 @@ section:not(.hero) .container {
 .greenEnergy .greenEnergyContent h2 span {
   color: #008c4f;
 }
+.greenEnergy .greenEnergyContent p {
+  text-align: justify;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
 .greenEnergy .highlightsCard {
   gap: 1.5rem;
   background: linear-gradient(147.38deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 100%);
@@ -1438,14 +1446,14 @@ section:not(.hero) .container {
   font-weight: 700;
 }
 
-.glossyCard, .collaborations .collaborationCard {
+.glossyCard {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 1.5rem;
   border-radius: 1rem;
   box-shadow: rgba(1, 25, 50, 0.1) 0rem 0.4375rem 1.8125rem 0rem;
   height: 100%;
 }
-.glossyCard .icon, .collaborations .collaborationCard .icon {
+.glossyCard .icon {
   min-width: 6.25rem;
   min-height: 6.25rem;
   max-width: 6.25rem;
@@ -1454,28 +1462,28 @@ section:not(.hero) .container {
   margin: 0 auto 1.5rem;
   border-radius: 50%;
 }
-.glossyCard .icon i, .collaborations .collaborationCard .icon i {
+.glossyCard .icon i {
   font-size: 3.375rem;
   text-align: center;
   color: #0f6db4;
 }
-.glossyCard h3, .collaborations .collaborationCard h3 {
+.glossyCard h3 {
   font-size: 1rem;
   text-align: center;
   margin: 0 0 0.5rem;
 }
-.glossyCard p, .collaborations .collaborationCard p {
+.glossyCard p {
   font-size: 0.875rem;
   text-align: center;
 }
-.glossyCard ul, .collaborations .collaborationCard ul {
+.glossyCard ul {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
   list-style-type: none;
   padding-left: 0;
 }
-.glossyCard ul li, .collaborations .collaborationCard ul li {
+.glossyCard ul li {
   font-size: 1rem;
   list-style: normal;
   color: #011932;
@@ -1483,7 +1491,7 @@ section:not(.hero) .container {
   position: relative;
   margin-left: 1.5em;
 }
-.glossyCard ul li:before, .collaborations .collaborationCard ul li:before, .glossyCard ul li::after, .collaborations .collaborationCard ul li::after {
+.glossyCard ul li:before, .glossyCard ul li::after {
   font-family: "Phosphor-Duotone" !important;
   speak: never;
   font-style: normal;
@@ -1498,14 +1506,14 @@ section:not(.hero) .container {
   top: 0.375rem;
   margin-left: -1.5em;
 }
-.glossyCard ul li::before, .collaborations .collaborationCard ul li::before {
+.glossyCard ul li::before {
   content: "\e606";
   opacity: 0.2;
 }
-.glossyCard ul li::after, .collaborations .collaborationCard ul li::after {
+.glossyCard ul li::after {
   content: "\e607";
 }
-.glossyCard ul li i, .collaborations .collaborationCard ul li i {
+.glossyCard ul li i {
   font-size: 1.125rem;
   color: #0f6db4;
   line-height: normal;
@@ -1707,7 +1715,7 @@ section:not(.hero) .container {
   height: 100%;
   display: block;
   padding: 1.5rem;
-  border: 0.0625rem solid #e4e4e4;
+  border: 2px outset #0f6db4;
   border-radius: 1rem;
 }
 .certificates .certificateCard figure {
@@ -1760,10 +1768,17 @@ section:not(.hero) .container {
   margin-bottom: 0.75rem;
 }
 .collaborations .collaborationCard {
-  box-shadow: none !important;
+  background-color: #ffffff;
+  padding: 0.75rem;
+  border: 0.0625rem solid #e4e4e4;
+  border-radius: 0.5rem;
+  aspect-ratio: 1/1;
+  min-height: 10rem;
 }
 .collaborations .collaborationCard img {
-  border-radius: 0.5rem;
+  max-width: 70% !important;
+  display: block;
+  margin: auto;
 }
 
 .testimonials .testimonialThumbs .swiper-slide {
@@ -1796,6 +1811,9 @@ section:not(.hero) .container {
 }
 .testimonials .testimonialThumbs .swiper-slide.swiper-slide-thumb-active .testimonialUser, .testimonials .testimonialThumbs .swiper-slide:hover .testimonialUser {
   background-color: #011932;
+}
+.testimonials .testimonialThumbs .swiper-slide.swiper-slide-thumb-active .testimonialUser img, .testimonials .testimonialThumbs .swiper-slide:hover .testimonialUser img {
+  border: 0.0625rem solid #e4e4e4;
 }
 .testimonials .testimonialThumbs .swiper-slide.swiper-slide-thumb-active .testimonialUser .userInfo h6, .testimonials .testimonialThumbs .swiper-slide:hover .testimonialUser .userInfo h6 {
   color: #ffffff;
@@ -1866,6 +1884,7 @@ section:not(.hero) .container {
 }
 .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter a {
   font-size: 0.875rem;
+  white-space: nowrap;
   color: #011932;
   background-color: #fdc600;
   padding: 0.75rem;
@@ -2278,7 +2297,7 @@ footer .copyright .copyrightContent .copyrightLinks {
   border-radius: 1rem;
 }
 .products .productCard figure {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   height: 18.75rem;
 }
 .products .productCard figure img {
@@ -2478,10 +2497,10 @@ footer .copyright .copyrightContent .copyrightLinks {
 .productFeatures {
   background: url(../media/abstract-bg.jpg) no-repeat center/cover fixed;
 }
-.productFeatures .glossyCard .icon, .productFeatures .collaborations .collaborationCard .icon, .collaborations .productFeatures .collaborationCard .icon {
+.productFeatures .glossyCard .icon {
   margin: 0 0 1.5rem !important;
 }
-.productFeatures .glossyCard h3, .productFeatures .collaborations .collaborationCard h3, .collaborations .productFeatures .collaborationCard h3 {
+.productFeatures .glossyCard h3 {
   font-size: 1.25rem;
   text-align: left;
 }
@@ -2760,10 +2779,13 @@ footer .copyright .copyrightContent .copyrightLinks {
   border-radius: 1rem;
 }
 .downloads .downloadCard figure {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
+  height: 18.75rem;
 }
 .downloads .downloadCard figure img {
-  max-width: 60% !important;
+  max-height: 90% !important;
+  -o-object-fit: contain;
+  object-fit: contain;
   display: block;
   margin: 0 auto;
   transition: transform 0.5s ease;
