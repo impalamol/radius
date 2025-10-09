@@ -400,10 +400,8 @@ $currentPage = 'products';
                             </div>
                             <hr>
                             <div class="productCardFooter">
-                                <a href="product-details" class="btn btn-link">View details <i
+                                <a href="product-details" class="btn btn-primary stretched-link">View details <i
                                         class="ph-duotone ph-arrow-bend-right-up"></i></a>
-                                <a href="" class="btn btn-outline-dark">Quick Enquiry <i
-                                        class="ph-duotone ph-keyboard"></i></a>
                             </div>
                         </div>
                     </div>
@@ -418,10 +416,8 @@ $currentPage = 'products';
                             </div>
                             <hr>
                             <div class="productCardFooter">
-                                <a href="product-details" class="btn btn-link">View details <i
+                                <a href="product-details" class="btn btn-primary stretched-link">View details <i
                                         class="ph-duotone ph-arrow-bend-right-up"></i></a>
-                                <a href="" class="btn btn-outline-dark">Quick Enquiry <i
-                                        class="ph-duotone ph-keyboard"></i></a>
                             </div>
                         </div>
                     </div>
@@ -436,11 +432,8 @@ $currentPage = 'products';
                             </div>
                             <hr>
                             <div class="productCardFooter">
-                                <a href="product-details" class="btn btn-link">View details <i
+                                <a href="product-details" class="btn btn-primary stretched-link">View details <i
                                         class="ph-duotone ph-arrow-bend-right-up"></i></a>
-                                <a href="" class="btn btn-outline-dark" data-bs-toggle="modal"
-                                    data-bs-target="#enquiryModal">Quick Enquiry <i
-                                        class="ph-duotone ph-keyboard"></i></a>
                             </div>
                         </div>
                     </div>

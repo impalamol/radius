@@ -70,6 +70,7 @@
             max-height: 21.875rem;
             padding: $commonUnit;
             margin-bottom: $commonUnit;
+            -webkit-backdrop-filter: blur(0.75rem);
             backdrop-filter: blur(0.75rem);
             border: 0.0625rem solid rgba($color: $white, $alpha: 0.2);
             border-radius: $commonUnit;
@@ -884,8 +885,12 @@
         backdrop-filter: blur(0.25rem);
         border: 0.0625rem solid rgba($color: $white, $alpha: 0.2);
         border-radius: $cardRadius;
-        min-height: 80%;
+        // height: 100%;
         .schemeCard {
+            p {
+                line-height: 2;
+                color: $white;
+            }
             &.cardBorder {
                 border-right: 0.0625rem solid rgba($color: $white, $alpha: 0.2);
             }
@@ -1332,6 +1337,7 @@
                     }
                     input {
                         background-color: rgba($color: $white, $alpha: 0.02);
+                         -webkit-backdrop-filter: blur(0.3125rem);
                         backdrop-filter: blur(0.3125rem);
                         &::placeholder {
                             color: $white;
@@ -1455,6 +1461,7 @@ footer {
             rgba($color: $white, $alpha: 0.02) 0%,
             rgba($color: $white, $alpha: 0.02) 100%
         );
+         -webkit-backdrop-filter: blur(commonUnit / 2);
         backdrop-filter: blur(commonUnit / 2);
         padding: $commonUnit;
         border-top: 0.0625rem solid rgba($color: $white, $alpha: 0.1);
@@ -1537,7 +1544,7 @@ footer {
 }
 // Directors
 .director {
-    background-color: $dark;
+    background-color: $dark !important;
     padding: 0 !important;
     .pgHeader {
         @extend .flex-center;
@@ -1578,6 +1585,7 @@ footer {
             bottom: 1.875rem;
             left: 1.875rem;
             background: $glossy;
+             -webkit-backdrop-filter: blur(0.625rem);
             backdrop-filter: blur(0.625rem);
             padding: $commonUnit * 2;
             border: 0.0625rem solid rgba($color: $white, $alpha: 0.1);
@@ -1656,6 +1664,7 @@ footer {
     }
     .mvCard {
         background: $glossy;
+        -webkit-backdrop-filter: blur(0.3125rem);
         backdrop-filter: blur(0.3125rem);
         padding: $commonUnit * 2;
         height: 100%;
@@ -1665,6 +1674,7 @@ footer {
         .mvHeader {
             @extend .flex-center-start;
             gap: $commonUnit / 2;
+            margin-bottom: $commonUnit;
 
             .icon i {
                 font-size: $h2;
@@ -1874,13 +1884,16 @@ footer {
     &.thumbs {
         margin-bottom: 0;
         .swiper-slide {
+            border: $commonBorder ;
+            padding: $commonUnit / 4;
+            border-radius: $cardRadius;
             img {
                 width: 100% !important;
-                height: 6.25rem !important;
+                height: 5rem !important;
                 -o-object-fit: cover;
                 object-fit: cover;
-                border-radius: $commonUnit / 2;
                 filter: grayscale(0.9);
+                border-radius: $cardRadius / 2;
             }
             &.swiper-slide-thumb-active {
                 img {
