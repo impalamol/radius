@@ -1044,12 +1044,16 @@
         border-radius: $cardRadius;
 
         figure {
+            @extend .flex-center;
             margin-bottom: $commonUnit;
-            overflow: hidden;
-            border-radius: $cardRadius / 2;
-
+            height: 18.75rem;
             img {
-                transition: all 0.9s linear;
+                max-height: 90% !important;
+                -o-object-fit: contain;
+                object-fit: contain;
+                display: block;
+                margin: 0 auto;
+                transition: transform 0.5s ease;
             }
         }
 
@@ -1337,7 +1341,7 @@
                     }
                     input {
                         background-color: rgba($color: $white, $alpha: 0.02);
-                         -webkit-backdrop-filter: blur(0.3125rem);
+                        -webkit-backdrop-filter: blur(0.3125rem);
                         backdrop-filter: blur(0.3125rem);
                         &::placeholder {
                             color: $white;
@@ -1461,7 +1465,7 @@ footer {
             rgba($color: $white, $alpha: 0.02) 0%,
             rgba($color: $white, $alpha: 0.02) 100%
         );
-         -webkit-backdrop-filter: blur(commonUnit / 2);
+        -webkit-backdrop-filter: blur(commonUnit / 2);
         backdrop-filter: blur(commonUnit / 2);
         padding: $commonUnit;
         border-top: 0.0625rem solid rgba($color: $white, $alpha: 0.1);
@@ -1585,7 +1589,7 @@ footer {
             bottom: 1.875rem;
             left: 1.875rem;
             background: $glossy;
-             -webkit-backdrop-filter: blur(0.625rem);
+            -webkit-backdrop-filter: blur(0.625rem);
             backdrop-filter: blur(0.625rem);
             padding: $commonUnit * 2;
             border: 0.0625rem solid rgba($color: $white, $alpha: 0.1);
@@ -1884,7 +1888,7 @@ footer {
     &.thumbs {
         margin-bottom: 0;
         .swiper-slide {
-            border: $commonBorder ;
+            border: $commonBorder;
             padding: $commonUnit / 4;
             border-radius: $cardRadius;
             img {
