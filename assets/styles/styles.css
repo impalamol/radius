@@ -73,7 +73,7 @@ textarea:not([rows]) {
   display: flex;
 }
 
-.flex-center, .contactUs .contactCard .contactChip .icon, .downloads .downloadCard figure, .blogDetails .blogSidebar .sidebarContent .recentPost, .products .productCard .productCardFooter, .products .productCard figure, .director .pgHeader, .about .aboutImgContainer figure .radiusEmblem, .about .aboutImgContainer figure, .newsletter .newsletterListItem .icon, .collaborations .collaborationCard, .glossyCard .icon, .greenEnergy .highlightsCard .icon, .revealContainer .revealImgContainer, .makeInIndia .lion, .applicationIndustries .counter .counterCard .icon, .hero .paginationContainer .navigation .swiper-button-next,
+.flex-center, .contactUs .contactCard .contactChip .icon, .downloads .downloadCard figure, .blogDetails .blogSidebar .sidebarContent .recentPost, .products .productCard .productCardFooter, .products .productCard figure, .director .pgHeader, .about .aboutImgContainer figure .radiusEmblem, .about .aboutImgContainer figure, .newsletter .newsletterListItem .icon, .collaborations .collaborationCard, .certificates .certificateCard figure, .glossyCard .icon, .greenEnergy .highlightsCard .icon, .revealContainer .revealImgContainer, .makeInIndia .lion, .applicationIndustries .counter .counterCard .icon, .hero .paginationContainer .navigation .swiper-button-next,
 .hero .paginationContainer .navigation .swiper-button-prev, .hero .paginationContainer .navigation, .hero .heroSlide, .progressLoader .loaderContent .imgContainer, .progressLoader, .searchModal .nrs, .searchModal .searchResult .resultItem a .productIcon img, .videoBtn, .pgHeader.centered .pgTitle,
 .pgHeader.centered .pgSection, .pgHeader.centered {
   display: flex;
@@ -1723,11 +1723,15 @@ section:not(.hero) .container {
 }
 .certificates .certificateCard figure {
   margin-bottom: 1.5rem;
-  overflow: hidden;
-  border-radius: 0.5rem;
+  height: 18.75rem;
 }
 .certificates .certificateCard figure img {
-  transition: all 0.9s linear;
+  max-height: 90% !important;
+  -o-object-fit: contain;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.5s ease;
 }
 .certificates .certificateCard h6 {
   text-align: center;
