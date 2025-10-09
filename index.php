@@ -367,11 +367,11 @@ $currentPage = 'home';
         </section>
         <section class="suryagharScheme">
             <div class="container">
-                <div class="row flex-lg-row-reverse">
-                    <div class="col-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+                <div class="row flex-lg-row-reverse mb-3 mb-lg-5">
+                    <div class="col-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 mb-3 mb-lg-0">
                         <img src="assets/media/emblem.png" alt="Pm Surya Ghar">
                     </div>
-                    <div class="col-12 col-md-12 col-lg-9 col-xl-9 col-xxl-9 mb-4">
+                    <div class="col-12 col-md-12 col-lg-9 col-xl-9 col-xxl-9">
                         <div class="schemeHeader">
                             <h5>Pm Surya Ghar :</h5>
                             <h2>Muft Bijli Yojana</h2>
@@ -379,88 +379,28 @@ $currentPage = 'home';
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-lg-9 col-xl-7 col-xxl-7">
+                    <div class="col-12 col-lg-8 col-xl-8 col-xxl-8">
                         <div class="schemeContent">
                             <div class="row">
-                                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 mb-3">
-                                    <div class="schemeCard cardBorder">
-                                        <div class="schemeCardHeader">
-                                            <h6>Subsidy For</h6>
-                                            <h3>Residential Households</h3>
-                                        </div>
-                                        <ul class="schemeCardList">
-                                            <li>
-                                                <div class="icon"><i class="ph-duotone ph-check-circle"></i></div>
-                                                <div class="listContent">
-                                                    <h5>Rs. 30,000/Kw</h5>
-                                                    <p>up to 2 kW</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="icon"><i class="ph-duotone ph-check-circle"></i></div>
-                                                <div class="listContent">
-                                                    <h5>Rs. 30,000/Kw</h5>
-                                                    <p>for additional capacity up to 3 kW</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="icon"><i class="ph-duotone ph-check-circle"></i></div>
-                                                <div class="listContent">
-                                                    <h5>Rs. 30,000/Kw</h5>
-                                                    <p>Subsidy Capped above 3kW.</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 mb-3">
-                                    <div class="schemeCard">
-                                        <div class="schemeCardHeader">
-                                            <h6>Subsidy For</h6>
-                                            <h3>GHS/RWA</h3>
-                                        </div>
-                                        <ul class="schemeCardList">
-                                            <li>
-                                                <div class="icon"><i class="ph-duotone ph-check-circle"></i></div>
-                                                <div class="listContent">
-                                                    <h5>Rs. 18,000/Kw</h5>
-                                                    <p>Solar systems for EV charging, up to 500kW (@3kW per house)</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <hr>
-                                <div class="col-12 col-lg-12 col-xl-12 col-xxl-12">
-                                    <div class="schemeCard">
-                                        <div class="schemeCardHeader">
-                                            <h6>Special states receive an additional 10% subsidy per kW.</h6>
-                                            <h3>Suitable Rooftop Solar Plant Capacity for households</h3>
-                                        </div>
-                                        <div class="table-responsive">
-                                            <table class="table">
-                                                <tbody>
-                                                    <tr>
-                                                        <th>Average Monthly Electricity Consumption (units)</th>
-                                                        <td>0-150</td>
-                                                        <td>150-300</td>
-                                                        <td>>300</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th>Average Monthly Electricity Consumption (units)</th>
-                                                        <td>0-150</td>
-                                                        <td>150-300</td>
-                                                        <td>>300</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
+                                <div class="schemeCard">
+                                    <p>
+                                        The PM Surya Ghar: Muft Bijli Yojana, inaugurated in 2024, is a significant
+                                        government initiative designed to ensure free electricity for one crore Indian
+                                        households. The scheme provides financial assistance through subsidies of up to
+                                        40% for the installation of rooftop solar panels, along with the provision of
+                                        collateral-free financing. Economically, the initiative is anticipated to yield
+                                        annual government savings of approximately ₹75,000 crore in electricity
+                                        expenses. Radius by Rishabh aligns with this Yojana by manufacturing
+                                        single-phase inverters (iUNO) 100% made in India and supports this initiative of
+                                        Indian government. These inverters are the heart for the solar roof top
+                                        installation, as without them, the conversion of the DC power to AC will not
+                                        happen and generated power would be of no use ahead.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3 col-xl-5 col-xxl-5">
+                    <div class="col-12 col-lg-4 col-xl-4 col-xxl-3 offset-xxl-1">
                         <div class="primeMinister">
                             <img src="assets/media/modiji.png" alt="Pm Narendra Modi">
                         </div>
@@ -1090,7 +1030,6 @@ $currentPage = 'home';
             </div>
         </section> -->
     </main>
-
     <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered">
             <div class="modal-content">
