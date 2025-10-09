@@ -53,6 +53,16 @@
                                 </div>
                             </div>
                         </div>
+                        <hr>
+                        <div class="footerSubscribe">
+                            <h6 class="footerHeading text-white">Would you like to hear from us?</h6>
+                            <div class="input-group mb-3">
+                                <input type="email" class="form-control" placeholder="your email..."
+                                    aria-label="your email..." aria-describedby="subscribeBtn">
+                                <button class="btn btn-outline-secondary" type="button"
+                                    id="subscribeBtn">Subscribe</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

@@ -120,30 +120,42 @@
 
 </script>
 <script>
-    // === Thumbs Gallery ===
-    const thumbs = new Swiper(".thumbs", {
-        loop: true,
-        spaceBetween: 20,
-        slidesPerView: 2,
-        freeMode: true,
-        watchSlidesProgress: true,
-        breakpoints: {
-            0: { slidesPerView: 2 },
-            576: { slidesPerView: 3 },
-            768: { slidesPerView: 4 },
-            992: { slidesPerView: 5 }
-        }
-    });
-    // Swiper Gallery
-    new Swiper(".swiperGallery", {
-        loop: true,
-        spaceBetween: 20,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
+    document.addEventListener('DOMContentLoaded', function () {
+        var thumbsContainer = document.querySelector('.thumbs .swiper-wrapper');
+        var thumbsSlides = thumbsContainer ? thumbsContainer.children.length : 0;
 
-        thumbs: { swiper: thumbs },
+        if (thumbsSlides <= 1) {
+            // Hide thumbs if only 1 image
+            var thumbsElement = document.querySelector('.thumbs');
+            if (thumbsElement) {
+                thumbsElement.style.display = 'none';
+            }
+        } else {
+            // === Thumbs Gallery ===
+            const thumbs = new Swiper(".thumbs", {
+                loop: true,
+                spaceBetween: 20,
+                slidesPerView: 2,
+                freeMode: true,
+                watchSlidesProgress: true,
+                breakpoints: {
+                    0: { slidesPerView: 2 },
+                    576: { slidesPerView: 3 },
+                    768: { slidesPerView: 4 },
+                    992: { slidesPerView: 5 }
+                }
+            });
+            // Swiper Gallery
+            new Swiper(".swiperGallery", {
+                loop: true,
+                spaceBetween: 20,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                thumbs: { swiper: thumbs },
+            });
+        }
     });
 </script>
 <script>

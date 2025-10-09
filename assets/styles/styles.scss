@@ -325,9 +325,13 @@
 
 // Hero
 .hero {
+    .swiper-slide {
+        width: 100% !important;
+    }
     .heroSlide {
         position: relative;
-        min-height: 85vh;
+        // width: 100%;
+        min-height: 90vh;
         @extend .flex-center;
         flex-direction: column;
 
@@ -691,6 +695,10 @@
                 color: $success;
             }
         }
+        p {
+            text-align: justify;
+            text-align-last: left;
+        }
     }
     .highlightsCard {
         @extend .flex-center-start;
@@ -1027,7 +1035,7 @@
         height: 100%;
         display: block;
         padding: $commonUnit;
-        border: $commonBorder;
+        border: 2px outset $primary;
         border-radius: $cardRadius;
 
         figure {
@@ -1087,11 +1095,18 @@
         margin-bottom: $commonUnit / 2;
     }
     .collaborationCard {
-        @extend .glossyCard;
-        box-shadow: none !important;
+        background-color: $white;
+        padding: $commonUnit / 2;
+        border: $commonBorder;
+        border-radius: $cardRadius / 2;
+        aspect-ratio: 1 / 1;
+        min-height: 10rem;
+        @extend .flex-center;
 
         img {
-            border-radius: $cardRadius / 2;
+            max-width: 70% !important;
+            display: block;
+            margin: auto;
         }
     }
 }
@@ -1135,6 +1150,9 @@
                 .testimonialUser {
                     background-color: $dark;
 
+                    img {
+                        border: $commonBorder;
+                    }
                     .userInfo {
                         h6 {
                             color: $white;
@@ -1213,6 +1231,7 @@
                     }
                     a {
                         font-size: $medium;
+                        white-space: nowrap;
                         color: $dark;
                         background-color: $secondary;
                         padding: $commonUnit / 2;
@@ -1674,7 +1693,7 @@ footer {
 
         figure {
             @extend .flex-center;
-            margin-bottom: $commonUnit * 2;
+            margin-bottom: $commonUnit;
             height: 18.75rem;
             img {
                 max-height: 90% !important;
@@ -2218,9 +2237,13 @@ footer {
         border-radius: $cardRadius;
 
         figure {
-            margin-bottom: $commonUnit * 2;
+            @extend .flex-center;
+            margin-bottom: $commonUnit;
+            height: 18.75rem;
             img {
-                max-width: 60% !important;
+                max-height: 90% !important;
+                -o-object-fit: contain;
+                object-fit: contain;
                 display: block;
                 margin: 0 auto;
                 transition: transform 0.5s ease;
