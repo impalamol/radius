@@ -2349,9 +2349,9 @@ footer .copyright .copyrightContent .copyrightLinks {
   position: relative;
 }
 .productDetails .productShowcase .swiper.swiperGallery .swiper-slide img {
-  height: auto !important;
-  -o-object-fit: none !important;
-  object-fit: none !important;
+  height: 31.25rem !important;
+  -o-object-fit: contain !important;
+  object-fit: contain !important;
 }
 .productDetails .productShowcase .swiper.swiperGallery .swiper-button-next,
 .productDetails .productShowcase .swiper.swiperGallery .swiper-button-prev {

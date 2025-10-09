@@ -1763,9 +1763,9 @@ footer {
 
         .swiper.swiperGallery {
             .swiper-slide img {
-                height: auto !important;
-                -o-object-fit: none !important;
-                object-fit: none !important;
+                height: 31.25rem !important;
+                -o-object-fit: contain !important;
+                object-fit: contain !important;
             }
             .swiper-button-next,
             .swiper-button-prev {
