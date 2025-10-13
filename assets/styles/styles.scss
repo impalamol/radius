@@ -1103,6 +1103,7 @@
         border: $commonBorder;
         height: 100%;
         overflow: hidden;
+        position: relative;
         box-shadow: $cardShadow;
 
         figure {
