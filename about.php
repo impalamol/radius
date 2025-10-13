@@ -55,7 +55,7 @@ $currentPage = 'about';
                         <div class="pgHeader">
                             <div class="pgTitle">
                                 <div class="pgSection">About Company</div>
-                                <h2>Rishabh Radius is committed to sustainable energy practices.</h2>
+                                <h2>Introducing next-generation solar inverters now made in India!</h2>
                                 <p>Founded in 2014 with a vision to make clean energy accessible to every Indian
                                     household, Radius Solar has grown from a small startup to one of the most trusted
                                     names in the solar energy sector.</p>
@@ -212,7 +212,7 @@ $currentPage = 'about';
                     </div>
                     <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
                         <div class="applicationImg">
-                            <img src="assets/media/application.jpg" alt="Leading the Solar Revolution in India">
+                            <img src="assets/media/application.png" alt="Leading the Solar Revolution in India">
                         </div>
                     </div>
                 </div>

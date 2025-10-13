@@ -69,7 +69,7 @@ $currentPage = 'downloads';
                         <div class="tab-pane fade show active" id="datasheetPane" role="tabpanel"
                             aria-labelledby="datasheet" tabindex="0">
                             <div class="row">
-                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mb-4">
+                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-4 mb-4">
                                     <div class="downloadCard">
                                         <figure>
                                             <img src="assets/media/products/product.png" alt="Smart PV Inverter 01">
@@ -106,7 +106,7 @@ $currentPage = 'downloads';
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mb-4">
+                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-4 mb-4">
                                     <div class="downloadCard">
                                         <figure>
                                             <img src="assets/media/products/product.png" alt="Smart PV Inverter 01">
@@ -143,7 +143,7 @@ $currentPage = 'downloads';
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mb-4">
+                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-4 mb-4">
                                     <div class="downloadCard">
                                         <figure>
                                             <img src="assets/media/products/product.png" alt="Smart PV Inverter 01">
@@ -180,7 +180,7 @@ $currentPage = 'downloads';
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mb-4">
+                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-4 mb-4">
                                     <div class="downloadCard">
                                         <figure>
                                             <img src="assets/media/products/product.png" alt="Smart PV Inverter 01">
@@ -222,7 +222,7 @@ $currentPage = 'downloads';
                         <div class="tab-pane fade" id="certificatePane" role="tabpanel" aria-labelledby="certificates"
                             tabindex="0">
                             <div class="row">
-                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mb-4">
+                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-4 mb-4">
                                     <div class="downloadCard">
                                         <figure>
                                             <img src="assets/media/products/product.png" alt="Smart PV Inverter 01">
@@ -248,7 +248,7 @@ $currentPage = 'downloads';
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mb-4">
+                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-4 mb-4">
                                     <div class="downloadCard">
                                         <figure>
                                             <img src="assets/media/products/product.png" alt="Smart PV Inverter 01">
@@ -285,7 +285,7 @@ $currentPage = 'downloads';
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mb-4">
+                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-4 mb-4">
                                     <div class="downloadCard">
                                         <figure>
                                             <img src="assets/media/products/product.png" alt="Smart PV Inverter 01">
@@ -322,7 +322,7 @@ $currentPage = 'downloads';
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mb-4">
+                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-4 mb-4">
                                     <div class="downloadCard">
                                         <figure>
                                             <img src="assets/media/products/product.png" alt="Smart PV Inverter 01">
@@ -364,7 +364,7 @@ $currentPage = 'downloads';
                         <div class="tab-pane fade" id="applicationPane" role="tabpanel" aria-labelledby="application"
                             tabindex="0">
                             <div class="row">
-                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mb-4">
+                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-4 mb-4">
                                     <div class="downloadCard">
                                         <figure>
                                             <img src="assets/media/products/product.png" alt="Smart PV Inverter 01">
@@ -401,7 +401,7 @@ $currentPage = 'downloads';
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mb-4">
+                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-4 mb-4">
                                     <div class="downloadCard">
                                         <figure>
                                             <img src="assets/media/products/product.png" alt="Smart PV Inverter 01">
@@ -438,7 +438,7 @@ $currentPage = 'downloads';
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mb-4">
+                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-4 mb-4">
                                     <div class="downloadCard">
                                         <figure>
                                             <img src="assets/media/products/product.png" alt="Smart PV Inverter 01">
@@ -475,7 +475,7 @@ $currentPage = 'downloads';
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mb-4">
+                                <div class="col-12 col-lg-6 col-xl-4 col-xxl-4 mb-4">
                                     <div class="downloadCard">
                                         <figure>
                                             <img src="assets/media/products/product.png" alt="Smart PV Inverter 01">

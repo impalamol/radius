@@ -73,7 +73,7 @@ textarea:not([rows]) {
   display: flex;
 }
 
-.flex-center, .contactUs .contactCard .contactChip .icon, .downloads .downloadCard figure, .blogDetails .blogSidebar .sidebarContent .recentPost, .products .productCard .productCardFooter, .products .productCard figure, .director .pgHeader, .about .aboutImgContainer figure .radiusEmblem, .about .aboutImgContainer figure, .newsletter .newsletterListItem .icon, .collaborations .collaborationCard, .certificates .certificateCard figure, .glossyCard .icon, .greenEnergy .highlightsCard .icon, .revealContainer .revealImgContainer, .makeInIndia .lion, .applicationIndustries .counter .counterCard .icon, .hero .paginationContainer .navigation .swiper-button-next,
+.flex-center, .contactUs .contactCard .contactChip .icon, .downloads .downloadCard figure, .blogDetails .blogSidebar .sidebarContent .recentPost, .products .productCard .productCardFooter, .products .productCard figure, .director .pgHeader, .about .aboutImgContainer figure .radiusEmblem, .about .aboutImgContainer figure, footer .footerContent .social a, .newsletter .newsletterListItem .icon, .collaborations .collaborationCard, .certificates .certificateCard figure, .glossyCard .icon, .greenEnergy .highlightsCard .icon, .revealContainer .revealImgContainer, .makeInIndia .lion, .applicationIndustries .counter .counterCard .icon, .hero .paginationContainer .navigation .swiper-button-next,
 .hero .paginationContainer .navigation .swiper-button-prev, .hero .paginationContainer .navigation, .hero .heroSlide, .progressLoader .loaderContent .imgContainer, .progressLoader, .searchModal .nrs, .searchModal .searchResult .resultItem a .productIcon img, .videoBtn, .pgHeader.centered .pgTitle,
 .pgHeader.centered .pgSection, .pgHeader.centered {
   display: flex;
@@ -81,7 +81,7 @@ textarea:not([rows]) {
   justify-content: center;
 }
 
-.flex-center-between, .downloads .downloadCard .downloadCardFooter .dropdown .dropdown-menu li a, .downloads .downloadCard .downloadCardFooter .dropdown .btn, .documentation .docCard .docBody .doc, footer .copyright .copyrightContent, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter, .hero .paginationContainer, .topbar .topbarContent, .searchModal .searchResult .resultItem, .searchModal .searchBar {
+.flex-center-between, .downloads .downloadCard .downloadCardFooter .dropdown .dropdown-menu li a, .downloads .downloadCard .downloadCardFooter .dropdown .btn, .documentation .docCard .docBody .doc, footer .copyrights .copyrightContent, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter, .hero .paginationContainer, .topbar .topbarContent, .searchModal .searchResult .resultItem, .searchModal .searchBar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -94,7 +94,7 @@ textarea:not([rows]) {
 }
 
 .flex-center-start, .contactUs .contactCard .contactChip, .blogDetails .blogSidebar .sidebarContent ul.blogTags,
-.blogDetails .blogSidebar .sidebarContent ol.blogTags, .documentation .docCard .docHeader, .productDetails .productInfo .btnGroup, .missionVision .mvCard .mvHeader, .videoSection, footer .copyright .copyrightContent .copyrightLinks, .newsletter .newsletterListItem, .testimonials .testimonialThumbs .swiper-slide .testimonialUser, .greenEnergy .highlightsCard, .revealContainer .revealContentContainer .revealContent .revealList li, .applicationIndustries .counter .counterCard, .applicationIndustries .applicationContent .applicationList li, .menu .menuContact .contactDetail .social, .menu .menuContact .contactDetail .contactNumbers, .menu, .topbar .topbarContent .quickLinks a, .topbar .topbarContent .quickLinks, .topbar .topbarContent .social, .searchModal .searchResult .resultItem a, .pgHeader .pgTitle .pgSection, .btnGroup {
+.blogDetails .blogSidebar .sidebarContent ol.blogTags, .documentation .docCard .docHeader, .productDetails .productInfo .btnGroup, .missionVision .mvCard .mvHeader, .videoSection, footer .copyrights .copyrightContent .copyrightLinks, footer .footerContent .social, .newsletter .newsletterListItem, .testimonials .testimonialThumbs .swiper-slide .testimonialUser, .greenEnergy .highlightsCard, .revealContainer .revealContentContainer .revealContent .revealList li, .applicationIndustries .counter .counterCard, .applicationIndustries .applicationContent .applicationList li, .menu .menuContact .contactDetail .social, .menu .menuContact .contactDetail .contactNumbers, .menu, .topbar .topbarContent .quickLinks a, .topbar .topbarContent .quickLinks, .topbar .topbarContent .social, .searchModal .searchResult .resultItem a, .pgHeader .pgTitle .pgSection, .btnGroup {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -125,7 +125,7 @@ textarea:not([rows]) {
 }
 
 .flex-start, .blogDetails .blogSidebar .sidebarContent ul,
-.blogDetails .blogSidebar .sidebarContent ol, .documentation .docCard .docBody .doc .docInfo, .videoSection .videoContent, .director figure .directorInfo, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter .user .userInfo, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter .user, .testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo, .support .supportCard, .suryagharScheme .schemeContent .schemeCard .schemeCardList, .glossyCard ul li, .revealContainer .revealContentContainer .revealContent .revealList, .revealContainer .revealContentContainer .revealContent, .applicationIndustries .applicationContent .applicationList, .menu .menuContact .contactDetail, .menu .mainMenu ul, .enquiryModal .modal-body form .btnGroup, .pgHeader .pgTitle {
+.blogDetails .blogSidebar .sidebarContent ol, .documentation .docCard .docBody .doc .docInfo, .videoSection .videoContent, .director figure .directorInfo, footer .footerContent ul li a, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter .user .userInfo, .testimonials .testimonialSwiper .swiper-slide .testimonialCard .testimonialFooter .user, .testimonials .testimonialThumbs .swiper-slide .testimonialUser .userInfo, .support .supportCard, .suryagharScheme .schemeContent .schemeCard .schemeCardList, .glossyCard ul li, .revealContainer .revealContentContainer .revealContent .revealList, .revealContainer .revealContentContainer .revealContent, .applicationIndustries .applicationContent .applicationList, .menu .menuContact .contactDetail, .menu .mainMenu ul, .enquiryModal .modal-body form .btnGroup, .pgHeader .pgTitle {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -227,7 +227,7 @@ html {
 
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 500;
   font-style: normal;
   line-height: 2;
@@ -542,7 +542,7 @@ section:not(.hero) .container {
 }
 .pgHeader .pgTitle .pgSection {
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.0625rem;
   line-height: normal;
@@ -1208,6 +1208,15 @@ section:not(.hero) .container {
 .applicationIndustries .applicationContent .pgHeader {
   margin-bottom: 1.5rem;
 }
+.applicationIndustries .applicationContent .pgHeader .pgTitle h2 {
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+}
+.applicationIndustries .applicationContent .pgHeader .pgTitle p {
+  text-align: justify;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
 .applicationIndustries .applicationContent .applicationList {
   list-style-type: none;
   flex-direction: column;
@@ -1439,11 +1448,18 @@ section:not(.hero) .container {
 }
 .greenEnergy .highlightsCard .cardContent h5,
 .greenEnergy .highlightsCard .cardContent p {
-  font-size: 1rem;
-  margin-bottom: 0;
+  text-align: left !important;
 }
 .greenEnergy .highlightsCard .cardContent h5 {
+  font-size: 1rem;
   font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.375rem;
+}
+.greenEnergy .highlightsCard .cardContent p {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin-bottom: 0;
 }
 
 .glossyCard {
@@ -1581,6 +1597,12 @@ section:not(.hero) .container {
   font-size: 1rem;
   margin-bottom: 0;
 }
+.suryagharScheme .schemeContent img,
+.suryagharScheme .primeMinister img {
+  max-width: 80% !important;
+  display: block;
+  margin: auto;
+}
 .suryagharScheme .schemeContent {
   background: linear-gradient(139.46deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 100%);
   padding: 3rem;
@@ -1672,6 +1694,9 @@ section:not(.hero) .container {
   margin-bottom: 0.5rem;
 }
 .support .supportCard .supportCardContent p {
+  text-align: justify;
+  -moz-text-align-last: left;
+       text-align-last: left;
   color: rgba(255, 255, 255, 0.75);
   margin: 0;
 }
@@ -1717,31 +1742,33 @@ section:not(.hero) .container {
   background-color: #ffffff;
   height: 100%;
   display: block;
-  padding: 1.5rem;
+  padding: 0.75rem;
   border: 2px outset #0f6db4;
   border-radius: 1rem;
 }
 .certificates .certificateCard figure {
-  margin-bottom: 1.5rem;
-  height: 18.75rem;
+  margin-bottom: 0.75rem;
+  min-height: 25rem;
+  max-height: 25rem;
 }
 .certificates .certificateCard figure img {
-  max-height: 90% !important;
-  -o-object-fit: contain;
-  object-fit: contain;
+  width: 100% !important;
+  height: 100% !important;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: block;
   margin: 0 auto;
   transition: transform 0.5s ease;
+  border: 0.0625rem solid #e4e4e4;
+  border-radius: 1rem;
 }
 .certificates .certificateCard h6 {
+  font-size: 1rem;
   text-align: center;
   margin: 0;
 }
 .certificates .certificateCard:hover {
   box-shadow: rgba(1, 25, 50, 0.1) 0rem 0.4375rem 1.8125rem 0rem;
-}
-.certificates .certificateCard:hover figure img {
-  transform: scale(1.1) rotate(1deg);
 }
 
 .blogs .blogCard {
@@ -1997,95 +2024,128 @@ section:not(.hero) .container {
 }
 
 footer {
-  background: #011932;
+  font-size: 0.875rem;
+  background-color: #011932;
+  padding: 3.125rem 0 0;
   position: relative;
 }
 footer::after {
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
   content: "";
-  z-index: 1;
+  z-index: 0;
   width: 100%;
   height: 100%;
   background: url(../media/solar-bg.jpg) no-repeat fixed center/cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   opacity: 0.1;
+  mix-blend-mode: luminosity;
 }
-footer .footerContent {
-  padding: 3.125rem 0 0;
-}
-footer .footerContent .footerCard {
+footer .footerMedia {
+  margin-bottom: 4.5rem;
   position: relative;
   z-index: 2;
-  padding: 1.5rem;
-  height: 100%;
 }
-footer .footerContent .footerCard .footerLogo {
-  margin-bottom: 3rem;
+footer .footerMedia figure {
+  background-image: url(../images/people.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 18.75rem;
+  max-height: 18.75rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
 }
-footer .footerContent .footerCard .footerLogo img {
-  max-width: 9.375rem !important;
-}
-footer .footerContent .footerCard h4 {
-  font-size: 1.5rem;
-  text-transform: capitalize;
-  color: #ffffff;
-  margin-bottom: 1.5rem;
-  display: inline-block;
-}
-footer .footerContent .footerCard h4::after {
-  position: absolute;
-  bottom: -1.5rem;
-  left: 0;
-  width: 100%;
-  height: 0.125rem;
-  content: "";
+footer .footerContent {
+  position: relative;
   z-index: 2;
-  background: url(../media/stroke.svg) no-repeat;
 }
-footer .footerContent .footerCard p,
-footer .footerContent .footerCard a,
-footer .footerContent .footerCard span {
-  font-size: 0.875rem;
-  color: #ffffff;
-  margin-bottom: commonUnit/2;
-  display: block;
-}
-footer .footerContent .footerCard a:hover {
-  color: #f99c1d;
-}
-footer .footerContent .footerCard .contactChip {
+footer .footerContent .footerHeading {
+  font-size: 1.5rem;
+  color: #ffffff !important;
   margin-bottom: 1.5rem;
 }
-footer .footerContent .footerCard .contactChip h6 {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: #ffffff;
-  display: block;
-  margin-bottom: 0.5rem;
-}
-footer .footerContent .footerCard .contactChip span {
-  color: #ffffff;
-  margin-bottom: 0;
-}
-footer .footerContent .footerCard .contactChip p,
-footer .footerContent .footerCard .contactChip a {
+footer .footerContent ul {
+  list-style-type: none;
+  padding: 0;
   margin: 0;
 }
-footer .footerContent .footerCard ul li {
-  margin-bottom: 1.5rem;
+footer .footerContent ul li {
+  margin-bottom: 0.75rem;
 }
-footer .footerContent .footerCard ul li .socialIcon i {
+footer .footerContent ul li i {
   font-size: 1.125rem;
-  background: linear-gradient(139.46deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 100%);
-  padding: 0.75rem;
-  display: inline-block;
-  margin-right: 0.5rem;
-  border: 0.0625rem solid rgba(255, 255, 255, 0.1);
-  border-radius: 0.25rem;
+  line-height: inherit !important;
 }
-footer .copyright {
+footer .footerContent ul li a {
+  color: #ffffff;
+  padding: 0;
+  gap: 0.75rem;
+}
+footer .footerContent ul li a:hover {
+  color: #fdc600;
+}
+footer .footerContent .social {
+  gap: 1.5rem !important;
+}
+footer .footerContent .social a {
+  font-size: 1.125rem;
+  min-width: 3rem;
+  min-height: 3rem;
+  max-width: 3rem;
+  max-height: 3rem;
+  margin: 0 !important;
+  border-radius: 50%;
+  margin: 0;
+  transition: transform 0.6s ease-in-out;
+}
+footer .footerContent .social a i {
+  color: #ffffff;
+}
+footer .footerContent .social .in {
+  background-color: #0077b5;
+}
+footer .footerContent .social .in:hover {
+  background-color: rgb(0, 85.4696132597, 130);
+}
+footer .footerContent .social .fb {
+  background-color: #4267b2;
+}
+footer .footerContent .social .fb:hover {
+  background-color: rgb(52.2049180328, 81.4713114754, 140.7950819672);
+}
+footer .footerContent .social .tw {
+  background-color: #1da1f2;
+}
+footer .footerContent .social .tw:hover {
+  background-color: rgb(11.9665271967, 133.4728033473, 208.0334728033);
+}
+footer .footerContent .social .insta {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+footer .footerContent .social .insta:hover {
+  background: linear-gradient(45deg, rgb(243.4931506849, 172.9178082192, 98.5068493151), rgb(227.0377358491, 35.9622641509, 166.4528301887));
+}
+footer .footerContent .social .yt {
+  background-color: #ff0000;
+}
+footer .footerContent .social .yt:hover {
+  background-color: #cc0000;
+}
+footer .footerContent p {
+  color: #ffffff;
+}
+footer .footerContent .input-group .form-control {
+  border-radius: 0.75rem 0 0 0.75rem !important;
+}
+footer .footerContent .input-group .btn {
+  border-radius: 0 0.75rem 0.75rem 0 !important;
+}
+footer .copyrights {
   font-size: 0.875rem;
   color: #ffffff;
   position: relative;
@@ -2096,21 +2156,21 @@ footer .copyright {
   padding: 1.5rem;
   border-top: 0.0625rem solid rgba(255, 255, 255, 0.1);
 }
-footer .copyright .copyrightContent {
+footer .copyrights .copyrightContent {
   flex-wrap: wrap;
 }
-footer .copyright .copyrightContent p {
+footer .copyrights .copyrightContent p {
   font-size: 0.875rem;
   color: #ffffff;
   margin: 0;
 }
-footer .copyright .copyrightContent a {
+footer .copyrights .copyrightContent a {
   color: #fdc600;
 }
-footer .copyright .copyrightContent a:hover {
+footer .copyrights .copyrightContent a:hover {
   color: #f99c1d;
 }
-footer .copyright .copyrightContent .copyrightLinks {
+footer .copyrights .copyrightContent .copyrightLinks {
   flex-wrap: wrap;
   gap: commonUnit/2;
 }
@@ -2153,7 +2213,15 @@ footer .copyright .copyrightContent .copyrightLinks {
 .about .pgHeader {
   margin: 0;
 }
-.about .pgHeader .pgTitle h2,
+.about .pgHeader .pgTitle h2 {
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+}
+.about .pgHeader .pgTitle p {
+  text-align: justify;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
 .about .pgHeader .pgTitle p:not(:last-child) {
   margin-bottom: 1.5rem;
 }
@@ -2836,8 +2904,8 @@ footer .copyright .copyrightContent .copyrightLinks {
   position: relative;
 }
 .downloads .downloadCard .downloadCardFooter .dropdown .dropdown-menu .dropend .dropdown-menu {
-  top: 0;
-  left: 100%;
+  top: 100%;
+  left: 0;
   margin-top: -1px;
 }
 @media (max-width: 1919.98px) {

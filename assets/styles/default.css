@@ -223,7 +223,7 @@ html {
 
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 500;
   font-style: normal;
   line-height: 2;
@@ -538,7 +538,7 @@ section:not(.hero) .container {
 }
 .pgHeader .pgTitle .pgSection {
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.0625rem;
   line-height: normal;

@@ -46,12 +46,12 @@ $currentPage = 'home';
         <section class="applicationIndustries">
             <div class="container">
                 <div class="row mb-5">
-                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 mb-4">
+                    <div class="col-12 col-lg-7 col-xl-7 col-xxl-7 mb-4">
                         <div class="applicationContent">
                             <div class="pgHeader">
                                 <div class="pgTitle">
                                     <div class="pgSection">Application Industries</div>
-                                    <h2>Leading the Solar Revolution in India</h2>
+                                    <h2>1st Company to Design, Develop, and Manufacture Solar String Inverters</h2>
                                     <p>For 15+ years, Radius has led India's renewable energy shift, delivering solar
                                         solutions
                                         for
@@ -83,9 +83,10 @@ $currentPage = 'home';
                             </ul>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <div class="col-12 col-lg-5 col-xl-5 col-xxl-5">
                         <div class="applicationImg">
-                            <img src="assets/media/application.jpg" alt="Leading the Solar Revolution in India">
+                            <img src="assets/media/application.png"
+                                alt="1st Company to Design, Develop, and Manufacture Solar String Inverters">
                         </div>
                     </div>
                 </div>
@@ -376,10 +377,10 @@ $currentPage = 'home';
                             <h5>Pm Surya Ghar :</h5>
                             <h2>Muft Bijli Yojana</h2>
                         </div>
-                    </div>
+                    </div>+
                 </div>
                 <div class="row">
-                    <div class="col-12 col-lg-8 col-xl-8 col-xxl-8">
+                    <div class="col-12 col-lg-12 col-xl-7 col-xxl-7">
                         <div class="schemeContent">
                             <div class="row">
                                 <div class="schemeCard">
@@ -400,7 +401,7 @@ $currentPage = 'home';
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 col-xl-4 col-xxl-3 offset-xxl-1">
+                    <div class="col-12 col-lg-12 col-xl-5 col-xxl-5">
                         <div class="primeMinister">
                             <img src="assets/media/modiji.png" alt="Pm Narendra Modi">
                         </div>
