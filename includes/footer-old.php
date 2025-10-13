@@ -1,139 +1,130 @@
 <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-lg-4 col-xl-4 col-xxl-4 mb-3">
-                <div class="contactCard">
-                    <h6 class="footerHeading">
-                        Contact Us
-                    </h6>
-                    <div class="footerContact">
-                        <h5><i class="ri-map-pin-2-fill"></i> Global Sales Office</h5>
-                        <p class="ms-4">No. 515 , 5th Floor, Tower-B Dlf Tower, Jasola, New Delhi, India - 110020</p>
-                    </div>
-                    <div class="footerContact">
-                        <h5><i class="ri-map-pin-2-fill"></i> Factory</h5>
-                        <p class="ms-4">93/1 & 2, MIDC, Satpur Colony, Nashik, Maharashtra, India - 422007</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-2 col-xl-2 col-xxl-2 mb-3">
-                <div class="contactCard">
-                    <h6 class="footerHeading">
-                        Imp Links
-                    </h6>
-                    <ul>
-                        <li><a href="index">Home</a></li>
-                        <li><a href="about">About Us</a></li>
-                        <li><a href="products">Products</a></li>
-                        <li><a href="certificates">Certifications</a></li>
-                        <li><a href="clients">Clients</a></li>
-                        <li><a href="downloads">Downloads</a></li>
-                        <!-- <li><a href="gallery">Gallery</a></li> -->
-                        <li><a href="blogs">Blogs</a></li>
-                        <li><a href="contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-3 col-xl-3 col-xxl-3 mb-3">
-                <div class="contactCard">
-                    <h6 class="footerHeading">
-                        Products
-                    </h6>
-                    <ul>
-                        <li><a href="products" class="text-decoration-none text-dark">Medical Cold Chain Equipment</a>
-                        </li>
-                        <li><a href="products" class="text-decoration-none text-dark">Blood Bank Equipment</a></li>
-                        <li><a href="products" class="text-decoration-none text-dark">Hospital Furniture</a></li>
-                        <li><a href="products" class="text-decoration-none text-dark">Hospital Solutions</a></li>
-                        <li><a href="products" class="text-decoration-none text-dark">Commercial Refrigeration</a></li>
-                        <li><a href="products" class="text-decoration-none text-dark">Medical Gas Pipe & Modular OT</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-3 col-xl-3 col-xxl-3 mb-3">
-                <div class="contactCard">
-                    <h6 class="footerHeading">
-                        Newsletter
-                    </h6>
-                    <form action="" class="mb-3">
-                        <p class="mb-2"> You can update preferences
-                            & subscribe at any time.</p>
-                        <div class="formGroup">
-                            <input type="email" class="form-control mb-3" placeholder="Enter your email" />
-                            <button type="submit" class="btn btn-gradient">Subscribe</button>
+    <div class="footerContent">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mb-4">
+                    <div class="footerCard">
+                        <div class="footerLogo">
+                            <img src="assets/media/radius-logo.png" alt="Radius Logo">
                         </div>
-                    </form>
-                    <div class="footerContact">
-                        <p><a href="tel:+91 30305959"> <i class="ri-phone-fill"></i> +91 913 030 5959</a></p>
+                        <div class="footerContacts">
+                            <div class="row">
+                                <div class="col-12 col-lg-12 col-xl-12 col-xxl-12">
+                                    <div class="contactChip">
+                                        <h6>
+                                            <i class="ph-duotone ph-map-pin"></i>
+                                            Rishabh Instruments Pvt. Ltd.
+                                        </h6>
+                                        <span>
+                                            C-6, Trishala, Near NICE Area, MIDC Satpur, Nashik - 422 007
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
+                                    <div class="contactChip">
+                                        <h6>
+                                            <i class="ph-duotone ph-phone"></i>
+                                            Contact
+                                        </h6>
+                                        <span class="phoneSet d-flex gap-2">
+                                            <a href="tel:+912532202019">+91 253 2202 019</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
+                                    <div class="contactChip">
+                                        <h6>
+                                            <i class="ph-duotone ph-phone"></i>
+                                            Whatsapp
+                                        </h6>
+                                        <span class="phoneSet d-flex gap-2">
+                                            <a href="tel:+917888028877">+91 78880 28877</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-12 col-xl-12 col-xxl-12">
+                                    <div class="contactChip">
+                                        <h6>
+                                            <i class="ph-duotone ph-envelope"></i>
+                                            Email
+                                        </h6>
+                                        <a href="mailto:inverters@rishabh.co.in">inverters@rishabh.co.in</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="footerSubscribe">
+                            <h6 class="footerHeading text-white">Would you like to hear from us?</h6>
+                            <div class="input-group mb-3">
+                                <input type="email" class="form-control" placeholder="your email..."
+                                    aria-label="your email..." aria-describedby="subscribeBtn">
+                                <button class="btn btn-outline-secondary" type="button"
+                                    id="subscribeBtn">Subscribe</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="footerContact">
-                        <p><a href="mailto:info@markenworld.com"> <i class="ri-mail-send-fill"></i>
-                                info@markenworld.com</a>
-                        </p>
+                </div>
+
+                <!-- Navigation -->
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-2 mb-4">
+                    <div class="footerCard">
+                        <h4>Navigation</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="#">Inverter</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Downloads</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Support -->
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-2 mb-4">
+                    <div class="footerCard">
+                        <h4>Support</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="contact-us.php">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Follow Us -->
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-2 mb-4">
+                    <div class="footerCard">
+                        <h4>Support</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="socialIcon"><i class="ph-duotone ph-linkedin-logo"></i> LinkedIn</a>
+                            </li>
+                            <li><a href="#" class="socialIcon"><i class="ph-duotone ph-facebook-logo"></i> Facebook</a>
+                            </li>
+                            <li><a href="#" class="socialIcon"><i class="ph-duotone ph-instagram-logo"></i>
+                                    Instagram</a></li>
+                            <li><a href="#" class="socialIcon"><i class="ph-duotone ph-twitter-logo"></i> Twitter</a>
+                            </li>
+                            <li><a href="#" class="socialIcon"><i class="ph-duotone ph-youtube-logo"></i> YouTube</a>
+                            </li>
+                        </ul>
+                        <div class="social">
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
     <div class="copyright">
         <div class="container">
             <div class="row">
                 <div class="copyrightContent">
-                    <div class="logo">
-                        <img src="assets/media/logo.svg" alt="Marken World">
-                    </div>
-                    <p>&copy; <span id="year"></span> Marken World. All Rights Reserved.</p>
+                    <p>&copy; <span id="year"></span> Rishabh Radius. All Rights Reserved.</p>
                     <div class="copyrightLinks">
-                        <div class="vr"></div>
-                        <a href="#">Privacy Policy</a>
-                        <div class="vr"></div>
-                        <a href="#">Terms & conditions</a>
-                        <div class="vr"></div>
-                        <p class="d-none">Designed & Developed By <a href="https://webcipher.in/"
-                                target="_blank">Webcipher Technologies</a></p>
+                        <p>Designed & Developed By <a href="https://webcipher.in/" target="_blank">Webcipher
+                                Technologies</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="particles-js"></div>
 </footer>
-
-<div class="floatingContainer">
-    <div class="floatingButton" id="mainButton"><i class="ri-message-3-fill"></i></div>
-    <div class="actionButtons">
-        <a href="https://wa.me/+919130305959" class="actionButton whatsapp" target="_blank"
-            title="Contact Us on Whatsapp"><i class="ri-whatsapp-fill"></i></a>
-        <a href="tel:+919130305959" class="actionButton call" title="Call Us Now!"><i class="ri-phone-fill"></i></a>
-    </div>
-</div>
-<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="contactModalLabel">Contact Us</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="container-fluid g-0">
-                    <div class="row">
-                        <div class="col-lg-4 col-xl-4 col-xxl-4">
-                            <div class="contactImg">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-8 col-xl-8 col-xxl-8">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-        </div>
-    </div>
-</div>

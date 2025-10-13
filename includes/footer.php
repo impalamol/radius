@@ -1,124 +1,89 @@
 <footer>
-    <div class="footerContent">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mb-4">
-                    <div class="footerCard">
-                        <div class="footerLogo">
-                            <img src="assets/media/radius-logo.png" alt="Radius Logo">
-                        </div>
-                        <div class="footerContacts">
-                            <div class="row">
-                                <div class="col-12 col-lg-12 col-xl-12 col-xxl-12">
-                                    <div class="contactChip">
-                                        <h6>
-                                            <i class="ph-duotone ph-map-pin"></i>
-                                            Rishabh Instruments Pvt. Ltd.
-                                        </h6>
-                                        <span>
-                                            C-6, Trishala, Near NICE Area, MIDC Satpur, Nashik - 422 007
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
-                                    <div class="contactChip">
-                                        <h6>
-                                            <i class="ph-duotone ph-phone"></i>
-                                            Contact
-                                        </h6>
-                                        <span class="phoneSet d-flex gap-2">
-                                            <a href="tel:+912532202019">+91 253 2202 019</a>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
-                                    <div class="contactChip">
-                                        <h6>
-                                            <i class="ph-duotone ph-phone"></i>
-                                            Whatsapp
-                                        </h6>
-                                        <span class="phoneSet d-flex gap-2">
-                                            <a href="tel:+917888028877">+91 78880 28877</a>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-12 col-xl-12 col-xxl-12">
-                                    <div class="contactChip">
-                                        <h6>
-                                            <i class="ph-duotone ph-envelope"></i>
-                                            Email
-                                        </h6>
-                                        <a href="mailto:inverters@rishabh.co.in">inverters@rishabh.co.in</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="footerSubscribe">
-                            <h6 class="footerHeading text-white">Would you like to hear from us?</h6>
-                            <div class="input-group mb-3">
-                                <input type="email" class="form-control" placeholder="your email..."
-                                    aria-label="your email..." aria-describedby="subscribeBtn">
-                                <button class="btn btn-outline-secondary" type="button"
-                                    id="subscribeBtn">Subscribe</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="container">
+        <div class="row footerContent">
+            <!-- Navigation Links -->
+            <div class="col-md-12 col-lg-2 col-xl-2 col-xxl-2">
+                <h6 class="footerHeading">Useful Links</h6>
+                <ul class="list-unstyled">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="#">Inverter</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Downloads</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </div>
 
-                <!-- Navigation -->
-                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-2 mb-4">
-                    <div class="footerCard">
-                        <h4>Navigation</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="#">Inverter</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Downloads</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
+            <!-- About Section -->
+            <div class="col-md-12 col-lg-6 col-xl-5 col-xxl-5">
+                <div class="footerAbout">
+                    <h6 class="footerHeading">About Us</h6>
+                    <p>Rishabh Instruments, founded in 1982 by Narendra Joharimal Goliya, has grown into a leading name
+                        in the manufacturing and electrical industry. Mr. Narendra Goliya, who serves as the Promoter &
+                        Executive Chairman, holds a Bachelor’s degree in Electrical Engineering from the Indian
+                        Institute of Technology, Bombay, and a Master’s degree in Science from Stanford University. With
+                        over four decades of industry expertise, he has been instrumental in shaping the company’s
+                        success. Leveraging a strong 40-year presence in India, Rishabh Instruments has strategically
+                        expanded into global markets, establishing and acquiring seven foreign subsidiaries—three in
+                        Poland, and one each in the United Kingdom, the United States, China, and Cyprus. This expansion
+                        reflects the company’s commitment to innovation, quality, and international growth.</p>
                 </div>
+                <hr />
+                <div class="footerSubscribe"></div>
+                <h6 class="footerHeading">Would you like to hear from us?</h6>
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" placeholder="your email..." aria-label="your email..."
+                        aria-describedby="subscribeBtn">
+                    <button class="btn btn-outline-secondary" type="button" id="subscribeBtn">Subscribe</button>
+                </div>
+            </div>
 
-                <!-- Support -->
-                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-2 mb-4">
-                    <div class="footerCard">
-                        <h4>Support</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="contact-us.php">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                        </ul>
-                    </div>
+
+            <!-- Contact Information -->
+            <div class="col-md-12 col-lg-4 col-xl-4 col-xxl-4 offset-xl-1 offset-xxl-1">
+                <div class="footerContact">
+                    <h6 class="footerHeading">Connect With Us</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="ph-duotone ph-map-pin"></i> C-6, Trishala, Near NICE Area, MIDC
+                                Satpur,
+                                Nashik
+                                - 422 007</a></li>
+                        <li><a href="mailto:inverters@rishabh.co.in"><i class="ph-duotone ph-envelope"></i>
+                                inverters@rishabh.co.in</a></li>
+                        <li><a href="tel:+912532202019"><i class="ph-duotone ph-phone"></i> +91 253 2202 019</a></li>
+                    </ul>
                 </div>
-                <!-- Follow Us -->
-                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-2 mb-4">
-                    <div class="footerCard">
-                        <h4>Support</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="socialIcon"><i class="ph-duotone ph-linkedin-logo"></i> LinkedIn</a>
-                            </li>
-                            <li><a href="#" class="socialIcon"><i class="ph-duotone ph-facebook-logo"></i> Facebook</a>
-                            </li>
-                            <li><a href="#" class="socialIcon"><i class="ph-duotone ph-instagram-logo"></i>
-                                    Instagram</a></li>
-                            <li><a href="#" class="socialIcon"><i class="ph-duotone ph-twitter-logo"></i> Twitter</a>
-                            </li>
-                            <li><a href="#" class="socialIcon"><i class="ph-duotone ph-youtube-logo"></i> YouTube</a>
-                            </li>
-                        </ul>
-                        <div class="social">
-                        </div>
+                <hr />
+                <div class="footerSocial mt-3">
+                    <h6 class="footerHeading">Follow Us</h6>
+                    <div class="social">
+                        <a href="#" class="in" title="Follow Us On LinkedIn">
+                            <i class="ph-duotone ph-linkedin-logo"></i>
+                        </a>
+                        <a href="#" class="fb" title="Follow Us On Facebook">
+                            <i class="ph-duotone ph-facebook-logo"></i>
+                        </a>
+                        <a href="#" class="tw" title="Follow Us On Twitter">
+                            <i class="ph-duotone ph-twitter-logo"></i>
+                        </a>
+                        <a href="#" class="insta" title="Follow Us On Instagram">
+                            <i class="ph-duotone ph-instagram-logo"></i>
+                        </a>
+                        <a href="#" class="yt" title="Follow Us On YouTube">
+                            <i class="ph-duotone ph-youtube-logo"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="copyright">
+    <div class="copyrights">
         <div class="container">
             <div class="row">
                 <div class="copyrightContent">
-                    <p>&copy; <span id="year"></span> Rishabh Radius. All Rights Reserved.</p>
+                    <p>&copy; <span id="year"></span> Rishabh Instruments Limited. All Rights Reserved. </p>
                     <div class="copyrightLinks">
                         <p>Designed & Developed By <a href="https://webcipher.in/" target="_blank">Webcipher
                                 Technologies</a></p>
@@ -128,5 +93,3 @@
         </div>
     </div>
 </footer>
-<!-- Add Phosphor Icons CDN in your <head> -->
-<!-- <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/css/phosphor.css"> -->
