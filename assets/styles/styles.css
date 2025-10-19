@@ -1613,6 +1613,9 @@ section:not(.hero) .container {
 }
 .suryagharScheme .schemeContent .schemeCard p {
   line-height: 2;
+  text-align: justify;
+  -moz-text-align-last: left;
+       text-align-last: left;
   color: #ffffff;
 }
 .suryagharScheme .schemeContent .schemeCard.cardBorder {
@@ -1812,6 +1815,8 @@ section:not(.hero) .container {
 }
 .collaborations .collaborationCard img {
   max-width: 70% !important;
+  -o-object-fit: contain;
+     object-fit: contain;
   display: block;
   margin: auto;
 }
@@ -2138,6 +2143,9 @@ footer .footerContent .social .yt:hover {
   background-color: #cc0000;
 }
 footer .footerContent p {
+  text-align: justify;
+  -moz-text-align-last: left;
+       text-align-last: left;
   color: #ffffff;
 }
 footer .footerContent .input-group .form-control {
@@ -2248,6 +2256,11 @@ footer .copyrights .copyrightContent .copyrightLinks {
 }
 .director .pgHeader h2 span {
   display: block;
+}
+.director .pgHeader p {
+  text-align: justify;
+  -moz-text-align-last: left;
+       text-align-last: left;
 }
 .director .pgHeader p:not(:last-child) {
   margin-bottom: 1.5rem;
@@ -2363,6 +2376,9 @@ footer .copyrights .copyrightContent .copyrightLinks {
   color: #ffffff;
 }
 .missionVision .mvCard .mvBody p {
+  text-align: justify;
+  -moz-text-align-last: left;
+       text-align-last: left;
   color: #ffffff;
 }
 

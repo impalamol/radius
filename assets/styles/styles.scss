@@ -912,6 +912,8 @@
         .schemeCard {
             p {
                 line-height: 2;
+                text-align: justify;
+                text-align-last: left;
                 color: $white;
             }
             &.cardBorder {
@@ -1141,6 +1143,7 @@
 
         img {
             max-width: 70% !important;
+            object-fit: contain;
             display: block;
             margin: auto;
         }
@@ -1659,6 +1662,8 @@ footer {
             }
         }
         p {
+            text-align: justify;
+            text-align-last: left;
             color: $white;
         }
         .input-group {
@@ -1790,8 +1795,12 @@ footer {
                 display: block;
             }
         }
-        p:not(:last-child) {
-            margin-bottom: $commonUnit;
+        p {
+            text-align: justify;
+            text-align-last: left;
+            &:not(:last-child) {
+                margin-bottom: $commonUnit;
+            }
         }
     }
     figure {
@@ -1913,6 +1922,8 @@ footer {
         }
         .mvBody {
             p {
+                text-align: justify;
+                text-align-last: left;
                 color: $white;
             }
         }
