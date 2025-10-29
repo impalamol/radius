@@ -412,12 +412,12 @@ input[type=number] {
 }
 .btn.btn-light {
   color: #011932 !important;
-  background-color: #f5faff;
-  border-color: rgba(245, 250, 255, 0.3);
+  background-color: #e7f0f8;
+  border-color: rgba(231, 240, 248, 0.3);
 }
 .btn.btn-light:hover {
-  background-color: rgb(219.5, 237.25, 255);
-  border-color: rgb(194, 224.5, 255);
+  background-color: rgb(211.2580645161, 227.6612903226, 242.2419354839);
+  border-color: rgb(191.5161290323, 215.3225806452, 236.4838709677);
 }
 .btn.btn-outline-primary {
   color: #0f6db4;
@@ -485,10 +485,10 @@ input[type=number] {
 }
 .btn.btn-outline-light {
   color: #011932;
-  border-color: #f5faff;
+  border-color: #e7f0f8;
 }
 .btn.btn-outline-light:hover {
-  background-color: #f5faff;
+  background-color: #e7f0f8;
   color: #011932 !important;
 }
 .btn.btn-link {
@@ -514,7 +514,7 @@ section:not(.hero) {
   position: relative;
 }
 section:not(.hero):nth-child(even) {
-  background-color: #f5faff;
+  background-color: #e7f0f8;
 }
 section:not(.hero).noPadding {
   padding: 0 !important;
@@ -669,7 +669,7 @@ section:not(.hero) .container {
   margin: 0;
 }
 .searchModal .searchResult .resultItem:nth-child(odd) {
-  background-color: #f5faff;
+  background-color: #e7f0f8;
 }
 .searchModal .searchResult .resultItem a {
   gap: 0.75rem;
@@ -724,7 +724,7 @@ section:not(.hero) .container {
   color: #ffffff !important;
 }
 .enquiryModal .modal-body {
-  background-color: #f5faff;
+  background-color: #e7f0f8;
   display: flex;
   flex-direction: column;
   padding: 0;
