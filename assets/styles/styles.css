@@ -1717,6 +1717,11 @@ section:not(.hero) .container {
   overflow: hidden;
 }
 .applications .applicationCard figure img {
+  min-height: 34.375rem !important;
+  max-height: 34.375rem !important;
+  width: 100% !important;
+  -o-object-fit: cover;
+  object-fit: cover;
   transition: all 0.9s ease-in-out;
 }
 .applications .applicationCard .applicationContent {
