@@ -555,8 +555,8 @@ $currentPage = 'home';
                         <div class="pgTitle">
                             <div class="pgSection">Industries</div>
                             <h2>Industries & Applications</h2>
-                            <p>Stay updated with the latest solar energy trends, government policies, installation
-                                guides, and industry insights from our team of experts.</p>
+                            <p>Explore industry-specific solar applications and tailored solutions for commercial,
+                                industrial, agricultural, and public sectors.</p>
                         </div>
                     </div>
                     <div class="swiper applicationIndustry">

@@ -5,9 +5,10 @@ $tertiary: #f99c1d;
 $dark: #011932;
 $gray: #5c6972;
 $white: #ffffff;
-$light: #f5faff;
+// $light: #f5faff;
+$light: #e7f0f8;
 $border: #e4e4e4;
-$glossy: linear-gradient(139.46deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 100%);
+$glossy: linear-gradient(142deg, rgba($color: $dark, $alpha: 0.02) 0%, rgba($color: $dark, $alpha: 0.5) 100%);
 
 // Action Colors
 $info: #55b8e7;
