@@ -1288,6 +1288,7 @@ section:not(.hero) .container {
   opacity: 0.05;
 }
 .makeInIndia .lion .masked {
+  max-width: 60% !important;
   position: relative;
   z-index: 2;
 }

@@ -39,9 +39,9 @@ $currentPage = 'about';
                 <div class="row">
                     <div class="col-12 col-lg-12 col-xl-5 col-xxl-5 mb-4 mb-xl-0">
                         <div class="aboutImgContainer">
-                            <figure>
+                            <!-- <figure>
                                 <img src="assets/media/about1.png" alt="About" class="aboutImg">
-                            </figure>
+                            </figure> -->
                             <figure>
                                 <img src="assets/media/about2.png" alt="About" class="aboutImg">
                                 <div class="radiusEmblem">
