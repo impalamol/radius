@@ -540,6 +540,7 @@
             opacity: 0.05;
         }
         .masked {
+            max-width: 60% !important;
             position: relative;
             z-index: 2;
         }

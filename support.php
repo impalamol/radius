@@ -35,7 +35,7 @@ $currentPage = 'Support';
                 </div>
             </div>
         </section>
-        <section class="Support">
+        <section class="support">
             <div class="container">
                 <div class="row">
                     <div class="pgHeader centered">
@@ -62,19 +62,25 @@ $currentPage = 'Support';
                                     </div>
                                     <div class="formGroup mb-3">
                                         <label for="company" class="form-label supportFormLabel">Company / Organisation
-                                            <span class="requiredStar">*</span></label>
+                                            <span class="requiredStar text-danger">*</span></label>
                                         <input type="text" class="form-control supportFormControl" id="company"
                                             placeholder="Your answer" required>
                                     </div>
                                     <div class="formGroup mb-3">
                                         <label for="contactNumber" class="form-label supportFormLabel">Contact Number
-                                            <span class="requiredStar">*</span></label>
+                                            <span class="requiredStar text-danger">*</span></label>
                                         <input type="tel" class="form-control supportFormControl" id="contactNumber"
                                             placeholder="Your answer" required>
                                     </div>
                                     <div class="formGroup mb-3">
+                                        <label for="emailAddress" class="form-label supportFormLabel">Email Address
+                                            <span class="requiredStar text-danger">*</span></label>
+                                        <input type="email" class="form-control supportFormControl" id="emailAddress"
+                                            placeholder="Your answer" required>
+                                    </div>
+                                    <div class="formGroup mb-3">
                                         <label class="form-label supportFormLabel d-block mb-3">Service request/Enquiry
-                                            <span class="requiredStar">*</span></label>
+                                            <span class="requiredStar text-danger">*</span></label>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="requestType"
                                                 id="serviceRequest" value="Service request" required>
@@ -92,13 +98,13 @@ $currentPage = 'Support';
                                     </div>
                                     <div class="formGroup mb-3">
                                         <label for="serviceDetails" class="form-label supportFormLabel">Details of what
-                                            Service is required <span class="requiredStar">*</span></label>
+                                            Service is required <span class="requiredStar text-danger">*</span></label>
                                         <input type="text" class="form-control supportFormControl" id="serviceDetails"
                                             placeholder="Your answer" required>
                                     </div>
                                     <div class="formGroup mb-3">
                                         <label for="enquiryDetails" class="form-label supportFormLabel">Details new
-                                            Enquiry <span class="requiredStar">*</span></label>
+                                            Enquiry <span class="requiredStar text-danger">*</span></label>
                                         <input type="text" class="form-control supportFormControl" id="enquiryDetails"
                                             placeholder="Your answer" required>
                                     </div>
