@@ -314,53 +314,55 @@ $currentPage = 'home';
                 <div class="row">
                     <div class="pgHeader centered">
                         <div class="pgTitle">
-                            <div class="pgSection">Latest Inverters</div>
-                            <h2>New range of PV Inverters</h2>
+                            <div class="pgSection">Features</div>
+                            <h2>What We Offer</h2>
                             <p>The RADIUS range of PV inverters offers advanced technology for managing modern
                                 industrial and civil PV plants, ensuring high efficiency, reliability, monitoring, and
-                                professional service.</p>
+                                professional services.</p>
                         </div>
                     </div>
                     <div class="featureCardsContainer">
                         <div class="featureCard glossyCard">
-                            <div class="icon"><i class="ph-duotone ph-snowflake"></i></div>
-                            <h3>Fanless Cooling</h3>
+                            <div class="icon">
+                                <img src="assets/media/icons/high-voltage.svg" alt="1100 V Maximum Voltage">
+                            </div>
+                            <h3>1100 V Maximum Voltage</h3>
                         </div>
                         <div class="featureCard glossyCard">
-                            <div class="icon"><i class="ph-duotone ph-monitor"></i></div>
-                            <h3>Graphical Display</h3>
+                            <div class="icon"><img src="assets/media/icons/higher-yield.svg" alt="Higher Yield"></div>
+                            <h3>Higher Yield</h3>
                         </div>
                         <div class="featureCard glossyCard">
-                            <div class="icon"><i class="ph-duotone ph-solar-panel"></i></div>
-                            <h3>IP65 Mounting</h3>
+                            <div class="icon"><img src="assets/media/icons/ip66.svg" alt="IP66 Indoor & Outdoor Installation"></div>
+                            <h3>IP66 Indoor &amp; Outdoor Installation</h3>
                         </div>
                         <div class="featureCard glossyCard">
-                            <div class="icon"><i class="ph-duotone ph-hard-drives"></i></div>
-                            <h3>Energy Storage</h3>
+                            <div class="icon"><img src="assets/media/icons/full-power.svg" alt="50 Deg. C Full Power without Derating"></div>
+                            <h3>50 Deg. C Full Power without Derating</h3>
                         </div>
                         <div class="featureCard glossyCard">
-                            <div class="icon"><i class="ph-duotone ph-hard-drives"></i></div>
-                            <h3>String Monitoring</h3>
+                            <div class="icon"><img src="assets/media/icons/fanless.svg" alt="Natural Ventilization Minimizes Breakdown"></div>
+                            <h3>Natural Ventilization Minimizes Breakdown</h3>
                         </div>
                         <div class="featureCard glossyCard">
-                            <div class="icon"><i class="ph-duotone ph-power"></i></div>
-                            <h3>DC Switch</h3>
+                            <div class="icon"><img src="assets/media/icons/analysis.svg" alt="PV String Analysis & Comparison"></div>
+                            <h3>PV String Analysis &amp; Comparison</h3>
                         </div>
                         <div class="featureCard glossyCard">
-                            <div class="icon"><i class="ph-duotone ph-toggle-right"></i></div>
-                            <h3>IGBT Switching</h3>
+                            <div class="icon"><img src="assets/media/icons/ui.svg" alt="Friendly User Interface"></div>
+                            <h3>Friendly User Interface</h3>
                         </div>
                         <div class="featureCard glossyCard">
-                            <div class="icon"><i class="ph-duotone ph-shield-checkered"></i></div>
-                            <h3>Fuse Protection</h3>
+                            <div class="icon"><img src="assets/media/icons/built-in-surge-protection.svg" alt="In-Built Surge Protection Devices"></div>
+                            <h3>In-Built Surge Protection Devices</h3>
                         </div>
                         <div class="featureCard glossyCard">
-                            <div class="icon"><i class="ph-duotone ph-thermometer-cold"></i></div>
-                            <h3>High Temperature</h3>
+                            <div class="icon"><img src="assets/media/icons/datalog.svg" alt="Integrated Datalogger For Fault Analysis"></div>
+                            <h3>Integrated Datalogger For Fault Analysis</h3>
                         </div>
                         <div class="featureCard glossyCard">
-                            <div class="icon"><i class="ph-duotone ph-link"></i></div>
-                            <h3>Remote Access</h3>
+                            <div class="icon"><img src="assets/media/icons/cost-optimization.svg" alt="Cost Optimization Upto 3 MPPT"></div>
+                            <h3>Cost Optimization Upto 3 MPPT</h3>
                         </div>
                     </div>
                 </div>
