@@ -3253,4 +3253,7 @@ footer .copyrights .copyrightContent .copyrightLinks {
   .scrollingTabs .nav-tabs::-webkit-scrollbar {
     display: none;
   }
+}
+.grecaptcha-badge {
+  display: none !important;
 }/*# sourceMappingURL=styles.css.map */
