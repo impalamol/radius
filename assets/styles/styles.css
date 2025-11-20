@@ -1284,9 +1284,10 @@ section:not(.hero) .container {
 }
 .makeInIndia .lion .og {
   position: absolute;
+  bottom: 0;
   z-index: 1;
-  opacity: 0.05;
-  max-width: 80% !important;
+  opacity: 0.08;
+  max-width: 90% !important;
 }
 .makeInIndia .lion .masked {
   max-width: 85% !important;
